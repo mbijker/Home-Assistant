@@ -1,0 +1,94 @@
+#####################################################################################
+##                                                                                 ##
+##                                                                                 ##
+##                            Home Assistant Configuration                         ##
+##                                                                                 ##
+##                                      Mark Bijker                                ##
+##                                  mbijker84@gmail.com                            ##
+##                                                                                 ##
+##                                                                                 ##
+#####################################################################################
+
+####################################
+##                                ##
+## Basic information              ##
+##                                ##
+####################################
+homeassistant:
+  name: Home
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: 0
+  unit_system: metric
+  time_zone: Europe/Amsterdam
+  customize: !include customize.yaml
+  packages: !include_dir_named packages
+
+frontend:
+config:
+http:
+  base_url: !secret base_url
+  api_password: !secret http_password
+  ip_ban_enabled: True
+  login_attempts_threshold: 3
+
+updater:
+discovery:
+conversation:
+history:
+logbook:
+map:
+sun:
+tts:
+  - platform: google
+cloud:
+
+sensor:
+  platform: darksky
+  api_key: !secret dark_sky_api
+  units: si
+  language: nl
+  monitored_conditions:
+    - summary
+    - icon
+    - nearest_storm_distance
+    - temperature
+    - humidity
+    - precip_probability
+    - precip_intensity
+    - wind_speed
+    - pressure
+    - wind_bearing
+    - apparent_temperature
+    - icon
+
+####################################
+##                                ##
+## iFrames                        ##
+##                                ##
+####################################
+panel_iframe:
+ nodered:
+   title: 'Node-Red'
+   icon: 'mdi:shuffle-variant'
+   url: 'http://192.168.1.2:1880/'
+
+####################################
+##                                ##
+## Components                     ##
+##                                ##
+####################################
+
+mqtt:
+  broker: !secret mqtt_broker_ip
+  username: !secret mqtt_broker_username
+  password: !secret mqtt_broker_password
+
+####################################
+##                                ##
+## Includes                       ##
+##                                ##
+####################################
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
