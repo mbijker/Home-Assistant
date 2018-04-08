@@ -86,6 +86,54 @@ mqtt:
   username: !secret mqtt_broker_username
   password: !secret mqtt_broker_password
 
+device_tracker:
+  - platform: asuswrt
+    host: !secret ip_router
+    username: !secret router_username
+    password: !secret router_password
+
+####################################
+##                                ##
+## Binary sensors                 ##
+##                                ##
+####################################
+binary_sensor:
+  - platform: mqtt
+    state_topic: "homeassistant/sensor/schuur/motion"
+    name: motion shed
+    device_class: motion
+
+####################################
+##                                ##
+## Lights                         ##
+##                                ##
+####################################
+light:
+  - platform: mqtt
+    name: "Verlichting schuur"
+    state_topic:   "homeassistant/switch/stat/sonoff/POWER"
+    command_topic: "homeassistant/switch/cmnd/sonoff/POWER"
+    payload_on: "ON"
+    payload_off: "OFF"
+  - platform: mqtt
+    name: "Bedlamp Mark"
+    state_topic:   "homeassistant/switch/stat/bedlamp_mark/POWER"
+    command_topic: "homeassistant/switch/cmnd/bedlamp_mark/POWER"
+    payload_on: "ON"
+    payload_off: "OFF"
+  - platform: mqtt
+    name: "Bedlamp Miranda"
+    state_topic:   "homeassistant/switch/stat/bedlamp_miranda/POWER"
+    command_topic: "homeassistant/switch/cmnd/bedlamp_miranda/POWER"
+    payload_on: "ON"
+    payload_off: "OFF"
+  - platform: mqtt
+    name: "Plafondlamp Slaapkamer"
+    state_topic:   "homeassistant/switch/stat/plafondlamp_slaapkamer/POWER"
+    command_topic: "homeassistant/switch/cmnd/plafondlamp_slaapkamer/POWER"
+    payload_on: "ON"
+    payload_off: "OFF"
+    
 ####################################
 ##                                ##
 ## Includes                       ##

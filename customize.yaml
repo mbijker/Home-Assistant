@@ -4,3 +4,5 @@ sensor.temperature_shed:
 sensor.humidity_shed:
   friendly_name: Luchtvochtigheid
   icon: mdi:water-percent
+binary_sensor.motion_shed:
+  friendly_name: Beweging schuur
