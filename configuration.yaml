@@ -39,10 +39,13 @@ history:
 logbook:
 map:
 sun:
-tts:
-  - platform: google
 cloud:
 
+####################################
+##                                ##
+## Sensors                        ##
+##                                ##
+####################################
 sensor:
   platform: darksky
   api_key: !secret dark_sky_api
@@ -71,14 +74,13 @@ panel_iframe:
  nodered:
    title: 'Node-Red'
    icon: 'mdi:shuffle-variant'
-   url: 'http://192.168.1.2:1880/'
+   url: !secret nodered_url
 
 ####################################
 ##                                ##
 ## Components                     ##
 ##                                ##
 ####################################
-
 mqtt:
   broker: !secret mqtt_broker_ip
   username: !secret mqtt_broker_username
