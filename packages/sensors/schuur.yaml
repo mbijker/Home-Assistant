@@ -1,0 +1,10 @@
+sensor:
+  - platform: mqtt
+#    state_topic: "homeassistant/binary_sensor/schuur/temperatuur"
+    state_topic: "homeassistant/sensor/schuur/temperature"
+    unit_of_measurement: "°C"
+    name: temperature_shed
+  - platform: mqtt
+    state_topic: "homeassistant/sensor/schuur/humidity"
+    unit_of_measurement: "%"
+    name: humidity_shed

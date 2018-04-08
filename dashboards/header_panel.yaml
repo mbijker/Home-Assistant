@@ -1,0 +1,67 @@
+layout:
+    - weather(2x2), clock(2x1),  mark_presence(2x1), miranda_presence(2x1)
+    - temp_shed, humid_shed, cpu, mem, disk, speedtest_down
+
+clock:
+    widget_type: clock
+    time_format: 24hr
+
+weather:
+    widget_type: weather
+    units: "&deg;C"
+    shorten: one
+
+mark_presence:
+    widget_type: device_tracker
+    title: Mark
+    device: samsunggalaxys7edge
+    icon_on: fa-male
+    icon_off: fa-male
+
+miranda_presence:
+    widget_type: device_tracker
+    title: Miranda
+    icon_on: fa-female
+    icon_off: fa-female
+    device: miran000siphone
+
+temp_shed:
+    widget_type: sensor
+    title: Temperatuur Schuur
+    entity: sensor.temperature_shed
+    precision: 1
+
+humid_shed:
+    widget_type: sensor
+    title: Luchtvochtigheid Schuur
+    entity: sensor.humidity_shed
+    precision: 1
+
+cpu:
+    widget_type: gauge
+    title: Processor
+    entity: sensor.processor_use
+    min: 0
+    max: 0
+    units: "%"
+
+mem:
+    widget_type: gauge
+    title: Geheugen
+    entity: sensor.memory_use
+    min: 0
+    max: 1024
+    units: "MB"
+
+disk:
+    widget_type: gauge
+    title: Opslag
+    entity: sensor.disk_use_
+    min: 0
+    max: 14
+    units: "GB"
+
+speedtest_down:
+    widget_type: sensor
+    title: Speedtest
+    entity: sensor.speedtest_download

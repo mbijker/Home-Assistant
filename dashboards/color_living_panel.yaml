@@ -1,0 +1,31 @@
+layout:
+    - script_color_red, script_color_orange, script_color_white, script_color_blue
+    
+script_color_red:
+    widget_type: script
+    icon_off: fa-paint-brush
+    icon_on: fa-paint-brush
+    widget_style: "background: red;"
+    title: Rood
+    entity: script.color_living_red
+script_color_orange:
+    widget_type: script
+    icon_on: fa-paint-brush
+    icon_off: fa-paint-brush
+    widget_style: "background: orange;"
+    title: Oranje
+    entity: script.color_living_orange
+script_color_white:
+    widget_type: script
+    icon_on: fa-paint-brush
+    icon_off: fa-paint-brush
+    widget_style: "background: white;"
+    title: Wit
+    entity: script.color_living_white
+script_color_blue:
+    widget_type: script
+    icon_on: fa-paint-brush
+    icon_off: fa-paint-brush
+    widget_style: "background: blue;"
+    title: Blauw
+    entity: script.color_living_blue

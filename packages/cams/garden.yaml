@@ -1,0 +1,10 @@
+camera:
+  - platform: ffmpeg
+    input: !secret camera1
+    name: Tuin
+  - platform: ffmpeg
+    input: !secret camera2
+    name: Steeg 1
+  - platform: ffmpeg
+    input: !secret camera3
+    name: Steeg 2

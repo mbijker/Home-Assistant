@@ -1,0 +1,8 @@
+#mqtt:
+#  broker: !secret mqtt_broker_ip
+#  port: !secret mqtt_broker_port
+#  client_id: ha
+#  username: !secret mqtt_broker_username
+#  password: !secret mqtt_broker_password
+#  discovery: false
+#  discovery_prefix: homeassistant

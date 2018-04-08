@@ -1,0 +1,37 @@
+switch:
+  - platform: mqtt
+    name: "TV kijken"
+    state_topic:   "harmony-api/hubs/woonkamer/activities/tv-kijken/state"
+    command_topic: "harmony-api/hubs/woonkamer/activities/tv-kijken/command"
+    payload_on: "on"
+    payload_off: "off"
+  - platform: mqtt
+    name: "Radio luisteren"
+    state_topic:   "harmony-api/hubs/woonkamer/activities/radio-luisteren/state"
+    command_topic: "harmony-api/hubs/woonkamer/activities/radio-luisteren/command"
+    payload_on: "on"
+    payload_off: "off"
+  - platform: mqtt
+    name: "Playstation"
+    state_topic:   "harmony-api/hubs/woonkamer/activities/playstation/state"
+    command_topic: "harmony-api/hubs/woonkamer/activities/playstation/command"
+    payload_on: "on"
+    payload_off: "off"
+  - platform: mqtt
+    name: "Chromecast"
+    state_topic:   "harmony-api/hubs/woonkamer/activities/chromecast-kijken/state"
+    command_topic: "harmony-api/hubs/woonkamer/activities/chromecast-kijken/command"
+    payload_on: "on"
+    payload_off: "off"
+  - platform: mqtt
+    name: "Wii"
+    state_topic:   "harmony-api/hubs/woonkamer/activities/afspelen-wii/state"
+    command_topic: "harmony-api/hubs/woonkamer/activities/afspelen-wii/command"
+    payload_on: "on"
+    payload_off: "off"
+  - platform: mqtt
+    name: "UIT"
+    state_topic:   "harmony-api/hubs/woonkamer/activities/poweroff/state"
+    command_topic: "harmony-api/hubs/woonkamer/activities/poweroff/command"
+    payload_on: "on"
+    payload_off: "off"

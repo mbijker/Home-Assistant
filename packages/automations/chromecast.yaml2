@@ -1,0 +1,46 @@
+automation:
+# Chromecast Radio - State: Off
+  - id: "chromecast_radio_off"
+    alias: "Chromecast Radio Uit"
+    initial_state: True
+    trigger:
+      platform: state
+      entity_id: input_select.radio_station
+      to: "Uit"
+    action:
+      service: media_player.turn_off
+      data:
+        entity_id: media_player.huiskamer
+        
+# Chromecast Radio - State: Play Media
+  - id: "chromecast_play_radiostation"
+    alias: "Chromecast Radio Play Media"
+    initial_state: True
+    trigger:
+      platform: state
+      entity_id: input_select.radio_station
+    action:
+      service: media_player.play_media
+      data_template:
+        entity_id: media_player.huiskamer
+        media_content_id: >
+          {% if is_state("input_select.radio_station", "Radio 538") %}
+            http://18973.live.streamtheworld.com/RADIO538.mp3
+          {%-elif is_state("input_select.radio_station", "SlamFM") %}
+            http://stream.slam.nl/slam          
+          {%-elif is_state("input_select.radio_station", "Veronica") %}
+            http://www.radioveronica.nl/player/radio-veronica.pls
+          {%-elif is_state("input_select.radio_station", "NPO Radio 2") %}
+            http://icecast.omroep.nl/radio2-bb-mp3
+          {%-elif is_state("input_select.radio_station", "3FM") %}
+            http://icecast.omroep.nl/3fm-bb-mp3
+          {%-elif is_state("input_select.radio_station", "Joy Radio") %}
+            http://stream.joyradio.nl/joyradio
+          {%-elif is_state("input_select.radio_station", "QMusic") %}
+            http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3
+          {%-elif is_state("input_select.radio_station", "SimoneFM") %}
+            http://stream.stream.delivery/simonefm
+          {% else %}
+            none
+          {% endif %}
+        media_content_type: "audio/mp4"

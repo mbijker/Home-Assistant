@@ -1,0 +1,51 @@
+#automation:
+##  - id: notify_mark_miranda_home
+##    alias: "Miranda komt thuis. Notify Mark"
+##    hide_entity: True
+##    initial_state: True
+##    trigger:
+##      platform: state
+##      entity_id: device_tracker.miran000siphone
+##      from: 'not_home'
+##      to: 'home'
+##    action:
+##      service: notify.notify
+##      data:
+##        title: Miranda thuis
+##        message: Miranda is thuisgekomen
+#
+## Home Assistant Boot Notification
+#  - id: "boot_notification"
+#    initial_state: True
+#    alias: "Startup Notification"
+#    trigger:
+#      platform: event
+#      event_type: homeassistant_start
+#    action:
+#      service: notify.NotifyTelegram
+#      data: 
+#        message: "Home Assistant is gestart"
+#
+## New Device Detected Notification
+#  - id: "notify_new_device"
+#    alias: "New Device Detected"
+#    initial_state: True
+#    trigger:
+#      platform: event
+#      event_type: 'device_tracker_new_device'
+#    action:
+#      service: notify.NotifyTelegram
+#      data:
+#        message: "Nieuw apparaat gedetecteerd!"
+#        
+## New Update Available Notification
+#  - id: "notify_new_update"
+#    alias: "New Update Available"
+#    initial_state: True    
+#    trigger:
+#      platform: state
+#      entity_id: updater.updater
+#    action:
+#      service: notify.NotifyTelegram
+#      data:
+#        message: "Nieuwe update voor Home Assistant beschikbaar"#

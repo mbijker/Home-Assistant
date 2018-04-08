@@ -1,0 +1,16 @@
+light.plafondlamp:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:10:42:18:db-0b
+light.bedlamp:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:10:42:19:39-0b
+media_player.huiskamer:
+  name:
+  platform: cast
+  unique_id: 141e25c6-a58c-0e24-e676-668d43f9a9d1
+media_player.slaapkamer:
+  name:
+  platform: cast
+  unique_id: eec477b6-192f-4a51-cdb5-bfdb7ef5e82f

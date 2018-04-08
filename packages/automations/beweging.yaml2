@@ -1,0 +1,25 @@
+#automation:
+#  - id: motion_shed_light_off
+#    alias: "Geen beweging in schuur lamp uit"
+#    initial_state: true
+#    trigger:
+#      platform: state
+#      entity_id: binary_sensor.motion_shed
+#      to: 'off'
+#      for:
+#        minutes: 5
+#    action:
+#      service: light.turn_off
+#      data:
+#        entity_id: light.sonoff
+#  - id: motion_shed_light_on
+#    alias: "Beweging in schuur. Lamp aan"
+#    initial_state: true
+#    trigger:
+#      platform: state
+#      entity_id: binary_sensor.motion_shed
+#      to: 'on'
+#    action:
+#      service: light.turn_on
+#      data:
+#        entity_id: light.sonoff     

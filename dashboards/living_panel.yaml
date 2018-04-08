@@ -1,0 +1,89 @@
+layout:
+    - switch_uit, switch_tv_kijken, switch_playstation, script_volume_up, script_channel_up, script_channel_701, spacer, light_living
+    - switch_chromecast, switch_radio_luisteren, switch_wii, script_volume_down, script_channel_down, spacer(2x1), color_living
+    
+light_living:
+    widget_type: light
+    title: Verlichting woonkamer
+    entity: light.woonkamer
+    
+switch_tv_kijken:
+    widget_type: switch
+    title: TV Kijken
+    entity: switch.tv_kijken
+    icon_on: mdi-television
+    icon_off: mdi-television 
+    
+switch_uit:
+    widget_type: switch
+    title: Uit
+    entity: switch.uit
+    icon_on: "mdi-television-off"
+    icon_off: "mdi-television-off"
+    
+switch_chromecast:
+    widget_type: switch
+    title: Chromecast
+    entity: switch.chromecast
+    icon_off: mdi-cast
+    icon_on: mdi-cast
+    
+switch_playstation:
+    widget_type: switch
+    title: Playstation
+    entity: switch.playstation
+    icon_off: mdi-playstation
+    icon_on: mdi-playstation
+    
+switch_radio_luisteren:
+    widget_type: switch
+    title: Radio Luisteren
+    entity: switch.radio_luisteren
+    icon_off: mdi-radio
+    icon_on: mdi-radio
+    
+switch_wii:
+    widget_type: switch
+    title: Wii
+    entity: switch.wii
+    icon_off: mdi-wii
+    icon_on: mdi-wii
+    
+script_volume_down:
+    widget_type: script
+    title: Zachter
+    entity: script.volume_down
+    icon_on: mdi-volume-minus
+    icon_off: mdi-volume-minus
+
+script_volume_up:
+    widget_type: script
+    title: Harder
+    entity: script.volume_up
+    icon_on: mdi-volume-plus
+    icon_off: mdi-volume-plus
+    
+script_channel_down:
+    widget_type: script
+    title: Vorige zender
+    entity: script.channel_down
+    icon_off: mdi-skip-backward
+    icon_on: mdi-skip-backward
+
+script_channel_up:
+    widget_type: script
+    title: Volgende zender
+    entity: script.channel_up
+    icon_off: mdi-skip-forward
+    icon_on: mdi-skip-forward
+
+script_channel_701:
+    widget_type: script
+    title: "Nederland 1"
+    entity: script.channel_701
+
+color_living:
+    widget_type: navigate
+    icon: mdi-palette
+    title: Kleur woonkamer
+    url: /color_living

@@ -1,0 +1,6 @@
+sensor.temperature_shed:
+  friendly_name: Temperatuur
+  icon: mdi:thermometer
+sensor.humidity_shed:
+  friendly_name: Luchtvochtigheid
+  icon: mdi:water-percent
