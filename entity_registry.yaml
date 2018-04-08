@@ -1,9 +1,9 @@
 light.plafondlamp:
-  name:
+  name: Plafondlamp woonkamer
   platform: hue
   unique_id: 00:17:88:01:10:42:18:db-0b
 light.bedlamp:
-  name:
+  name: Bedlamp Mark
   platform: hue
   unique_id: 00:17:88:01:10:42:19:39-0b
 media_player.huiskamer:

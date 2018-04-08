@@ -1,5 +1,5 @@
 binary_sensor:
   - platform: mqtt
     state_topic: "homeassistant/sensor/schuur/motion"
-    name: motion shed
+    name: motionshed
     device_class: motion
