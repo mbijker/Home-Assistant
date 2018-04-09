@@ -1,3 +1,8 @@
+####################################
+##                                ##
+## MQTT Lights                    ##
+##                                ##
+####################################
 light:
   - platform: mqtt
     name: "Verlichting schuur"
