@@ -8,3 +8,4 @@ known_devices.yaml
 home-assistant_v2.db
 .uuid
 .HA_VERSION
+tts
