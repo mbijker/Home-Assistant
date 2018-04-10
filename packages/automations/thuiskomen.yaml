@@ -1,35 +1,22 @@
-#automation:
-#  # Thuiskomen in het donker. Minimaal half uur voor zonsondergang, voor middernacht en alleen als de lamp bij de bank uit is.
-#  - id: coming_home_dark
-#    alias: "Thuiskomen in het donker"
-#    hide_entity: False
-#    initial_state: False
-#    trigger:
-#      - platform: state
-#        entity_id: 'device_tracker.samsunggalaxys7edge'
-#        from: "not_home"
-#        to: "home"
-#      - platform: state
-#        entity_id: 'device_tracker.miran000siphone'
-#        from: "not_home"
-#        to: "home"
-#    condition:
-#      condition: and
-#      conditions:
-#        - condition: sun
-#          after: sunset
-#          before_offset: 00:30:00
-#        - condition: state
-#          entity_id: light.lamp_bij_bank
-#          state: "off"
-#        - condition: time
-#          before: '23:59:00'
-#    action:
-#      service: light.turn_on
-#      entity_id:
-#        - light.lamp_bij_bank
-#      data:
-#        brightness: 125
-#        color_name: 'yellow'
-#        transition: 30
-#
+automation:
+  - alias: Miranda thuis
+    hide_entity: true
+    initial_state: off
+    trigger:
+      platform: state
+      entity_id: boolean.notification_telegram
+      from: 'off'
+      to: 'on'
+ #       entity_id: device_tracker.miran000siphone
+ #       from: 'not_home'
+ #       to: 'home'
+ #       for:
+ #         minutes: 2
+    condition:
+      - platform: state
+        entity_id: boolean.notification_telegram
+        state: true
+    action:
+      service: notify.notify
+      data:
+        message: Test

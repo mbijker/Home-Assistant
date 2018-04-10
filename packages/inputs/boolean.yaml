@@ -1,0 +1,5 @@
+input_boolean:
+  notification_telegram:
+    name: Send notifications to Mark through Telegram.
+    initial: on
+    icon: mdi:bell

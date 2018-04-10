@@ -96,12 +96,18 @@ tts:
   - platform: google
     cache: false
        
-telegram_bot:
-  - platform: polling
-    api_key: !secret telegram_api_key
-    allowed_chat_ids:
-      - !secret telegram_chatid
+#telegram_bot:
+#  - platform: polling
+#    api_key: !secret telegram_api_key
+#    allowed_chat_ids:
+#      - !secret telegram_chatid
 
+notify:
+  - name: TEST
+    platform: telegram
+    api_key: !secret telegram_api_key
+    chat_id: !secret telegram_chatid 
+    
 ####################################
 ##                                ##
 ## Includes                       ##
