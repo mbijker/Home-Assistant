@@ -96,11 +96,11 @@ tts:
   - platform: google
     cache: false
        
-#telegram_bot:
-#  - platform: polling
-#    api_key: !secret telegram_api_key
-#    allowed_chat_ids:
-#      - !secret telegram_chatid
+telegram_bot:
+  - platform: polling
+    api_key: !secret telegram_api_key
+    allowed_chat_ids:
+      - !secret telegram_chatid
 
 notify:
   - name: TEST
@@ -114,5 +114,5 @@ notify:
 ##                                ##
 ####################################
 group: !include groups.yaml
-automation: !include automations.yaml
+automation: !include_dir_merge_list automations/
 script: !include scripts.yaml
