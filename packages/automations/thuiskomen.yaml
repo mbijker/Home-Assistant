@@ -11,7 +11,7 @@ automation:
           - device_tracker.samsunggalaxys7edge
         from: 'not_home'
         to: 'home'
-        for: '00:02:00'
+#        for: '00:02:00'
 
 #    condition:
 #      condition: state
@@ -21,7 +21,7 @@ automation:
     action:
       service: telegram_bot.send_message
       data_template:
-        message: Miranda is thuisgekomen
+        message: XX is thuisgekomen
 
 #  - alias: Mark thuis
 #    hide_entity: true
