@@ -1,3 +1,4 @@
+deps/
 !.gitignore
 .cloud
 harmony_woonkamer.conf
@@ -9,4 +10,3 @@ home-assistant_v2.db
 .uuid
 .HA_VERSION
 tts
-deps
