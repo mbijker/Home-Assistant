@@ -92,6 +92,7 @@ device_tracker:
     username: !secret router_username
     password: !secret router_password
   - platform: owntracks
+    mqtt_topic: owntracks/#
 
 duckdns:
   domain: !secret duckdns_domain
