@@ -86,14 +86,6 @@ mqtt:
   username: !secret mqtt_broker_username
   password: !secret mqtt_broker_password
 
-device_tracker:
-  - platform: asuswrt
-    host: !secret ip_router
-    username: !secret router_username
-    password: !secret router_password
-  - platform: owntracks
-    mqtt_topic: owntracks/#
-
 duckdns:
   domain: !secret duckdns_domain
   access_token: !secret duckdns_token

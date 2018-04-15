@@ -1,0 +1,101 @@
+homeassistant:
+  customize:
+    group.family:
+      order: 1
+      friendly_name: Gezin
+    group.network_devices:
+      order: 2
+      friendly_name: Netwerk devices
+
+    device_tracker.mbijker_s7mark:
+      friendly_name: Mark
+    device_tracker.miran000siphone:
+      friendly_name: Miranda
+    device_tracker.bedlamp_mark1507_2:
+      friendly_name: Bedlamp (Sonoff) Mark
+      icon: mdi:lightbulb
+    device_tracker.cctv:
+      friendly_name: Bewakingscamera's
+      icon: mdi:cctv
+    device_tracker.chromecast:
+      friendly_name: Chromecast huiskamer
+      icon: mdi:cast
+    device_tracker.esp_35ce56:
+      friendly_name: Sensor Box Schuur
+      icon: mdi:contrast-box
+    device_tracker.harmonyhub_2:
+      friendly_name: Harmony hub
+      icon: remote
+    device_tracker.iphone:
+      friendly_name: Telefoon Xander
+      hidden: true
+      icon: mdi:cellphone-iphone
+    device_tracker.laptopr44rsn95:
+      friendly_name: Laptop Mark
+      icon: mdi:laptop
+    device_tracker.mbijker_s7mark:
+      friendly_name: Telefoon Mark (owntracks)
+    device_tracker.miran000siphone:
+      friendly_name: Telefoon Miranda
+    device_tracker.plafondlamp_slaapkamer6134_2:
+      friendly_name: Plafondlamp slaapkamer (Sonoff)
+      icon: mdi:lightbulb
+    device_tracker.raspberrypi:
+      friendly_name: HA Server
+      icon: mdi:server
+    device_tracker.re200:
+      friendly_name: Wifi Repeater
+      icon: mdi:wifi
+    device_tracker.samsunggalaxys7edge:
+      friendly_name: Telefoon Mark
+    device_tracker.sonoff0614:
+      friendly_name: Verlichting schuur (Sonoff)
+      icon: mdi:lightbulb
+    device_tracker.switch:
+      friendly_name: Netwerk switch
+      icon: mdi:switch
+    device_tracker.thuis:
+      friendly_name: Hue bridge
+      icon: mdi:switch
+
+input_boolean:
+  notify_everyone_away:
+    name: 'Notify when everybody is away'
+    initial: on
+    icon: mdi:bell
+
+device_tracker:
+  - platform: asuswrt
+    host: !secret ip_router
+    username: !secret router_username
+    password: !secret router_password
+  - platform: owntracks
+    mqtt_topic: owntracks/#
+    waypoints: True
+
+group:
+  family:
+    control: hidden
+    entities:
+      - device_tracker.mbijker_s7mark
+      - device_tracker.miran000siphone
+      - input_boolean.notify_everyone_away
+  network_devices:
+    control: hidden
+    entities:
+      - device_tracker.bedlamp_mark1507_2
+      - device_tracker.cctv
+      - device_tracker.chromecast
+      - device_tracker.esp_35ce56
+      - device_tracker.harmonyhub_2
+      - device_tracker.iphone
+      - device_tracker.laptopr44rsn95
+#      - device_tracker.mbijker_s7mark
+#      - device_tracker.miran000siphone
+      - device_tracker.plafondlamp_slaapkamer6134_2
+      - device_tracker.raspberrypi
+      - device_tracker.re200
+#      - device_tracker.samsunggalaxys7edge
+      - device_tracker.sonoff0614
+      - device_tracker.switch
+      - device_tracker.thuis
