@@ -89,10 +89,13 @@ mqtt:
 device_tracker:
   - platform: asuswrt
     host: !secret ip_router
-    interval_seconds: 10
-    consider_home: 10
     username: !secret router_username
     password: !secret router_password
+  - platform: owntracks
+
+duckdns:
+  domain: !secret duckdns_domain
+  access_token: !secret duckdns_token
 
 tts:
   - platform: google

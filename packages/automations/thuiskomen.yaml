@@ -6,48 +6,48 @@ automation:
 ##                                                     ##
 #########################################################
 
-  - alias: Send telegram notification when coming home
-    hide_entity: true
-    initial_state: on
-    
-    trigger:
-      - platform: state
-        entity_id: 
-          - device_tracker.miran000siphone
-          - device_tracker.samsunggalaxys7edge
-        from: 'not_home'
-        to: 'home'
+#  - alias: Send telegram notification when coming home
+#    hide_entity: false
+#    initial_state: off
+#    
+#    trigger:
+#      - platform: state
+#        entity_id: 
+##          - device_tracker.miran000siphone
+#          - device_tracker.samsunggalaxys7edge
+#        from: 'not_home'
+#        to: 'home'
 #        for: '00:02:00'
-
-    condition:
-      condition: state
-        entity_id: boolean.notification_telegram
-        state: true
-    
-    action:
-      service: telegram_bot.send_message
-      data_template:
-        message: XX is thuisgekomen
+#
+#    condition:
+#      - condition: state
+#        entity_id: boolean.notification_telegram
+#        state: true
+#    
+#    action:
+#      service: telegram_bot.send_message
+#      data_template:
+#        message: XX is thuisgekomen
 
 #########################################################
 ##                                                     ##
 ## Send telegram notification when HA starts           ##
 ##                                                     ##
 #########################################################
-  - alias: Send telegram message when HA starts
-    hide_entity: true
-    initial_state: on
-
-    trigger:
-      platform: homeassistant
-      event: start
-
-    condition:
-      condition: state
-        entity_id: boolean.notification_telegram
-        state: true
-
-    action:
-      service: telegram_bot.send_message
-      data_template:
-        message: Homeassistant is opgestart.
+#  - alias: Send telegram message when HA starts
+#    hide_entity: true
+#    initial_state: on
+#
+#    trigger:
+#      platform: homeassistant
+#      event: start
+#
+#    condition:
+#      condition: state
+#        entity_id: boolean.notification_telegram
+#        state: true
+#
+#    action:
+#      service: telegram_bot.send_message
+#      data_template:
+#        message: Homeassistant is opgestart.
