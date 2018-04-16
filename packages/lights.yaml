@@ -1,29 +1,62 @@
 ####################################
 ##                                ##
-## MQTT Lights                    ##
+## Lights                         ##
 ##                                ##
 ####################################
+
+homeassistant:
+  customize:
+    group.lights_card:
+      order: 3
+    light.lights_shed:
+      friendly_name: LED strips schuur
+    light.bedlamp:
+      friendly_name: Bedlamp Mark (HUE)
+    light.slaapkamer:
+      hidden: true
+    light.woonkamer:
+      hidden: true
+    light.bedlight_mark:
+      friendly_name: Bedlamp Mark
+    light.bedlight_miranda:
+      friendly_name: Bedlamp Miranda
+    light.ceilinglight_master_bedroom:
+      friendly_name: Plafondlamp Master bedroom
+
+group:
+  lights_card:
+    name: Verlichting
+    entities:
+      - light.bedlamp
+      - light.bedlight_mark
+      - light.bedlight_miranda
+      - light.ceilinglight_master_bedroom
+      - light.lights_shed
+      - light.plafondlamp
+
+
+
 light:
   - platform: mqtt
-    name: "Verlichting schuur"
+    name: "lights shed"
     state_topic:   "homeassistant/switch/stat/sonoff/POWER"
     command_topic: "homeassistant/switch/cmnd/sonoff/POWER"
     payload_on: "ON"
     payload_off: "OFF"
   - platform: mqtt
-    name: "Bedlamp Mark"
+    name: "bedlight mark"
     state_topic:   "homeassistant/switch/stat/bedlamp_mark/POWER"
     command_topic: "homeassistant/switch/cmnd/bedlamp_mark/POWER"
     payload_on: "ON"
     payload_off: "OFF"
   - platform: mqtt
-    name: "Bedlamp Miranda"
+    name: "bedlight miranda"
     state_topic:   "homeassistant/switch/stat/bedlamp_miranda/POWER"
     command_topic: "homeassistant/switch/cmnd/bedlamp_miranda/POWER"
     payload_on: "ON"
     payload_off: "OFF"
   - platform: mqtt
-    name: "Plafondlamp Slaapkamer"
+    name: "ceilinglight_master_bedroom"
     state_topic:   "homeassistant/switch/stat/plafondlamp_slaapkamer/POWER"
     command_topic: "homeassistant/switch/cmnd/plafondlamp_slaapkamer/POWER"
     payload_on: "ON"

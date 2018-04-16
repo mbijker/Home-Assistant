@@ -1,3 +1,15 @@
+homeassistant:
+  customize:
+    group.remote_card:
+      friendly_name: Afstandsbediening
+      order: 4
+
+group:
+  remote_card:
+    entities:
+      - switch.tv_kijken
+
+
 switch:
   - platform: mqtt
     name: "TV kijken"
