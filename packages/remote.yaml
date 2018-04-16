@@ -3,46 +3,71 @@ homeassistant:
     group.remote_card:
       friendly_name: Afstandsbediening
       order: 4
+    switch.off:
+      friendly_name: Alles uit
+      icon: mdi:television-classic-off
+    switch.watch_tv:
+      friendly_name: TV Kijken
+      icon: mdi:television-classic
+    switch.watch_chromecast:
+      friendly_name: Chromecast kijken
+      icon: mdi:cast
+    switch.listen_radio:
+      friendly_name: Radio luisteren
+      icon: mdi:radio
+    switch.play_playstation:
+      friendly_name: Playstation spelen
+      icon: mdi:playstation
+    switch.play_wii:
+      friendly_name: Wii spelen
+      icon: mdi:wii
+
 
 group:
   remote_card:
+    control: hidden
     entities:
-      - switch.tv_kijken
+      - switch.off
+      - switch.watch_tv
+      - switch.watch_chromecast
+      - switch.listen_radio
+      - switch.play_playstation
+      - switch.play_wii
 
 
 switch:
   - platform: mqtt
-    name: "TV kijken"
+    name: "Watch tv"
     state_topic:   "harmony-api/hubs/woonkamer/activities/tv-kijken/state"
     command_topic: "harmony-api/hubs/woonkamer/activities/tv-kijken/command"
     payload_on: "on"
     payload_off: "off"
   - platform: mqtt
-    name: "Radio luisteren"
+    name: "Listen radio"
     state_topic:   "harmony-api/hubs/woonkamer/activities/radio-luisteren/state"
     command_topic: "harmony-api/hubs/woonkamer/activities/radio-luisteren/command"
     payload_on: "on"
     payload_off: "off"
   - platform: mqtt
-    name: "Playstation"
+    name: "Play playstation"
     state_topic:   "harmony-api/hubs/woonkamer/activities/playstation/state"
     command_topic: "harmony-api/hubs/woonkamer/activities/playstation/command"
     payload_on: "on"
     payload_off: "off"
   - platform: mqtt
-    name: "Chromecast"
+    name: "Watch Chromecast"
     state_topic:   "harmony-api/hubs/woonkamer/activities/chromecast-kijken/state"
     command_topic: "harmony-api/hubs/woonkamer/activities/chromecast-kijken/command"
     payload_on: "on"
     payload_off: "off"
   - platform: mqtt
-    name: "Wii"
+    name: "Play Wii"
     state_topic:   "harmony-api/hubs/woonkamer/activities/afspelen-wii/state"
     command_topic: "harmony-api/hubs/woonkamer/activities/afspelen-wii/command"
     payload_on: "on"
     payload_off: "off"
   - platform: mqtt
-    name: "UIT"
+    name: "off"
     state_topic:   "harmony-api/hubs/woonkamer/activities/poweroff/state"
     command_topic: "harmony-api/hubs/woonkamer/activities/poweroff/command"
     payload_on: "on"
