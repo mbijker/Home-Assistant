@@ -42,30 +42,6 @@ cloud:
 
 ####################################
 ##                                ##
-## Sensors                        ##
-##                                ##
-####################################
-sensor:
-  platform: darksky
-  api_key: !secret dark_sky_api
-  units: si
-  language: nl
-  monitored_conditions:
-    - summary
-    - icon
-    - nearest_storm_distance
-    - temperature
-    - humidity
-    - precip_probability
-    - precip_intensity
-    - wind_speed
-    - pressure
-    - wind_bearing
-    - apparent_temperature
-    - icon
-
-####################################
-##                                ##
 ## iFrames                        ##
 ##                                ##
 ####################################
