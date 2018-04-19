@@ -60,12 +60,13 @@ homeassistant:
     device_tracker.thuis:
       friendly_name: Hue bridge
       icon: mdi:switch
+    input_boolean.notify_everyone_away:
+      friendly_name: Melding als iedereen weg is
+      icon: mdi:bell
 
 input_boolean:
   notify_everyone_away:
-    name: 'Notify when everybody is away'
     initial: on
-    icon: mdi:bell
 
 device_tracker:
   - platform: asuswrt
