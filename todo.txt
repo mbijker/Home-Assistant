@@ -1,0 +1,6 @@
+- Optimize Darksky entities
+- Optimize time entities
+- Add group humidity
+- Add group temperature
+- Write scripts
+- Write automations
