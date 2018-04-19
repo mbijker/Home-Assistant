@@ -87,12 +87,6 @@ device_tracker:
     mqtt_topic: owntracks/#
     waypoints: True
 
-sensor:
-  - platform: template
-    sensors:
-      battery_mark:
-        value_template: '{{ states.device_tracker.mbijker_s7mark.attributes.battery }}'
-
 group:
   
   miranda:

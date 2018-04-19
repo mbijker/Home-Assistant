@@ -1,0 +1,38 @@
+######################################################
+## Base and customisations                          ##
+######################################################
+homeassistant:
+  
+  customize:
+    group.battery:
+      friendly_name: Batterij
+    sensor.battery_mark:
+      friendly_name: Telefoon Mark
+      icon: mdi:android    
+
+######################################################
+## Components                                       ##
+######################################################
+sensor:
+  - platform: template
+    sensors:
+      battery_mark:
+        value_template: '{{ states.device_tracker.mbijker_s7mark.attributes.battery }}'
+
+######################################################
+## Boolean                                          ##
+######################################################
+input_boolean:
+
+######################################################
+## Groups                                           ##
+######################################################
+group:
+  battery:
+    entities:
+      - sensor.battery_mark
+
+######################################################
+## Automations                                      ##
+######################################################
+automation:
