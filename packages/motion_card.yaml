@@ -1,0 +1,21 @@
+homeassistant:
+  customize:
+    group.motion:
+      friendly_name: Beweging
+      order: 6
+    input_boolean.notify_motion:
+      friendly_name: Melding bij beweging bij afwezig
+    binary_sensor.motion_shed:
+      friendly_name: Bewegingsmelder schuur
+      icon: mdi:bell
+
+input_boolean:
+  notify_motion:
+    initial: on
+    name: Notify on motion when away
+
+group:
+  motion:
+    entities:
+      - binary_sensor.motion_shed
+      - input_boolean.notify_motion

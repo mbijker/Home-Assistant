@@ -8,3 +8,4 @@ group:
       - group.network_devices
       - group.remote_card
       - group.cctv
+      - group.motion
