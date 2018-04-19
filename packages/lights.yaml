@@ -22,10 +22,13 @@ homeassistant:
       friendly_name: Bedlamp Miranda
     light.ceilinglight_master_bedroom:
       friendly_name: Plafondlamp Master bedroom
+    input_boolean.lights_off_away:
+      friendly_name: Verlichting uit als iedereen weg is
 
 group:
   lights_card:
     name: Verlichting
+    control: hidden
     entities:
       - light.bedlamp
       - light.bedlight_mark
@@ -33,8 +36,7 @@ group:
       - light.ceilinglight_master_bedroom
       - light.lights_shed
       - light.plafondlamp
-
-
+      - input_boolean.lights_off_away
 
 light:
   - platform: mqtt
@@ -61,3 +63,9 @@ light:
     command_topic: "homeassistant/switch/cmnd/plafondlamp_slaapkamer/POWER"
     payload_on: "ON"
     payload_off: "OFF"
+
+input_boolean:
+  lights_off_away:
+    name: 'lights off nobody home'
+    initial: on
+    icon: mdi:lightbulb

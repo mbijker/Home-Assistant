@@ -1,5 +1,8 @@
 homeassistant:
   customize:
+    group.miranda:
+      friendly_name: Telefoon Miranda
+      gravatar: mirandaholthof@gmail.com
     group.family:
       order: 1
       friendly_name: Gezin
@@ -74,11 +77,16 @@ device_tracker:
     waypoints: True
 
 group:
+  miranda:
+    control: hidden
+    entities:
+      - device_tracker.miran000siphone
+      - device_tracker.miran000siphone_2
   family:
     control: hidden
     entities:
+      - group.miranda
       - device_tracker.mbijker_s7mark
-      - device_tracker.miran000siphone
       - input_boolean.notify_everyone_away
   network_devices:
     control: hidden
