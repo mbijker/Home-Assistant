@@ -1,17 +1,24 @@
 homeassistant:
   customize:
+    group.time:
+      order: 0
+      friendly_name: Klok
+    sensor.time:
+      friendly_name: Tijd
+    sensor.date:
+      friendly_name: Datum
+    sun.sun:
+      friendly_name: Zon
 
 sensor:
   - platform: time_date
     display_options:
       - 'time'
       - 'date'
-      - 'date_time'
-      - 'time_date'
-#      - 'time_utc'
-      - 'beat'
 
 group:
   time:
     entities: 
+      - sensor.time
+      - sensor.date
       - sun.sun
