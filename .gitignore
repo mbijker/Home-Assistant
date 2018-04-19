@@ -1,5 +1,6 @@
 deps/
 !.gitignore
+*.db*
 .cloud
 harmony_woonkamer.conf
 home-assistant.log
