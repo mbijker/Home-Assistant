@@ -2,7 +2,7 @@ homeassistant:
   customize:
     group.miranda:
       friendly_name: Telefoon Miranda
-      gravatar: mirandaholthof@gmail.com
+      entity_picture: /local/images/gravatar_miranda.jpg
     group.family:
       order: 1
       friendly_name: Gezin
@@ -66,12 +66,17 @@ homeassistant:
     input_boolean.notify_offline_device:
       friendly_name: Melding als netwerk apparaat wegvalt
       icon: mdi:bell
+    input_boolean.guestmode:
+      friendly_name: Gastmodus
+      icon: mdi:account
 
 input_boolean:
   notify_everyone_away:
     initial: on
   notify_offline_device:
     initial: on
+  guestmode:
+    initial: off
 
 device_tracker:
   - platform: asuswrt
@@ -83,17 +88,21 @@ device_tracker:
     waypoints: True
 
 group:
+  
   miranda:
     control: hidden
     entities:
       - device_tracker.miran000siphone
       - device_tracker.miran000siphone_2
+  
   family:
     control: hidden
     entities:
       - group.miranda
       - device_tracker.mbijker_s7mark
       - input_boolean.notify_everyone_away
+      - input_boolean.guestmode
+  
   network_devices:
     control: hidden
     entities:

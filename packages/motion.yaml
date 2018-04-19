@@ -1,0 +1,10 @@
+homeassistant:
+  customize:
+    group.motion:
+      friendly_name: Beweging
+      order: 6
+
+group:
+  motion:
+    entities:
+      - binary_sensor.motion_shed
