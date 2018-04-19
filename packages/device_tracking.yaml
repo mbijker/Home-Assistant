@@ -63,9 +63,14 @@ homeassistant:
     input_boolean.notify_everyone_away:
       friendly_name: Melding als iedereen weg is
       icon: mdi:bell
+    input_boolean.notify_offline_device:
+      friendly_name: Melding als netwerk apparaat wegvalt
+      icon: mdi:bell
 
 input_boolean:
   notify_everyone_away:
+    initial: on
+  notify_offline_device:
     initial: on
 
 device_tracker:
@@ -99,12 +104,10 @@ group:
       - device_tracker.harmonyhub_2
       - device_tracker.iphone
       - device_tracker.laptopr44rsn95
-#      - device_tracker.mbijker_s7mark
-#      - device_tracker.miran000siphone
       - device_tracker.plafondlamp_slaapkamer6134_2
       - device_tracker.raspberrypi
       - device_tracker.re200
-#      - device_tracker.samsunggalaxys7edge
       - device_tracker.sonoff0614
       - device_tracker.switch
       - device_tracker.thuis
+      - input_boolean.notify_offline_device
