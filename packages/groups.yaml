@@ -3,3 +3,7 @@ group:
     name: home
     view: yes
     entities:
+      - group.family
+      - group.lights_card
+      - group.network_devices
+      - group.remote_card
