@@ -1,0 +1,18 @@
+homeassistant:
+  customize:
+    group.temperature:
+      friendly_name: Temperatuur
+    sensor.temperature_shed:
+      friendly_name: Schuur
+      icon: mdi:thermometer
+
+sensor:
+  - platform: mqtt
+    state_topic: "homeassistant/sensor/schuur/temperature"
+    unit_of_measurement: "°C"
+    name: temperature_shed
+
+group:
+  temperature:
+    entities:
+      - sensor.temperature_shed

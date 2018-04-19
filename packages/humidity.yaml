@@ -1,0 +1,18 @@
+homeassistant:
+  customize:
+    group.humidity:
+      friendly_name: Luchtvochtigheid
+    sensor.humidity_shed:
+      friendly_name: Schuur
+      icon: mdi:water-percent
+
+
+sensor:
+  - platform: mqtt
+    state_topic: "homeassistant/sensor/schuur/humidity"
+    unit_of_measurement: "%"
+    name: humidity_shed
+
+group:
+  humidity:
+    entities: sensor.humidity_shed
