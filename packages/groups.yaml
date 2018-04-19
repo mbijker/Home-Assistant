@@ -12,3 +12,4 @@ group:
       - group.time
       - group.humidity
       - group.temperature
+      - group.battery
