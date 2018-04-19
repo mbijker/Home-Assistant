@@ -1,5 +1,10 @@
+######################################################
+## Base and customisations                          ##
+######################################################
 homeassistant:
+  
   customize:
+    
     group.motion:
       friendly_name: Beweging
       order: 6
@@ -9,19 +14,60 @@ homeassistant:
     binary_sensor.motion_shed:
       friendly_name: Bewegingsmelder schuur
 
+######################################################
+## Components                                       ##
+######################################################
 binary_sensor:
+  
   - platform: mqtt
     state_topic: "homeassistant/sensor/schuur/motion"
     name: motion shed
     device_class: motion
 
+######################################################
+## Boolean                                          ##
+######################################################
 input_boolean:
+  
   notify_motion:
     initial: on
     name: Notify on motion when away
 
+######################################################
+## Groups                                           ##
+######################################################
 group:
+
   motion:
     entities:
       - binary_sensor.motion_shed
       - input_boolean.notify_motion
+
+######################################################
+## Automations                                      ##
+######################################################
+automation:
+  
+  - alias: lights on in shed after motion
+    trigger:
+      platform: state
+      entity_id: binary_sensor.motion_shed
+      to: 'on'
+#    condition:
+#      - condition: state
+#        entity_id: input_boolean.notify_motion
+#        state: 'on'
+    action:
+      service: light.turn_on
+      entity_id: light.lights_shed
+
+  - alias: lights off in shed when motion is off
+    trigger:
+      platform: state
+      entity_id: binary_sensor.motion_shed
+      to: 'off'
+      for:
+        minutes: 5
+    action:
+      service: light.turn_off
+      entity_id: light.lights_shed

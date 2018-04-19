@@ -1,3 +1,4 @@
 - Optimize Darksky entities
 - Write scripts
 - Write automations
+- Add temp and humidity to view
