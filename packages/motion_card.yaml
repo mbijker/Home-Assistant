@@ -5,9 +5,10 @@ homeassistant:
       order: 6
     input_boolean.notify_motion:
       friendly_name: Melding bij beweging bij afwezig
+      icon: mdi:bell
     binary_sensor.motion_shed:
       friendly_name: Bewegingsmelder schuur
-      icon: mdi:bell
+
 
 input_boolean:
   notify_motion:
