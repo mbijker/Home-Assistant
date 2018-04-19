@@ -7,3 +7,4 @@ group:
       - group.lights_card
       - group.network_devices
       - group.remote_card
+      - group.cctv

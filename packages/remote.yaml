@@ -21,6 +21,9 @@ homeassistant:
     switch.play_wii:
       friendly_name: Wii spelen
       icon: mdi:wii
+    input_boolean.remote_off_away:
+      friendly_name: Alles uit wanneer afwezig
+      icon: mdi:remote
 
 
 group:
@@ -33,6 +36,7 @@ group:
       - switch.listen_radio
       - switch.play_playstation
       - switch.play_wii
+      - input_boolean.remote_off_away
 
 
 switch:
@@ -72,3 +76,8 @@ switch:
     command_topic: "harmony-api/hubs/woonkamer/activities/poweroff/command"
     payload_on: "on"
     payload_off: "off"
+
+input_boolean:
+  remote_off_away:
+    name: 'media off nobody home'
+    initial: on
