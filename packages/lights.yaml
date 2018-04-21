@@ -69,3 +69,24 @@ input_boolean:
     name: 'lights off nobody home'
     initial: on
     icon: mdi:lightbulb
+
+automation:
+  - alias: bedlight on
+    trigger:
+      platform: state
+      entity_id: light.bedlight_mark
+      to: 'on'
+    action:
+      service: light.turn_on
+      entity_id: light.bedlamp
+
+  - alias: bedlight off
+    trigger:
+      platform: state
+      entity_id: light.bedlight_mark
+      to: 'off'
+    action:
+      service: light.turn_off
+      entity_id: light.bedlamp
+#      data: 
+#       - transition: 30
