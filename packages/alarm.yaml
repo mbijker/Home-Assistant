@@ -1,7 +1,7 @@
 ######################################################
 # @author       :   Mark Bijker
-# @package      :   
-# @description  :   
+# @package      :   Alarm
+# @description  :   Control home alarm
 ######################################################
 
 
@@ -16,7 +16,12 @@ homeassistant:
 ######################################################
 ## Components
 ######################################################
-
+switch:
+  - platform: mqtt
+    state_topic:   "homeassistant/sensor/schuur/alarm"
+    command_topic: "homeassistant/sensor/schuur/alarm"
+    payload_on: "ON"
+    payload_off: "OFF"
 ######################################################
 ## Boolean
 ######################################################
