@@ -9,11 +9,28 @@ homeassistant:
 ######################################################
 ## Components                                       ##
 ######################################################
-media_player:
-  - platform: snapcast
-    host: 192.168.1.2
-  - platform: mpd
-    host: 192.168.1.2
+sensor:
+  - platform: speedtest
+    minute:
+      - 0
+      - 30
+    monitored_conditions:
+      - ping
+      - download
+      - upload
+  - platform: systemmonitor
+    resources:
+      - type: memory_use
+      - type: processor_use   
+      - type: disk_use
+        arg: /
+      - type: disk_free
+        arg: /
+      - type: last_boot
+      - type: network_in
+        arg: eth0
+      - type: network_out
+        arg: eth0
 ######################################################
 ## Boolean                                          ##
 ######################################################
@@ -23,6 +40,18 @@ input_boolean:
 ## Groups                                           ##
 ######################################################
 group:
+  performance:
+    entities: 
+      - sensor.speedtest_ping
+      - sensor.speedtest_upload
+      - sensor.speedtest_download
+      - sensor.disk_free_
+      - sensor.disk_use_
+      - sensor.last_boot
+      - sensor.memory_use
+      - sensor.network_in_eth0
+      - sensor.network_out_eth0
+      - sensor.processor_use
 
 ######################################################
 ## Automations                                      ##
