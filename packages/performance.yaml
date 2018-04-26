@@ -4,6 +4,25 @@
 homeassistant:
   
   customize:
+    group.performance:
+      friendly_name: Systeem monitor
+    sensor.disk_free_:
+      friendly_name: Opslagruimte beschikbaar
+    sensor.disk_use_:
+      friendly_name: Opslagruimte gebruikt
+    sensor.last_boot:
+      friendly_name: Laatste herstart
+    sensor.memory_use:
+      friendly_name: Geheugen gebruikt
+    sensor.network_in_eth0:
+      friendly_name: Inkomende data (eth0)
+    sensor.network_out_eth0:
+      friendly_name: Uitgaande data (eth0)
+    sensor.processor_use:
+      friendly_name: Processor gebruik
+    input_boolean.notify_diskuse:
+      friendly_name: Melding wanneer opslag bijna vol is
+
     
 
 ######################################################
@@ -35,7 +54,8 @@ sensor:
 ## Boolean                                          ##
 ######################################################
 input_boolean:
-
+  notify_diskuse:
+    initial: off
 ######################################################
 ## Groups                                           ##
 ######################################################
@@ -45,14 +65,14 @@ group:
       - sensor.speedtest_ping
       - sensor.speedtest_upload
       - sensor.speedtest_download
+      - sensor.processor_use
+      - sensor.memory_use
       - sensor.disk_free_
       - sensor.disk_use_
-      - sensor.last_boot
-      - sensor.memory_use
       - sensor.network_in_eth0
       - sensor.network_out_eth0
-      - sensor.processor_use
-
+      - sensor.last_boot
+      - input_boolean.notify_diskuse
 ######################################################
 ## Automations                                      ##
 ######################################################

@@ -33,6 +33,7 @@ group:
       - group.humidity
       - group.temperature
       - group.battery
+      - group.performance
 
 ######################################################
 ## Automations                                      ##
