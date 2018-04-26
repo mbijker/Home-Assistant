@@ -10,6 +10,8 @@
 homeassistant:
   
   customize:
+    sensor.daily_summary:
+      friendly_name: Samenvatting
     
 
 ######################################################
