@@ -12,7 +12,7 @@ homeassistant:
   customize:
     group.miranda:
       friendly_name: Telefoon Miranda
-      entity_picture: /local/images/gravatar_miranda.jpg
+      entity_picture: /local/miranda.jpg
     group.family:
       order: 1
       friendly_name: Gezin
