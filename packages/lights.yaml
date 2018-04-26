@@ -26,6 +26,9 @@ homeassistant:
       friendly_name: Bedlamp Miranda
     light.ceilinglight_master_bedroom:
       friendly_name: Plafondlamp Master bedroom    
+    input_boolean.lights_off_away:
+      friendly_name: Verlichting uit als iedereen weg is
+      icon: mdi:lightbulb
 
 ######################################################
 ## Components
@@ -60,7 +63,8 @@ light:
 ## Boolean
 ######################################################
 input_boolean:
-
+  lights_off_away:
+    initial: on
 ######################################################
 ## Groups
 ######################################################

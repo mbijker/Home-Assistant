@@ -14,11 +14,9 @@ homeassistant:
     group.notify:
       friendly_name: Meldingen
       control: hidden
-    input_boolean.lights_off_away:
-      friendly_name: Verlichting uit als iedereen weg is
-      icon: mdi:lightbulb
     input_boolean.notify_diskuse:
       friendly_name: Melding wanneer opslag bijna vol is
+      icon: mdi:bell
     input_boolean.notify_everyone_away:
       friendly_name: Melding als iedereen weg is
       icon: mdi:bell
@@ -27,7 +25,14 @@ homeassistant:
       icon: mdi:bell
     input_boolean.notify_iss:
       friendly_name: Melding wanneer ISS zichtbaar is
-   
+      icon: mdi:bell
+    input_boolean.notify_offline_device:
+      friendly_name: Melding wanneer netwerk apparatuur wegvalt
+      icon: mdi:bell
+    input_boolean.notify_me:
+      friendly_name: Melding naar mij
+      icon: mdi:bell
+
 ######################################################
 ## Components
 ######################################################
@@ -36,8 +41,6 @@ homeassistant:
 ## Boolean
 ######################################################
 input_boolean:
-  lights_off_away:
-    initial: on
   notify_diskuse:
     initial: on
   notify_everyone_away:
@@ -48,18 +51,20 @@ input_boolean:
     initial: on
   notify_iss:
     initial: on
+  notify_me:
+    initial: on
 ######################################################
 ## Groups
 ######################################################
 group:
   notify:
     entities:
-      - input_boolean.lights_off_away
       - input_boolean.notify_diskuse
       - input_boolean.notify_everyone_away
       - input_boolean.notify_iss
       - input_boolean.notify_motion
       - input_boolean.notify_offline_device
+      - input_boolean.notify_me
 
 ######################################################
 ## Automations

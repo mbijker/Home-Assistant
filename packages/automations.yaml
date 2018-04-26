@@ -1,7 +1,7 @@
 ######################################################
 # @author       :   Mark Bijker
-# @package      :   Groups
-# @description  :   Manage view groups
+# @package      :   automations
+# @description  :   Switches for automations
 ######################################################
 
 
@@ -9,10 +9,13 @@
 ## Base and customisations
 ######################################################
 homeassistant:
+  
   customize:
-    group.default_view:
-      icon: mdi:home
+    group.automations:
+      friendly_name: Automatiseringen
+      control: hidden
     
+
 ######################################################
 ## Components
 ######################################################
@@ -26,24 +29,11 @@ input_boolean:
 ## Groups
 ######################################################
 group:
-  default_view:
-    view: yes
+  automations:
     entities:
-      - group.family
-      - group.lights_card
-      - group.network_devices
-      - group.remote_card
-      - group.cctv
-      - group.motion
-      - group.time
-      - group.humidity
-      - group.temperature
-      - group.battery
-      - group.performance
-      - group.iss
-      - group.weather
-      - group.notify
-      - group.automations
+      - input_boolean.guestmode
+      - input_boolean.lights_off_away
+      - input_boolean.remote_off_away
 
 ######################################################
 ## Automations
