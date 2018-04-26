@@ -12,7 +12,7 @@ homeassistant:
   customize:
     group.weather:
       friendly_name: Weer
-    sensor.dark_sky_daily_summary:
+    sensor.dark_sky_summary:
       friendly_name: Huidig weer
     sensor.dark_sky_daily_summary:
       friendly_name: Weer vandaag

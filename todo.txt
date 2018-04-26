@@ -3,4 +3,4 @@
 - add snapcast to default group
 - rename snapcast players
 - alle notify booleans naar aparte groep
-- iss automation maken
+- iss automation maken + bool
