@@ -3,7 +3,7 @@
 ######################################################
 homeassistant:
   customize:
-    group.home:
+    group.default_view:
       icon: mdi:home
 
 ######################################################
@@ -19,8 +19,7 @@ input_boolean:
 ## Groups                                           ##
 ######################################################
 group:
-  home:
-    name: home
+  default_view:
     view: yes
     entities:
       - group.family
