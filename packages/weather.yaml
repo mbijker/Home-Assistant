@@ -10,9 +10,36 @@
 homeassistant:
   
   customize:
-    sensor.daily_summary:
-      friendly_name: Samenvatting
-    
+    group.weather:
+      friendly_name: Weer
+    sensor.dark_sky_daily_summary:
+      friendly_name: Huidig weer
+    sensor.dark_sky_daily_summary:
+      friendly_name: Weer vandaag
+    sensor.dark_sky_temperature:
+      friendly_name: Temperatuur
+    sensor.dark_sky_apparent_temperature:
+      friendly_name: Gevoelstemperatuur
+    sensor.dark_sky_daily_low_temperature:
+      friendly_name: Minimum temperatuur
+    sensor.dark_sky_daily_high_temperature:
+      friendly_name: Maximum temperatuur
+    sensor.dark_sky_precip_probability:
+      friendly_name: Kans op neerslag
+    sensor.dark_sky_precip_intensity:
+      friendly_name: Hoeveelheid neerslag
+    sensor.dark_sky_wind_speed:
+      friendly_name: Windsnelheid
+    sensor.dark_sky_wind_bearing:
+      friendly_name: Windrichting
+    sensor.dark_sky_humidity:
+      friendly_name: Luchtvochtigheid
+    sensor.dark_sky_pressure:
+      friendly_name: Luchtdruk
+    sensor.dark_sky_cloud_coverage:
+      friendly_name: Wolkendek
+    sensor.dark_sky_visibility:
+      friendly_name: Zicht
 
 ######################################################
 ## Components
@@ -36,7 +63,6 @@ sensor:
     - apparent_temperature
     - cloud_cover
     - visibility
-    - hourly_summary
     - daily_summary
     - temperature_max
     - temperature_min
@@ -52,23 +78,22 @@ input_boolean:
 group:
   weather:
     entities:
-      - sensor.dark_sky_apparent_temperature
-      - sensor.dark_sky_cloud_coverage
-      - sensor.dark_sky_daily_high_temperature
-      - sensor.dark_sky_daily_low_temperature
-      - sensor.dark_sky_daily_summary
-      - sensor.dark_sky_hourly_summary 
-      - sensor.dark_sky_humidity
-      - sensor.dark_sky_icon
-      - sensor.dark_sky_nearest_storm_distance
-      - sensor.dark_sky_precip_intensity
-      - sensor.dark_sky_precip_probability
-      - sensor.dark_sky_pressure
       - sensor.dark_sky_summary
+      - sensor.dark_sky_daily_summary
       - sensor.dark_sky_temperature
-      - sensor.dark_sky_visibility
-      - sensor.dark_sky_wind_bearing
+      - sensor.dark_sky_apparent_temperature
+      - sensor.dark_sky_daily_low_temperature
+      - sensor.dark_sky_daily_high_temperature
+      - sensor.dark_sky_precip_probability
+      - sensor.dark_sky_precip_intensity
       - sensor.dark_sky_wind_speed
+      - sensor.dark_sky_wind_bearing
+      - sensor.dark_sky_humidity
+      - sensor.dark_sky_pressure
+      - sensor.dark_sky_cloud_coverage
+#      - sensor.dark_sky_icon
+#      - sensor.dark_sky_nearest_storm_distance
+      - sensor.dark_sky_visibility
       
 ######################################################
 ## Automations

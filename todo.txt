@@ -1,9 +1,6 @@
-- Optimize Darksky entities and add weather to default group
 - Write scripts
 - Write automations
-- Add picture to group Miranda
-- update template in each package
-- add snapcast co default group
+- add snapcast to default group
 - rename snapcast players
 - alle notify booleans naar aparte groep
 - iss automation maken
