@@ -1,5 +1,11 @@
 ######################################################
-## Base and customisations                          ##
+# @author       :   Mark Bijker
+# @package      :   Battery
+# @description  :   Track battery status
+######################################################
+
+######################################################
+## Base and customisations
 ######################################################
 homeassistant:
   
@@ -11,7 +17,7 @@ homeassistant:
       icon: mdi:android    
 
 ######################################################
-## Components                                       ##
+## Components
 ######################################################
 sensor:
   - platform: template
@@ -20,12 +26,12 @@ sensor:
         value_template: '{{ states.device_tracker.mbijker_s7mark.attributes.battery }}'
 
 ######################################################
-## Boolean                                          ##
+## Boolean
 ######################################################
 input_boolean:
 
 ######################################################
-## Groups                                           ##
+## Groups
 ######################################################
 group:
   battery:
@@ -33,6 +39,6 @@ group:
       - sensor.battery_mark
 
 ######################################################
-## Automations                                      ##
+## Automations
 ######################################################
 automation:

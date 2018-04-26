@@ -1,9 +1,13 @@
-####################################
-##                                ##
-## Lights                         ##
-##                                ##
-####################################
+######################################################
+# @author       :   Mark Bijker
+# @package      :   Lights
+# @description  :   All lights
+######################################################
 
+
+######################################################
+## Base and customisations
+######################################################
 homeassistant:
   customize:
     group.lights_card:
@@ -24,20 +28,11 @@ homeassistant:
       friendly_name: Plafondlamp Master bedroom
     input_boolean.lights_off_away:
       friendly_name: Verlichting uit als iedereen weg is
+    
 
-group:
-  lights_card:
-    name: Verlichting
-    control: hidden
-    entities:
-      - light.bedlamp
-      - light.bedlight_mark
-      - light.bedlight_miranda
-      - light.ceilinglight_master_bedroom
-      - light.lights_shed
-      - light.plafondlamp
-      - input_boolean.lights_off_away
-
+######################################################
+## Components
+######################################################
 light:
   - platform: mqtt
     name: "lights shed"
@@ -64,12 +59,34 @@ light:
     payload_on: "ON"
     payload_off: "OFF"
 
+######################################################
+## Boolean
+######################################################
 input_boolean:
   lights_off_away:
     name: 'lights off nobody home'
     initial: on
     icon: mdi:lightbulb
 
+######################################################
+## Groups
+######################################################
+group:
+  lights_card:
+    name: Verlichting
+    control: hidden
+    entities:
+      - light.bedlamp
+      - light.bedlight_mark
+      - light.bedlight_miranda
+      - light.ceilinglight_master_bedroom
+      - light.lights_shed
+      - light.plafondlamp
+      - input_boolean.lights_off_away
+
+######################################################
+## Automations
+######################################################
 automation:
   - alias: bedlight on
     trigger:

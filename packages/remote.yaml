@@ -1,3 +1,13 @@
+######################################################
+# @author       :   Mark Bijker
+# @package      :   Remote
+# @description  :   Remote control
+######################################################
+
+
+######################################################
+## Base and customisations
+######################################################
 homeassistant:
   customize:
     group.remote_card:
@@ -23,22 +33,11 @@ homeassistant:
       icon: mdi:wii
     input_boolean.remote_off_away:
       friendly_name: Alles uit wanneer afwezig
-      icon: mdi:remote
+      icon: mdi:remote    
 
-
-group:
-  remote_card:
-    control: hidden
-    entities:
-      - switch.off
-      - switch.watch_tv
-      - switch.watch_chromecast
-      - switch.listen_radio
-      - switch.play_playstation
-      - switch.play_wii
-      - input_boolean.remote_off_away
-
-
+######################################################
+## Components
+######################################################
 switch:
   - platform: mqtt
     name: "Watch tv"
@@ -77,7 +76,29 @@ switch:
     payload_on: "on"
     payload_off: "off"
 
+######################################################
+## Boolean
+######################################################
 input_boolean:
   remote_off_away:
     name: 'media off nobody home'
     initial: on
+######################################################
+## Groups
+######################################################
+group:
+  remote_card:
+    control: hidden
+    entities:
+      - switch.off
+      - switch.watch_tv
+      - switch.watch_chromecast
+      - switch.listen_radio
+      - switch.play_playstation
+      - switch.play_wii
+      - input_boolean.remote_off_away
+
+######################################################
+## Automations
+######################################################
+automation:

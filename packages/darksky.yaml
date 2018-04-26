@@ -1,6 +1,20 @@
-homeassistant:
-  customize:
+######################################################
+# @author       :   Mark Bijker
+# @package      :   darksky
+# @description  :   Darksky weather
+######################################################
 
+######################################################
+## Base and customisations
+######################################################
+homeassistant:
+  
+  customize:
+    
+
+######################################################
+## Components
+######################################################
 sensor:
   platform: darksky
   api_key: !secret dark_sky_api
@@ -25,8 +39,14 @@ sensor:
     - temperature_max
     - temperature_min
 
+######################################################
+## Boolean
+######################################################
+input_boolean:
 
-
+######################################################
+## Groups
+######################################################
 group:
   weather:
     entities:
@@ -47,3 +67,8 @@ group:
       - sensor.dark_sky_visibility
       - sensor.dark_sky_wind_bearing
       - sensor.dark_sky_wind_speed
+      
+######################################################
+## Automations
+######################################################
+automation:

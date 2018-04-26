@@ -1,5 +1,12 @@
 ######################################################
-## Base and customisations                          ##
+# @author       :   Mark Bijker
+# @package      :   Motion
+# @description  :   All motion sensors
+######################################################
+
+
+######################################################
+## Base and customisations
 ######################################################
 homeassistant:
   
@@ -13,9 +20,10 @@ homeassistant:
       icon: mdi:bell
     binary_sensor.motion_shed:
       friendly_name: Bewegingsmelder schuur
+    
 
 ######################################################
-## Components                                       ##
+## Components
 ######################################################
 binary_sensor:
   
@@ -25,7 +33,7 @@ binary_sensor:
     device_class: motion
 
 ######################################################
-## Boolean                                          ##
+## Boolean
 ######################################################
 input_boolean:
   
@@ -34,7 +42,7 @@ input_boolean:
     name: Notify on motion when away
 
 ######################################################
-## Groups                                           ##
+## Groups
 ######################################################
 group:
 
@@ -44,7 +52,7 @@ group:
       - input_boolean.notify_motion
 
 ######################################################
-## Automations                                      ##
+## Automations
 ######################################################
 automation:
   

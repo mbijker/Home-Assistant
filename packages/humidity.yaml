@@ -1,3 +1,13 @@
+######################################################
+# @author       :   Mark Bijker
+# @package      :   Humity
+# @description  :   All humidity sensors
+######################################################
+
+
+######################################################
+## Base and customisations
+######################################################
 homeassistant:
   customize:
     group.humidity:
@@ -6,13 +16,28 @@ homeassistant:
       friendly_name: Schuur
       icon: mdi:water-percent
 
-
+######################################################
+## Components
+######################################################
 sensor:
   - platform: mqtt
     state_topic: "homeassistant/sensor/schuur/humidity"
     unit_of_measurement: "%"
     name: humidity_shed
 
+######################################################
+## Boolean
+######################################################
+input_boolean:
+
+######################################################
+## Groups
+######################################################
 group:
   humidity:
     entities: sensor.humidity_shed
+
+######################################################
+## Automations
+######################################################
+automation:

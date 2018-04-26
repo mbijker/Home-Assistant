@@ -1,5 +1,12 @@
 ######################################################
-## Base and customisations                          ##
+# @author       :   Mark Bijker
+# @package      :   ISS
+# @description  :   International Space Station
+######################################################
+
+
+######################################################
+## Base and customisations
 ######################################################
 homeassistant:
   
@@ -10,26 +17,27 @@ homeassistant:
       friendly_name: ISS boven huis
     camera.iss:
       friendly_name: Locatie ISS
+    
 
 ######################################################
-## Components                                       ##
+## Components
 ######################################################
 binary_sensor:
   - platform: iss
 
-# Example configuration.yaml entry
 camera:
   - platform: generic
     name: ISS
     still_image_url: https://maps.googleapis.com/maps/api/staticmap?center={{ states.binary_sensor.iss.attributes.lat }},{{ states.binary_sensor.iss.attributes.long }}&zoom=5&size=500x500&maptype=roadmap&markers=color:blue%7Clabel:P%7C{{ states.binary_sensor.iss.attributes.lat }},{{ states.binary_sensor.iss.attributes.long }}
     limit_refetch_to_url_change: true
+
 ######################################################
-## Boolean                                          ##
+## Boolean
 ######################################################
 input_boolean:
 
 ######################################################
-## Groups                                           ##
+## Groups
 ######################################################
 group:
   iss:
@@ -37,8 +45,7 @@ group:
       - binary_sensor.iss
       - camera.iss
 
-
 ######################################################
-## Automations                                      ##
+## Automations
 ######################################################
 automation:

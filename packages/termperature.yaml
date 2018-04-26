@@ -1,3 +1,13 @@
+######################################################
+# @author       :   Mark Bijker
+# @package      :   Termperature
+# @description  :   All temperature sensors
+######################################################
+
+
+######################################################
+## Base and customisations
+######################################################
 homeassistant:
   customize:
     group.temperature:
@@ -6,13 +16,29 @@ homeassistant:
       friendly_name: Schuur
       icon: mdi:thermometer
 
+######################################################
+## Components
+######################################################
 sensor:
   - platform: mqtt
     state_topic: "homeassistant/sensor/schuur/temperature"
     unit_of_measurement: "°C"
     name: temperature_shed
 
+######################################################
+## Boolean
+######################################################
+input_boolean:
+
+######################################################
+## Groups
+######################################################
 group:
   temperature:
     entities:
       - sensor.temperature_shed
+
+######################################################
+## Automations
+######################################################
+automation:

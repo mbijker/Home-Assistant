@@ -3,3 +3,7 @@
 - Write automations
 - Add picture to group Miranda
 - update template in each package
+- add snapcast co default group
+- rename snapcast players
+- alle notify booleans naar aparte groep
+- iss automation maken

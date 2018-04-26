@@ -1,5 +1,12 @@
+############################################################
+# @author       :   Mark Bijker
+# @package      :   Performance
+# @description  :   Track performance of server and network
+############################################################
+
+
 ######################################################
-## Base and customisations                          ##
+## Base and customisations
 ######################################################
 homeassistant:
   
@@ -21,12 +28,10 @@ homeassistant:
     sensor.processor_use:
       friendly_name: Processor gebruik
     input_boolean.notify_diskuse:
-      friendly_name: Melding wanneer opslag bijna vol is
-
-    
+      friendly_name: Melding wanneer opslag bijna vol is    
 
 ######################################################
-## Components                                       ##
+## Components
 ######################################################
 sensor:
   - platform: speedtest
@@ -50,14 +55,16 @@ sensor:
         arg: eth0
       - type: network_out
         arg: eth0
+
 ######################################################
-## Boolean                                          ##
+## Boolean
 ######################################################
 input_boolean:
   notify_diskuse:
     initial: off
+
 ######################################################
-## Groups                                           ##
+## Groups
 ######################################################
 group:
   performance:
@@ -73,7 +80,8 @@ group:
       - sensor.network_out_eth0
       - sensor.last_boot
       - input_boolean.notify_diskuse
+
 ######################################################
-## Automations                                      ##
+## Automations
 ######################################################
 automation:

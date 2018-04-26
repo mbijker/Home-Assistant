@@ -1,3 +1,13 @@
+######################################################
+# @author       :   Mark Bijker
+# @package      :   Device tracking
+# @description  :   Track all devices
+######################################################
+
+
+######################################################
+## Base and customisations
+######################################################
 homeassistant:
   customize:
     group.miranda:
@@ -69,15 +79,10 @@ homeassistant:
     input_boolean.guestmode:
       friendly_name: Gastmodus
       icon: mdi:account
-
-input_boolean:
-  notify_everyone_away:
-    initial: on
-  notify_offline_device:
-    initial: on
-  guestmode:
-    initial: off
-
+    
+######################################################
+## Components
+######################################################
 device_tracker:
   - platform: asuswrt
     host: !secret ip_router
@@ -87,6 +92,20 @@ device_tracker:
     mqtt_topic: owntracks/#
     waypoints: True
 
+######################################################
+## Boolean
+######################################################
+input_boolean:
+  notify_everyone_away:
+    initial: on
+  notify_offline_device:
+    initial: on
+  guestmode:
+    initial: off
+
+######################################################
+## Groups
+######################################################
 group:
   
   miranda:
@@ -121,7 +140,10 @@ group:
       - device_tracker.thuis
       - input_boolean.notify_offline_device
 
-#automation:
+######################################################
+## Automations
+######################################################
+automation:
 #  - alias: miranda thuis
 #    trigger:
 #      platform: state
