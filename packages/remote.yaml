@@ -96,7 +96,6 @@ group:
       - switch.listen_radio
       - switch.play_playstation
       - switch.play_wii
-      - input_boolean.remote_off_away
 
 ######################################################
 ## Automations

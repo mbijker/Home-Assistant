@@ -70,12 +70,6 @@ homeassistant:
     device_tracker.thuis:
       friendly_name: Hue bridge
       icon: mdi:switch
-    input_boolean.notify_everyone_away:
-      friendly_name: Melding als iedereen weg is
-      icon: mdi:bell
-    input_boolean.notify_offline_device:
-      friendly_name: Melding als netwerk apparaat wegvalt
-      icon: mdi:bell
     input_boolean.guestmode:
       friendly_name: Gastmodus
       icon: mdi:account
@@ -96,10 +90,6 @@ device_tracker:
 ## Boolean
 ######################################################
 input_boolean:
-  notify_everyone_away:
-    initial: on
-  notify_offline_device:
-    initial: on
   guestmode:
     initial: off
 
@@ -138,7 +128,6 @@ group:
       - device_tracker.sonoff0614
       - device_tracker.switch
       - device_tracker.thuis
-      - input_boolean.notify_offline_device
 
 ######################################################
 ## Automations

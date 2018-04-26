@@ -42,6 +42,7 @@ group:
       - group.performance
       - group.iss
       - group.weather
+      - group.notify
 
 ######################################################
 ## Automations
