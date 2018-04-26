@@ -34,6 +34,7 @@ group:
       - group.temperature
       - group.battery
       - group.performance
+      - group.iss
 
 ######################################################
 ## Automations                                      ##

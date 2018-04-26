@@ -11,13 +11,15 @@
 homeassistant:
   
   customize:
-    
+    switch.alarm_shed:
+      friendly_name: Alarm schuur
 
 ######################################################
 ## Components
 ######################################################
 switch:
   - platform: mqtt
+    name: alarm_shed
     state_topic:   "homeassistant/sensor/schuur/alarm"
     command_topic: "homeassistant/sensor/schuur/alarm"
     payload_on: "ON"

@@ -4,7 +4,12 @@
 homeassistant:
   
   customize:
-    
+    group.iss:
+      friendly_name: International Space Station
+    binary_sensor.iss:
+      friendly_name: ISS boven huis
+    camera.iss:
+      friendly_name: Locatie ISS
 
 ######################################################
 ## Components                                       ##
@@ -27,6 +32,11 @@ input_boolean:
 ## Groups                                           ##
 ######################################################
 group:
+  iss:
+    entities:
+      - binary_sensor.iss
+      - camera.iss
+
 
 ######################################################
 ## Automations                                      ##

@@ -1,4 +1,5 @@
-- Optimize Darksky entities
+- Optimize Darksky entities and add weather to default group
 - Write scripts
 - Write automations
 - Add picture to group Miranda
+- update template in each package
