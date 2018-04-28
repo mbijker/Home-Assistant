@@ -133,52 +133,26 @@ group:
 ## Automations
 ######################################################
 automation:
-#  - alias: miranda thuis
-#    trigger:
-#      platform: state
-#      entity_id: group.miranda
-#      to: 'home'
+  ## Notify when somebody comes home and greet them when the bool to great is on
+  - alias: "Somebody is home"
+    trigger:
+      platform: state
+      entity_id:
+        - group.miranda
+        - device_tracker.mbijker_s7mark
+      to: 'home'
 #      for:
-#        minutes: 2
-#    action:
-#      service: notify.telegram
-#      data:
-#        message: Miranda is thuis
-
-#  - alias: notify when everyone is away
-#    trigger:
-#      platform: state
-#      entity_id: group.family
-#      to: 'not_home'
-#      for:
-#        minutes: 1
-#    condition:
-#      - condition: state
-#        entity_id: input_boolean.notify_everyone_away
-#        state: on
-#    action:
-#      - service: notify.telegram
-#        data:
-#          message: Niemand thuis
-#
-#  - alias: lights off when everyone is away
-#    trigger:
-#      platform: state
-#      entity_id: group.family
-#      to: 'not_home'
-#      for:
-#        minutes: 1
-#    condition:
-#      condition: and
-#      conditions:
-#        - condition: state
-#          entity_id: input_boolean.lights_off_away
-#          state: on
-#        - condition: state
-#          entity_id: group.lights_card
-#          state: on
-#    action:
-#      - service: notify.telegram
-#        data:
-#          message: Verlichting uitgedaan.
-#      - service: light.turn_off
+#        minuts: 2
+    condition:
+      - condition: state
+        entity_id: input_boolean.notify_coming_home
+        state: 'on'
+    action:  
+      - service: tts.google_say
+        entity_id: media_player.mpd
+        data_template:
+          message: "Kijk eens! {{ trigger.friendly_name }} is thuis"
+          language: "nl"
+      - service: script.notify_me
+        data_template:
+          message: "{{ trigger.friendly_name }} is thuis"
