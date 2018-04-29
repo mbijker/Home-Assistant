@@ -44,7 +44,7 @@ group:
       - group.weather
       - group.notify
       - group.automations
-
+      - group.media_players
 ######################################################
 ## Automations
 ######################################################

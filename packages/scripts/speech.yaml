@@ -1,0 +1,82 @@
+#####################################################
+# @author       :   Mark Bijker
+# @package      :	  speech   
+# @description  :   All speech scripts
+######################################################
+
+
+######################################################
+## Boolean
+######################################################
+input_boolean:
+
+######################################################
+## Scripts
+######################################################
+script:
+  speech_main_logic:
+    sequence:
+      service_template: >-
+        {% if is_state("media_player.mpd", "playing") %}
+          {% set run_script = 'script.speech_was_playing' %}
+        {% else %}
+          {% set run_script = 'script.speech_was_not_playing' %}
+        {% endif %}
+        {{run_script}}
+      data_template:
+        message: "{{ message }}"
+  speech_was_playing:
+    sequence:
+      - service: media_player.media_mute
+        entity_id: media_player.mpd
+        #is_volume_muted: true
+      - service: tts.google_say
+        entity_id: media_player.gstreamer
+        data_template: 
+          message: "{{ message }}"
+          language: nl
+      - service: media_player.media_mute
+        #data:
+        #  is_volume_muted: false
+        entity_id: media_player.mpd
+  speech_was_not_playing:
+    sequence:
+      - service: tts.google_say
+        entity_id: media_player.gstreamer
+        data_template: 
+          message: "{{ message }}"
+          language: nl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#script:
+#  speech:
+#    sequence:
+#      {% if is_state("media_player.mpd", "playing") %}
+#        {% set was_playing = true %}
+#      - service: media_player.media_pause
+#        entity_id: media_player.mpd
+#      {% else %}
+#        {% set was_playing = false %}
+#      {% endif %}
+#      - service: tts.google_say
+#        entity_id:
+#          - media_player.gstreamer
+#        data_template: 
+#          message: "{{ message }}"
+#          language: nl
+##      {% if was_playing = true %}
+#      - service: media_player.media_play
+#        entity_id: media_player.mpd
+##      {% endif %}#

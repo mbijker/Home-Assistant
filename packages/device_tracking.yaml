@@ -11,7 +11,7 @@
 homeassistant:
   customize:
     group.miranda:
-      friendly_name: Telefoon Miranda
+      friendly_name: Miranda
       entity_picture: /local/miranda.jpg
     group.family:
       order: 1
@@ -47,7 +47,7 @@ homeassistant:
       friendly_name: Laptop Mark
       icon: mdi:laptop
     device_tracker.mbijker_s7mark:
-      friendly_name: Telefoon Mark (owntracks)
+      friendly_name: Mark
     device_tracker.miran000siphone:
       friendly_name: Telefoon Miranda
     device_tracker.plafondlamp_slaapkamer6134_2:
@@ -147,12 +147,24 @@ automation:
       - condition: state
         entity_id: input_boolean.notify_coming_home
         state: 'on'
-    action:  
-      - service: tts.google_say
-        entity_id: media_player.mpd
-        data_template:
-          message: "Kijk eens! {{ trigger.friendly_name }} is thuis"
-          language: "nl"
+    action:
       - service: script.notify_me
         data_template:
-          message: "{{ trigger.friendly_name }} is thuis"
+          message: "{{ trigger.to_state.attributes.friendly_name }} is thuis"
+      - service: script.speech_main_logic
+        data_template:
+          message: >
+            {% set person = trigger.to_state.attributes.friendly_name%}
+            {%- macro greeting_sentence(person) -%}
+            {{ [
+            "Welkom thuis " ~ person,
+            "Raad eens wie er thuis is?? Het is " ~ person,
+            person + " is in the house.",
+            "Welkom thuis " ~ person + ".  We hebben je gemist. De katten in ieder geval wel.",
+            "Hey hoi " ~ person + ". Welkom thuis!",
+            "Klop klop. Wie is daar? Het is " ~ person,
+            person ~ "! Je bent thuis!",
+            "Ik weet een geheimpje! "  ~ person +" is thuis!"
+            ] | random }}
+            {%- endmacro -%}
+            {{greeting_sentence(person)}}

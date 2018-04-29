@@ -21,9 +21,11 @@ homeassistant:
 media_player:
   - platform: snapcast
     host: 192.168.1.2
+  - platform: gstreamer
+    name: gstreamer
+    pipeline: "audioresample ! audioconvert ! audio/x-raw,rate=48000,channels=2,format=S16LE ! wavenc ! filesink location=/tmp/snapfifo"
   - platform: mpd
     host: 192.168.1.2
-
 ######################################################
 ## Boolean
 ######################################################
@@ -36,6 +38,7 @@ group:
   media_players:
     entities:
       - media_player.mpd
+      - media_player.gstreamer
 
 ######################################################
 ## Automations
