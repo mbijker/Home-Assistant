@@ -89,11 +89,9 @@ automation:
       entity_id: input_boolean.notify_diskuse
       state: 'on'
   action:  
-    - service: tts.google_say
-      entity_id: media_player.mpd
+    - service: script.speech_main_logic
       data_template:
         message: "Opslagruimte van server is bijna vol. Er is nog {{ states.sensor.disk_free_.state }} gigabye beschikbaar. Er is {{ states.sensor.disk_use_.state }} gigabyte in gebruik."
-        language: "nl"
     - service: script.notify_me
       data_template:
         message: "Opslagruimte van server is bijna vol. Er is nog: {{ states.sensor.disk_free_.state }} gigabyte beschikbaar. Er is {{ states.sensor.disk_use_.state }} gigabyte in gebruik."

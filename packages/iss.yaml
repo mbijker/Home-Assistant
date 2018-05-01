@@ -50,3 +50,16 @@ group:
 ## Automations
 ######################################################
 automation:
+  - alias: ISS above us
+    trigger:
+      platform: state
+      entity_id: binary_sensor.iss
+      to: 'on'
+#    condition:
+#      - condition: state
+#        entity_id: input_boolean.notify_iss
+#        state: 'on'
+    action:  
+      - service: script.speech_main_logic
+        data_template:
+          message: Er vliegt iets bijzonders boven ons hoofd. Het is het internationale ruimte station. Er zijn op dit moment {{ trigger.to_state.attributes.number_of_people_in_space }} personen in het station.
