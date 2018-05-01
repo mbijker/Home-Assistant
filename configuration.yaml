@@ -64,11 +64,7 @@ mqtt:
 duckdns:
   domain: !secret duckdns_domain
   access_token: !secret duckdns_token
-
-tts:
-  - platform: google
-    cache: false
-       
+     
 telegram_bot:
   - platform: polling
     api_key: !secret telegram_api_key

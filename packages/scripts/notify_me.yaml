@@ -1,3 +1,8 @@
+#####################################################
+# @author       :   Mark Bijker
+# @package      :   notify script
+# @description  :   Notify me through the channels
+######################################################
 script:
   notify_me:
     sequence:
