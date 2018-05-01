@@ -24,6 +24,8 @@ homeassistant:
 ## Boolean
 ######################################################
 input_boolean:
+  all_off_away:
+    initial: on
 
 ######################################################
 ## Groups
@@ -32,9 +34,8 @@ group:
   automations:
     entities:
       - input_boolean.guestmode
-      - input_boolean.lights_off_away
-      - input_boolean.remote_off_away
-
+      - input_boolean.all_off_away
+ 
 ######################################################
 ## Automations
 ######################################################

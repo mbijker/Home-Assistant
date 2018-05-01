@@ -144,9 +144,6 @@ automation:
         entity_id: input_boolean.notify_coming_home
         state: 'on'
     action:
-#      - service: script.notify_me
-#        data_template:
-#          message: "{{ trigger.to_state.attributes.friendly_name }} is thuis"
       - service: script.speech_main_logic
         data_template:
           message: >
@@ -165,3 +162,20 @@ automation:
             ] | random }}
             {%- endmacro -%}
             {{greeting_sentence(person)}}
+  ## Run away script when everybody is away and the boolean guestmode is off.
+  - alias: "Everybody away"
+    trigger:
+      platform: state
+      entity_id: group.family
+      to: 'not_home'
+#      for:
+#        minutes: 2
+    condition:
+      - condition: state
+        entity_id: 'input_boolean.guestmode'
+        state: 'off'
+      - condition: state
+        entity_id: 'input_boolean.all_off_away'
+        state: 'on'
+    action:
+      - service: script.everything_off_when_away
