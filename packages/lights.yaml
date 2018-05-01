@@ -91,7 +91,23 @@ automation:
     action:
       service: light.turn_on
       entity_id: light.bedlamp
-
+      data_template:
+        color_name: >
+          {% if states.sensor.time.state < '06:00' %}
+            {% if states.sensor.time.state > '00:00' %}
+              red
+            {% endif %}
+          {% else %}
+            orange
+          {% endif %}
+        brightness: >
+          {% if states.sensor.time.state < '06:00' %}
+            {% if states.sensor.time.state > '00:00' %}
+              150
+            {% endif %}
+          {% else %}
+            255
+          {% endif %}
   - alias: bedlight off
     trigger:
       platform: state
@@ -100,5 +116,4 @@ automation:
     action:
       service: light.turn_off
       entity_id: light.bedlamp
-#      data: 
-#       - transition: 30
+#      transition: 30

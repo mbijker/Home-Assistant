@@ -101,3 +101,11 @@ group:
 ## Automations
 ######################################################
 automation:
+  - alias: "Media player off when TV is on"
+    trigger:
+      platform: state
+      entity_id: switch.off
+      to: 'off'
+    action:
+      service: media_player.turn_off
+      entity_id: media_player.mpd
