@@ -137,8 +137,8 @@ automation:
         - group.miranda
         - device_tracker.mbijker_s7mark
       to: 'home'
-#      for:
-#        minuts: 2
+      for:
+        minutes: 2
     condition:
       - condition: state
         entity_id: input_boolean.notify_coming_home
