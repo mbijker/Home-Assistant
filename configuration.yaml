@@ -38,7 +38,7 @@ history:
 logbook:
 map:
 sun:
-cloud:
+#cloud:
 
 ####################################
 ##                                ##
@@ -46,10 +46,14 @@ cloud:
 ##                                ##
 ####################################
 panel_iframe:
- nodered:
-   title: 'Node-Red'
-   icon: 'mdi:shuffle-variant'
-   url: !secret nodered_url
+# nodered:
+#   title: 'Node-Red'
+#   icon: 'mdi:shuffle-variant'
+#   url: !secret nodered_url
+  dashboard:
+    title: 'HA Dashboard'
+    url: !secret dash_url
+    icon: 'mdi:view-dashboard'
 
 ####################################
 ##                                ##
@@ -76,7 +80,12 @@ notify:
     platform: telegram
     api_key: !secret telegram_api_key
     chat_id: !secret telegram_chatid 
-    
+
+sensor: 
+  - platform: waze_travel_time 
+    origin: Bunnemaheerd 132 Groningen 
+    destination: Griendtsveenweg 18 Hoogeveen
+    region: 'EU'    
 ####################################
 ##                                ##
 ## Includes                       ##

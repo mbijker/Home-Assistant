@@ -1,10 +1,10 @@
 #
 # Main arguments, all optional
 #
-title: Dashboard
+title: Slaapkamer
 widget_dimensions: [122, 120]
 widget_margins: [5, 5]
-columns: 8
+columns: 3
 #
 # Layout
 #    

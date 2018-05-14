@@ -1,0 +1,976 @@
+2018-05-06 09:20:05.835340 INFO AppDaemon Version 3.0.1 starting
+2018-05-06 09:20:05.836178 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-05-06 09:20:05.839443 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-05-06 09:20:05.841704 INFO AppDaemon: Starting Apps
+2018-05-06 09:20:05.843254 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-05-06 09:20:05.845463 WARNING appdir: /home/homeassistant/.homeassistant/apps does not exist exist
+2018-05-06 09:20:05.853308 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-05-06 09:20:05.915740 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-05-06 09:20:05.916800 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-05-06 09:20:05.917746 INFO Dashboards are disabled
+2018-05-06 09:20:05.918187 INFO API is disabled
+2018-05-06 09:20:05.936345 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-06 09:20:06.006522 INFO AppDaemon: Got initial state from namespace default
+2018-05-06 09:20:08.179281 INFO AppDaemon: App initialization complete
+2018-05-06 09:22:51.681273 INFO SIGTERM Recieved
+2018-05-06 09:22:51.693066 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-05-06 09:22:51.847632 INFO AppDeamon Exited
+2018-05-06 09:22:54.928477 INFO AppDaemon Version 3.0.1 starting
+2018-05-06 09:22:54.929262 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-05-06 09:22:54.933281 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-05-06 09:22:54.935920 INFO AppDaemon: Starting Apps
+2018-05-06 09:22:54.937760 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-05-06 09:22:54.940290 WARNING appdir: /home/homeassistant/.homeassistant/apps does not exist exist
+2018-05-06 09:22:54.946568 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-05-06 09:22:54.989192 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-05-06 09:22:54.990749 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-05-06 09:22:54.992544 INFO Dashboards are disabled
+2018-05-06 09:22:54.993219 INFO API is disabled
+2018-05-06 09:22:55.014583 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-06 09:22:55.090483 INFO AppDaemon: Got initial state from namespace default
+2018-05-06 09:22:57.193327 INFO AppDaemon: App initialization complete
+2018-05-06 09:23:41.152945 INFO SIGTERM Recieved
+2018-05-06 09:23:41.160502 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-05-06 09:23:41.374324 INFO AppDeamon Exited
+2018-05-06 09:23:44.380718 INFO AppDaemon Version 3.0.1 starting
+2018-05-06 09:23:44.381473 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-05-06 09:23:44.385406 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-05-06 09:23:44.388332 INFO AppDaemon: Starting Apps
+2018-05-06 09:23:44.390445 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-05-06 09:23:44.400231 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-05-06 09:23:44.444027 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-05-06 09:23:44.445485 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-05-06 09:23:44.446785 INFO Dashboards are disabled
+2018-05-06 09:23:44.447450 INFO API is disabled
+2018-05-06 09:23:44.465328 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-06 09:23:44.532819 INFO AppDaemon: Got initial state from namespace default
+2018-05-06 09:23:46.641958 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-05-06 09:23:46.642838 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-05-06 09:23:46.645266 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-05-06 09:23:46.654392 INFO AppDaemon: App initialization complete
+2018-05-06 09:25:09.483409 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:25:14.488679 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:25:19.493685 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:25:24.497330 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:25:29.501328 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:25:34.505135 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:25:39.538786 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-06 09:25:39.720104 INFO AppDaemon: Processing restart for HASS
+2018-05-06 09:27:48.793015 INFO SIGTERM Recieved
+2018-05-06 09:27:48.805184 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-05-06 09:27:48.978542 INFO AppDaemon: Removing module /home/homeassistant/.homeassistant/appdaemon/hello.py
+2018-05-06 09:27:48.980272 INFO AppDeamon Exited
+2018-05-06 09:27:52.074591 INFO AppDaemon Version 3.0.1 starting
+2018-05-06 09:27:52.075459 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-05-06 09:27:52.079381 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-05-06 09:27:52.082045 INFO AppDaemon: Starting Apps
+2018-05-06 09:27:52.083815 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-05-06 09:27:52.094735 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-05-06 09:27:52.143308 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-05-06 09:27:52.144651 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-05-06 09:27:52.145839 INFO Starting Dashboards
+2018-05-06 09:27:52.151295 WARNING css: /home exists, but is not writeable, owner: root
+2018-05-06 09:27:52.154822 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-05-06 09:27:52.173910 INFO API is disabled
+2018-05-06 09:27:52.192412 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-06 09:27:52.255429 INFO AppDaemon: Got initial state from namespace default
+2018-05-06 09:27:54.395080 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-05-06 09:27:54.395981 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-05-06 09:27:54.398158 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-05-06 09:27:54.400394 INFO AppDaemon: App initialization complete
+2018-05-06 09:29:04.847039 INFO Compiling dashboard 'home'
+2018-05-06 09:29:07.542108 INFO function [get_dashboard] finished in 2722 ms
+2018-05-06 09:29:08.274723 INFO HADashboard: New dashboard connected: Dashboard
+2018-05-06 09:32:37.273699 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:32:42.279798 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:32:47.285694 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:32:52.290224 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:32:57.295473 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:33:02.299363 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 09:33:07.326645 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-06 09:33:07.449607 INFO AppDaemon: Processing restart for HASS
+2018-05-06 09:35:51.845158 INFO Compiling dashboard 'home'
+2018-05-06 09:35:55.348644 INFO function [get_dashboard] finished in 3513 ms
+2018-05-06 09:35:58.760915 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:36:33.016958 INFO Compiling dashboard 'home'
+2018-05-06 09:36:34.007349 INFO Compiling dashboard 'home'
+2018-05-06 09:36:37.416116 INFO function [get_dashboard] finished in 4409 ms
+2018-05-06 09:36:38.120512 INFO function [get_dashboard] finished in 4422 ms
+2018-05-06 09:36:38.180776 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:36:41.022169 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:36:49.333231 INFO Compiling dashboard 'bedroom'
+2018-05-06 09:36:49.831833 WARNING Unable to find widget definition for 's'
+2018-05-06 09:36:49.832676 WARNING Unable to find widget definition for 'h'
+2018-05-06 09:36:49.833379 WARNING Unable to find widget definition for 'e'
+2018-05-06 09:36:49.834003 WARNING Unable to find widget definition for 'd'
+2018-05-06 09:36:49.834720 WARNING Unable to find widget definition for '_'
+2018-05-06 09:36:49.835352 WARNING Unable to find widget definition for 't'
+2018-05-06 09:36:49.835879 WARNING Duplicate widget name 'e' - ignored
+2018-05-06 09:36:49.836470 WARNING Unable to find widget definition for 'm'
+2018-05-06 09:36:49.837083 WARNING Unable to find widget definition for 'p'
+2018-05-06 09:36:49.837607 WARNING Duplicate widget name 'e' - ignored
+2018-05-06 09:36:49.838199 WARNING Unable to find widget definition for 'r'
+2018-05-06 09:36:49.838826 WARNING Unable to find widget definition for 'a'
+2018-05-06 09:36:49.839353 WARNING Duplicate widget name 't' - ignored
+2018-05-06 09:36:49.839947 WARNING Unable to find widget definition for 'u'
+2018-05-06 09:36:49.840473 WARNING Duplicate widget name 'r' - ignored
+2018-05-06 09:36:49.840963 WARNING Duplicate widget name 'e' - ignored
+2018-05-06 09:36:50.282804 INFO function [get_dashboard] finished in 959 ms
+2018-05-06 09:36:51.121113 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:37:40.030505 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:37:43.283816 INFO Compiling dashboard 'bedroom'
+2018-05-06 09:37:43.778231 WARNING Unable to find widget definition for 'c'
+2018-05-06 09:37:43.779063 WARNING Unable to find widget definition for 'l'
+2018-05-06 09:37:43.779706 WARNING Unable to find widget definition for 'o'
+2018-05-06 09:37:43.780234 WARNING Duplicate widget name 'c' - ignored
+2018-05-06 09:37:43.780826 WARNING Unable to find widget definition for 'k'
+2018-05-06 09:37:43.781683 WARNING Duplicate widget name 'c' - ignored
+2018-05-06 09:37:43.782229 WARNING Duplicate widget name 'l' - ignored
+2018-05-06 09:37:43.782726 WARNING Duplicate widget name 'o' - ignored
+2018-05-06 09:37:43.783208 WARNING Duplicate widget name 'c' - ignored
+2018-05-06 09:37:43.783687 WARNING Duplicate widget name 'k' - ignored
+2018-05-06 09:37:44.010309 WARNING Widget type not found: 
+2018-05-06 09:37:44.084048 INFO function [get_dashboard] finished in 810 ms
+2018-05-06 09:37:46.108759 INFO Compiling dashboard 'bedroom'
+2018-05-06 09:37:46.599018 WARNING Unable to find widget definition for 'c'
+2018-05-06 09:37:46.599835 WARNING Unable to find widget definition for 'l'
+2018-05-06 09:37:46.600467 WARNING Unable to find widget definition for 'o'
+2018-05-06 09:37:46.600990 WARNING Duplicate widget name 'c' - ignored
+2018-05-06 09:37:46.601565 WARNING Unable to find widget definition for 'k'
+2018-05-06 09:37:46.603452 WARNING Duplicate widget name 'c' - ignored
+2018-05-06 09:37:46.604143 WARNING Duplicate widget name 'l' - ignored
+2018-05-06 09:37:46.604923 WARNING Duplicate widget name 'o' - ignored
+2018-05-06 09:37:46.605576 WARNING Duplicate widget name 'c' - ignored
+2018-05-06 09:37:46.606157 WARNING Duplicate widget name 'k' - ignored
+2018-05-06 09:37:46.832248 WARNING Widget type not found: 
+2018-05-06 09:37:46.905737 INFO function [get_dashboard] finished in 806 ms
+2018-05-06 09:37:54.050458 INFO Compiling dashboard 'bedroom'
+2018-05-06 09:37:54.533204 WARNING Error while parsing dashboard '/home/homeassistant/.homeassistant/dashboards/bedroom.dash':
+2018-05-06 09:37:54.533895 WARNING parser says
+2018-05-06 09:37:54.538656 WARNING   in "<unicode string>", line 11, column 9:
+    layout: - shed_temperature
+            ^
+2018-05-06 09:37:54.539304 WARNING sequence entries are not allowed here
+2018-05-06 09:37:54.930254 INFO function [get_dashboard] finished in 889 ms
+2018-05-06 09:38:22.049151 INFO Compiling dashboard 'bedroom'
+2018-05-06 09:38:22.530142 WARNING Error while parsing dashboard '/home/homeassistant/.homeassistant/dashboards/bedroom.dash':
+2018-05-06 09:38:22.530808 WARNING parser says
+2018-05-06 09:38:22.531417 WARNING   in "<unicode string>", line 12, column 1:
+    	- shed_temperature
+    ^
+2018-05-06 09:38:22.531843 WARNING found character '\t' that cannot start any token while scanning for the next token
+2018-05-06 09:38:22.917503 INFO function [get_dashboard] finished in 878 ms
+2018-05-06 09:39:10.074159 INFO function [get_dashboard] finished in 87 ms
+2018-05-06 09:39:10.353506 INFO HADashboard: New dashboard connected: HADashboard
+2018-05-06 09:39:15.230249 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:39:18.045930 INFO function [get_dashboard] finished in 87 ms
+2018-05-06 09:39:18.231422 INFO HADashboard: New dashboard connected: HADashboard
+2018-05-06 09:39:23.226648 INFO function [get_dashboard] finished in 82 ms
+2018-05-06 09:39:23.597654 INFO HADashboard: New dashboard connected: HADashboard
+2018-05-06 09:39:38.909491 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:40:17.826616 INFO Compiling dashboard 'bedroom'
+2018-05-06 09:40:18.306691 WARNING Error while parsing dashboard '/home/homeassistant/.homeassistant/dashboards/bedroom.dash':
+2018-05-06 09:40:18.307356 WARNING parser says
+2018-05-06 09:40:18.307964 WARNING   in "<unicode string>", line 12, column 1:
+    	- shed_temperature
+    ^
+2018-05-06 09:40:18.308390 WARNING found character '\t' that cannot start any token while scanning for the next token
+2018-05-06 09:40:18.692534 INFO function [get_dashboard] finished in 875 ms
+2018-05-06 09:40:18.707731 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:40:47.106483 INFO Compiling dashboard 'bedroom'
+2018-05-06 09:40:48.028885 INFO function [get_dashboard] finished in 932 ms
+2018-05-06 09:40:48.702118 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:41:05.845802 INFO Compiling dashboard 'bedroom'
+2018-05-06 09:41:06.384684 WARNING Duplicate widget name 'shed_temperature' - ignored
+2018-05-06 09:41:06.385395 WARNING Duplicate widget name 'shed_temperature' - ignored
+2018-05-06 09:41:06.778224 INFO function [get_dashboard] finished in 942 ms
+2018-05-06 09:41:06.806421 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:41:07.213941 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:41:08.256048 INFO function [get_dashboard] finished in 82 ms
+2018-05-06 09:41:08.269399 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:41:08.510738 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:41:10.449786 INFO function [get_dashboard] finished in 83 ms
+2018-05-06 09:41:10.461754 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:41:10.779425 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:41:11.857571 INFO function [get_dashboard] finished in 85 ms
+2018-05-06 09:41:11.878698 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:41:12.233156 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:41:55.642210 INFO Compiling dashboard 'bedroom'
+2018-05-06 09:41:56.723167 INFO function [get_dashboard] finished in 1092 ms
+2018-05-06 09:41:56.777467 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:41:57.335288 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:41:58.837364 INFO function [get_dashboard] finished in 81 ms
+2018-05-06 09:41:58.851152 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:41:59.159106 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:42:01.571989 INFO function [get_dashboard] finished in 121 ms
+2018-05-06 09:42:01.601896 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:42:02.320913 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:42:16.911222 INFO Compiling dashboard 'bedroom'
+2018-05-06 09:42:17.991866 INFO function [get_dashboard] finished in 1090 ms
+2018-05-06 09:42:18.099294 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:42:18.673468 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:42:19.956588 INFO function [get_dashboard] finished in 92 ms
+2018-05-06 09:42:19.974777 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:42:20.396732 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:47:43.105776 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:47:43.109244 INFO HADashboard: Dashboard disconnected
+2018-05-06 09:49:59.503840 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 09:58:42.821548 INFO HADashboard: Dashboard disconnected
+2018-05-06 10:06:54.976165 INFO HADashboard: Dashboard disconnected
+2018-05-06 12:58:20.020988 INFO function [get_dashboard] finished in 84 ms
+2018-05-06 12:58:21.042722 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:01:41.810612 INFO Compiling dashboard 'bedroom'
+2018-05-06 13:01:42.857549 INFO function [get_dashboard] finished in 1056 ms
+2018-05-06 13:01:42.962611 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:01:43.565314 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:01:46.876785 INFO function [get_dashboard] finished in 87 ms
+2018-05-06 13:01:46.948779 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:01:47.445589 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:02:03.675645 INFO function [get_dashboard] finished in 83 ms
+2018-05-06 13:02:03.723841 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:02:04.294664 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:02:05.457307 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:02:08.276754 INFO function [get_dashboard] finished in 85 ms
+2018-05-06 13:02:08.838600 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:02:31.132236 INFO Compiling dashboard 'bedroom'
+2018-05-06 13:02:31.667667 WARNING Unable to find widget definition for 'clock'
+2018-05-06 13:02:32.208497 INFO function [get_dashboard] finished in 1094 ms
+2018-05-06 13:02:32.286039 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:02:32.917799 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:02:35.554524 INFO function [get_dashboard] finished in 82 ms
+2018-05-06 13:02:35.605956 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:02:36.070953 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:04:04.138821 INFO Compiling dashboard 'bedroom'
+2018-05-06 13:04:04.668677 WARNING Unable to find widget definition for 'clock'
+2018-05-06 13:04:05.213715 INFO function [get_dashboard] finished in 1085 ms
+2018-05-06 13:04:05.313794 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:04:05.933403 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:04:07.960769 INFO function [get_dashboard] finished in 81 ms
+2018-05-06 13:04:08.019285 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:04:08.401287 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:04:10.715000 INFO function [get_dashboard] finished in 83 ms
+2018-05-06 13:04:10.775168 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:04:11.107134 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:04:28.011546 INFO Compiling dashboard 'bedroom'
+2018-05-06 13:04:29.120018 INFO function [get_dashboard] finished in 1118 ms
+2018-05-06 13:04:29.207857 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:04:29.761099 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:04:31.613505 INFO function [get_dashboard] finished in 82 ms
+2018-05-06 13:04:31.673681 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:04:32.044411 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:04:56.641912 INFO Compiling dashboard 'bedroom'
+2018-05-06 13:04:57.653330 INFO function [get_dashboard] finished in 1021 ms
+2018-05-06 13:04:57.746234 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:04:58.366444 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:08:31.083321 INFO Compiling dashboard 'bedroom'
+2018-05-06 13:08:32.109696 INFO function [get_dashboard] finished in 1036 ms
+2018-05-06 13:08:32.211715 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:08:32.741577 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:08:35.441520 INFO function [get_dashboard] finished in 82 ms
+2018-05-06 13:08:35.513933 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:08:35.972222 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:08:55.121971 INFO function [get_dashboard] finished in 83 ms
+2018-05-06 13:08:55.184797 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:08:55.832441 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:08:57.268382 INFO function [get_dashboard] finished in 82 ms
+2018-05-06 13:08:57.323014 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:08:57.686801 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:08:59.169495 INFO function [get_dashboard] finished in 83 ms
+2018-05-06 13:08:59.219602 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:08:59.719525 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:15:13.663094 INFO function [get_dashboard] finished in 82 ms
+2018-05-06 13:15:13.753796 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:15:14.572855 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:19:31.629211 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:19:33.975923 INFO function [get_dashboard] finished in 81 ms
+2018-05-06 13:19:36.243551 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 13:24:44.189505 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:24:49.195109 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:24:54.208970 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:24:59.213918 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:25:04.217756 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:25:09.222007 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:25:14.226114 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:25:19.230577 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:25:24.234862 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:25:29.253206 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-06 13:25:29.330372 INFO AppDaemon: Processing restart for HASS
+2018-05-06 13:27:23.029188 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:28:02.005041 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:28:07.009273 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:28:12.014564 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:28:17.019677 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:28:22.023285 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:28:27.026808 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:28:32.043006 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-06 13:28:32.112433 INFO AppDaemon: Processing restart for HASS
+2018-05-06 13:33:57.593435 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:34:02.598660 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:34:07.604311 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:34:12.608534 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:34:17.612013 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:34:22.616423 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:34:27.620176 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:34:32.623855 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:34:37.627247 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 13:34:42.659184 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-06 13:34:42.988952 INFO AppDaemon: Processing restart for HASS
+2018-05-06 13:37:16.125881 INFO Compiling dashboard 'color_living'
+2018-05-06 13:37:18.167818 INFO function [get_dashboard] finished in 2051 ms
+2018-05-06 13:37:19.828619 INFO HADashboard: New dashboard connected: Kleur woonkamer
+2018-05-06 13:37:21.068753 INFO HADashboard: Dashboard disconnected
+2018-05-06 13:37:22.592713 INFO Compiling dashboard 'living'
+2018-05-06 13:37:25.254771 INFO function [get_dashboard] finished in 2671 ms
+2018-05-06 13:37:26.628638 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-06 15:22:27.450681 INFO HADashboard: Dashboard disconnected
+2018-05-06 17:30:54.914748 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 17:30:59.920422 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 17:31:04.928596 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 17:31:09.932664 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 17:31:14.936240 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 17:31:19.941373 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-06 17:31:24.963458 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-06 17:31:25.052643 INFO AppDaemon: Processing restart for HASS
+2018-05-06 19:13:11.158719 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-06 19:56:37.381597 INFO HADashboard: Dashboard disconnected
+2018-05-07 05:43:39.403491 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 05:59:45.541708 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:31:14.472850 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:39:51.960059 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 07:39:56.966331 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 07:40:01.973485 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 07:40:06.978556 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 07:40:11.984031 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 07:40:16.988997 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 07:40:22.091077 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-07 07:40:22.367207 INFO AppDaemon: Processing restart for HASS
+2018-05-07 07:41:24.427773 INFO SIGTERM Recieved
+2018-05-07 07:41:24.442456 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-05-07 07:41:24.815998 INFO AppDaemon: Removing module /home/homeassistant/.homeassistant/appdaemon/hello.py
+2018-05-07 07:41:24.818321 INFO AppDeamon Exited
+2018-05-07 07:41:28.336161 INFO AppDaemon Version 3.0.1 starting
+2018-05-07 07:41:28.339497 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-05-07 07:41:28.342892 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-05-07 07:41:28.345218 INFO AppDaemon: Starting Apps
+2018-05-07 07:41:28.346844 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-05-07 07:41:28.355192 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-05-07 07:41:28.471744 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-05-07 07:41:28.472883 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-05-07 07:41:28.473839 INFO Starting Dashboards
+2018-05-07 07:41:28.477016 WARNING css: /home exists, but is not writeable, owner: root
+2018-05-07 07:41:28.479717 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-05-07 07:41:28.496213 INFO API is disabled
+2018-05-07 07:41:28.513765 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-07 07:41:28.585302 INFO AppDaemon: Got initial state from namespace default
+2018-05-07 07:41:29.533718 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:41:30.352833 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:41:31.724869 INFO function [get_dashboard] finished in 1372 ms
+2018-05-07 07:41:31.823877 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-05-07 07:41:31.824807 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-05-07 07:41:31.825986 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-05-07 07:41:31.830906 INFO AppDaemon: App initialization complete
+2018-05-07 07:41:32.036764 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:41:32.555478 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:41:33.621558 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:41:34.766800 INFO function [get_dashboard] finished in 1145 ms
+2018-05-07 07:41:35.090424 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:41:35.379460 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:42:04.361318 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:42:05.449554 INFO function [get_dashboard] finished in 1088 ms
+2018-05-07 07:42:05.505209 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:42:05.887400 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:42:13.472133 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:42:14.549252 INFO function [get_dashboard] finished in 1077 ms
+2018-05-07 07:42:14.612576 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:42:15.006931 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:42:23.158502 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:42:24.285384 INFO function [get_dashboard] finished in 1127 ms
+2018-05-07 07:42:24.538354 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:42:24.924811 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:44:39.297933 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:44:40.450868 INFO function [get_dashboard] finished in 1153 ms
+2018-05-07 07:44:40.532704 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:44:40.948714 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:46:20.166890 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:46:21.297133 INFO function [get_dashboard] finished in 1130 ms
+2018-05-07 07:46:21.355962 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:46:21.754707 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:47:10.850695 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:47:11.966784 INFO function [get_dashboard] finished in 1116 ms
+2018-05-07 07:47:12.083944 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:47:12.533242 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:47:23.692194 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:47:24.781307 INFO function [get_dashboard] finished in 1089 ms
+2018-05-07 07:47:24.952718 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:47:25.457023 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:47:48.467475 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:47:49.553419 INFO function [get_dashboard] finished in 1086 ms
+2018-05-07 07:47:49.571445 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:47:49.990006 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:48:33.004291 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:48:34.278660 INFO function [get_dashboard] finished in 1274 ms
+2018-05-07 07:48:34.412991 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:48:34.851845 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:48:55.403542 INFO Compiling dashboard 'home'
+2018-05-07 07:48:57.921099 INFO function [get_dashboard] finished in 2517 ms
+2018-05-07 07:48:59.700219 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 07:49:22.627469 INFO Compiling dashboard 'bedroom'
+2018-05-07 07:49:23.916710 INFO function [get_dashboard] finished in 1289 ms
+2018-05-07 07:49:24.182020 INFO HADashboard: Dashboard disconnected
+2018-05-07 07:49:24.662744 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 08:00:20.546944 WARNING AppDaemon: Excessive time spent in utility loop: 1079.0ms
+2018-05-07 08:05:45.866706 INFO HADashboard: Dashboard disconnected
+2018-05-07 08:11:19.936197 INFO HADashboard: Dashboard disconnected
+2018-05-07 14:47:10.264549 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:47:15.269586 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:47:20.284008 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:47:25.287855 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:47:30.292434 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:47:35.295983 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:47:40.312673 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-07 14:47:40.375309 INFO AppDaemon: Processing restart for HASS
+2018-05-07 14:55:38.945588 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:55:43.951484 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:55:48.957227 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:55:53.961939 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:55:58.966188 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:56:03.969754 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 14:56:08.985376 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-07 14:56:09.062179 INFO AppDaemon: Processing restart for HASS
+2018-05-07 18:53:18.216387 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 18:53:49.481901 INFO Compiling dashboard 'bedroom'
+2018-05-07 18:53:50.736112 INFO function [get_dashboard] finished in 1257 ms
+2018-05-07 18:53:50.772376 INFO HADashboard: Dashboard disconnected
+2018-05-07 18:53:51.384979 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 18:56:25.514748 INFO Compiling dashboard 'bedroom'
+2018-05-07 18:56:26.679374 INFO function [get_dashboard] finished in 1164 ms
+2018-05-07 18:56:26.695133 INFO HADashboard: Dashboard disconnected
+2018-05-07 18:56:27.124908 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 18:57:18.209018 INFO Compiling dashboard 'bedroom'
+2018-05-07 18:57:19.381420 INFO function [get_dashboard] finished in 1172 ms
+2018-05-07 18:57:19.470551 INFO HADashboard: Dashboard disconnected
+2018-05-07 18:57:19.916425 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 18:58:12.312143 INFO Compiling dashboard 'bedroom'
+2018-05-07 18:58:13.452531 INFO function [get_dashboard] finished in 1140 ms
+2018-05-07 18:58:13.538184 INFO HADashboard: Dashboard disconnected
+2018-05-07 18:58:13.998583 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 18:58:51.038480 INFO Compiling dashboard 'bedroom'
+2018-05-07 18:58:52.177776 INFO function [get_dashboard] finished in 1139 ms
+2018-05-07 18:58:52.248690 INFO HADashboard: Dashboard disconnected
+2018-05-07 18:58:52.729166 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:07:12.808039 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:07:17.814842 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:07:22.828763 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:07:26.930090 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:07:27.838268 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:07:28.179887 INFO function [get_dashboard] finished in 1249 ms
+2018-05-07 19:07:28.196230 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:07:28.688524 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:07:32.842099 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:07:37.846918 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:07:42.868099 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-07 19:07:42.954671 INFO AppDaemon: Processing restart for HASS
+2018-05-07 19:07:48.176675 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:07:49.612280 INFO function [get_dashboard] finished in 1435 ms
+2018-05-07 19:07:49.634002 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:07:50.043592 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:10:17.179472 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:10:22.186239 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:10:25.922537 WARNING HADasboard: ------------------------------------------------------------
+2018-05-07 19:10:25.923687 WARNING HADasboard: Unexpected error in call_service()
+2018-05-07 19:10:25.924589 WARNING HADasboard: ------------------------------------------------------------
+2018-05-07 19:10:25.963837 WARNING HADasboard: Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 797, in _wrap_create_connection
+    return (yield from self._loop.create_connection(*args, **kwargs))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 775, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 762, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 380, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 304, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 293, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 111] Connect call failed ('192.168.1.2', 8123)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/rundash.py", line 341, in call_service
+    await plugin.call_service (service, **args)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/plugins/hass/hassplugin.py", line 359, in call_service
+    r = await self.session.post(apiurl, headers=headers, json=kwargs, verify_ssl=self.cert_verify)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/helpers.py", line 109, in __await__
+    ret = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/client.py", line 267, in _request
+    conn = yield from self._connector.connect(req)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 402, in connect
+    proto = yield from self._create_connection(req)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 749, in _create_connection
+    _, proto = yield from self._create_direct_connection(req)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 860, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 832, in _create_direct_connection
+    req=req, client_error=client_error)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 804, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host 192.168.1.2:8123 ssl:False [Connect call failed ('192.168.1.2', 8123)]
+
+2018-05-07 19:10:25.965127 WARNING HADasboard: ------------------------------------------------------------
+2018-05-07 19:10:27.192939 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:10:32.197852 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:10:37.202292 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:10:42.206452 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:10:47.210583 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:10:52.289711 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-07 19:10:52.469574 INFO AppDaemon: Processing restart for HASS
+2018-05-07 19:14:13.385106 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:14:18.391128 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:14:23.406021 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:14:28.410898 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:14:31.920171 WARNING HADasboard: ------------------------------------------------------------
+2018-05-07 19:14:31.920862 WARNING HADasboard: Unexpected error in call_service()
+2018-05-07 19:14:31.921316 WARNING HADasboard: ------------------------------------------------------------
+2018-05-07 19:14:31.923322 WARNING HADasboard: Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 797, in _wrap_create_connection
+    return (yield from self._loop.create_connection(*args, **kwargs))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 775, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 762, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 380, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 304, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 293, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 111] Connect call failed ('192.168.1.2', 8123)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/rundash.py", line 341, in call_service
+    await plugin.call_service (service, **args)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/plugins/hass/hassplugin.py", line 359, in call_service
+    r = await self.session.post(apiurl, headers=headers, json=kwargs, verify_ssl=self.cert_verify)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/helpers.py", line 109, in __await__
+    ret = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/client.py", line 267, in _request
+    conn = yield from self._connector.connect(req)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 402, in connect
+    proto = yield from self._create_connection(req)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 749, in _create_connection
+    _, proto = yield from self._create_direct_connection(req)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 860, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 832, in _create_direct_connection
+    req=req, client_error=client_error)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 804, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host 192.168.1.2:8123 ssl:False [Connect call failed ('192.168.1.2', 8123)]
+
+2018-05-07 19:14:31.923880 WARNING HADasboard: ------------------------------------------------------------
+2018-05-07 19:14:33.414866 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:14:37.568819 WARNING HADasboard: ------------------------------------------------------------
+2018-05-07 19:14:37.569525 WARNING HADasboard: Unexpected error in call_service()
+2018-05-07 19:14:37.570070 WARNING HADasboard: ------------------------------------------------------------
+2018-05-07 19:14:37.572324 WARNING HADasboard: Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 797, in _wrap_create_connection
+    return (yield from self._loop.create_connection(*args, **kwargs))
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 775, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 762, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 380, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 304, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 293, in result
+    raise self._exception
+  File "/usr/lib/python3.5/asyncio/selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+ConnectionRefusedError: [Errno 111] Connect call failed ('192.168.1.2', 8123)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/rundash.py", line 341, in call_service
+    await plugin.call_service (service, **args)
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/plugins/hass/hassplugin.py", line 359, in call_service
+    r = await self.session.post(apiurl, headers=headers, json=kwargs, verify_ssl=self.cert_verify)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/helpers.py", line 109, in __await__
+    ret = yield from self._coro
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/client.py", line 267, in _request
+    conn = yield from self._connector.connect(req)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 402, in connect
+    proto = yield from self._create_connection(req)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 749, in _create_connection
+    _, proto = yield from self._create_direct_connection(req)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 860, in _create_direct_connection
+    raise last_exc
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 832, in _create_direct_connection
+    req=req, client_error=client_error)
+  File "/usr/local/lib/python3.5/dist-packages/aiohttp/connector.py", line 804, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host 192.168.1.2:8123 ssl:False [Connect call failed ('192.168.1.2', 8123)]
+
+2018-05-07 19:14:37.573048 WARNING HADasboard: ------------------------------------------------------------
+2018-05-07 19:14:38.420387 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:14:43.470570 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-07 19:14:43.896944 INFO AppDaemon: Processing restart for HASS
+2018-05-07 19:17:15.739612 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:17:16.988127 INFO function [get_dashboard] finished in 1248 ms
+2018-05-07 19:17:17.005059 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:17:17.430610 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:17:19.429629 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:17:20.666479 INFO function [get_dashboard] finished in 1237 ms
+2018-05-07 19:17:20.729075 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:17:21.042274 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:17:21.810386 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:17:23.042141 INFO function [get_dashboard] finished in 1231 ms
+2018-05-07 19:17:23.056254 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:17:23.352524 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:17:39.775507 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:17:44.781657 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:17:49.788432 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:17:54.793683 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:17:58.864405 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:17:59.828755 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:18:00.182947 INFO function [get_dashboard] finished in 1318 ms
+2018-05-07 19:18:00.198740 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:18:00.608094 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:18:04.838520 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:18:09.842674 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-07 19:18:14.858752 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-07 19:18:14.945902 INFO AppDaemon: Processing restart for HASS
+2018-05-07 19:18:25.964259 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:18:28.823650 INFO function [get_dashboard] finished in 2859 ms
+2018-05-07 19:18:28.843901 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:18:29.266028 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:21:51.097899 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:21:52.428747 INFO function [get_dashboard] finished in 1331 ms
+2018-05-07 19:21:52.501873 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:21:53.809009 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:21:55.045984 INFO function [get_dashboard] finished in 1237 ms
+2018-05-07 19:22:14.413632 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:22:15.661687 INFO function [get_dashboard] finished in 1248 ms
+2018-05-07 19:22:18.367894 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:22:19.599067 INFO function [get_dashboard] finished in 1231 ms
+2018-05-07 19:22:33.484587 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:22:34.738392 INFO function [get_dashboard] finished in 1253 ms
+2018-05-07 19:23:03.371867 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:23:04.642016 INFO function [get_dashboard] finished in 1270 ms
+2018-05-07 19:23:05.140990 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-07 19:23:06.672522 INFO Compiling dashboard 'bedroom'
+2018-05-07 19:23:07.829218 INFO function [get_dashboard] finished in 1156 ms
+2018-05-07 19:23:07.846122 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:23:08.284047 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:24:17.620096 INFO Compiling dashboard 'bedroom'
+2018-05-07 19:24:18.799630 INFO function [get_dashboard] finished in 1179 ms
+2018-05-07 19:24:19.036407 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:24:19.432974 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:24:21.107164 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:24:22.339640 INFO function [get_dashboard] finished in 1232 ms
+2018-05-07 19:24:22.415935 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:24:22.746479 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-07 19:24:25.112052 INFO Compiling dashboard 'bedroom'
+2018-05-07 19:24:26.339888 INFO function [get_dashboard] finished in 1228 ms
+2018-05-07 19:24:26.369784 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:24:26.735872 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:24:28.121820 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:24:29.364391 INFO function [get_dashboard] finished in 1242 ms
+2018-05-07 19:24:29.489640 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:24:29.790692 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-07 19:24:33.502477 INFO Compiling dashboard 'bedroom'
+2018-05-07 19:24:34.692575 INFO function [get_dashboard] finished in 1190 ms
+2018-05-07 19:24:34.827986 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:24:35.153235 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:28:17.177293 INFO Compiling dashboard 'bedroom'
+2018-05-07 19:28:18.363310 INFO function [get_dashboard] finished in 1186 ms
+2018-05-07 19:28:18.650586 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:28:19.233137 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:28:24.487480 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 19:28:25.741320 INFO function [get_dashboard] finished in 1254 ms
+2018-05-07 19:28:25.752605 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:28:26.020555 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-07 19:28:28.578066 INFO Compiling dashboard 'bedroom'
+2018-05-07 19:28:29.781303 INFO function [get_dashboard] finished in 1203 ms
+2018-05-07 19:28:29.795754 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:28:30.117852 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:28:48.405014 INFO Compiling dashboard 'bedroom'
+2018-05-07 19:28:49.609272 INFO function [get_dashboard] finished in 1204 ms
+2018-05-07 19:28:49.677230 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:28:50.094020 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:34:19.633600 INFO Compiling dashboard 'home'
+2018-05-07 19:34:22.207779 INFO function [get_dashboard] finished in 2583 ms
+2018-05-07 19:34:24.676817 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:34:29.261622 INFO Compiling dashboard 'slaapkamer'
+2018-05-07 19:34:29.722208 WARNING Dashboard 'slaapkamer' not found
+2018-05-07 19:34:29.723529 WARNING ------------------------------------------------------------
+2018-05-07 19:34:29.724161 WARNING Unexpected error during DASH creation
+2018-05-07 19:34:29.724655 WARNING ------------------------------------------------------------
+2018-05-07 19:34:29.729965 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 834, in get_dashboard
+    with open(include_path, "r") as include_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.homeassistant/compiled/html/default/slaapkamer_head.html'
+
+2018-05-07 19:34:29.730606 WARNING ------------------------------------------------------------
+2018-05-07 19:34:29.731085 INFO function [get_dashboard] finished in 469 ms
+2018-05-07 19:34:29.827433 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:35:13.283626 INFO Compiling dashboard 'bedroom'
+2018-05-07 19:35:14.489516 INFO function [get_dashboard] finished in 1206 ms
+2018-05-07 19:35:15.308931 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 19:44:46.326549 INFO HADashboard: Dashboard disconnected
+2018-05-07 19:49:58.656236 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:00:26.003815 WARNING AppDaemon: Excessive time spent in scheduler loop: 911.0ms
+2018-05-07 20:00:29.245408 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.2452878952026367 - resetting
+2018-05-07 20:00:31.652796 WARNING AppDaemon: Excessive time spent in utility loop: 3923.0ms
+2018-05-07 20:00:32.132149 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.873542070388794 - resetting
+2018-05-07 20:00:38.553784 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.890716075897217 - resetting
+2018-05-07 20:00:41.803817 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.098510980606079 - resetting
+2018-05-07 20:00:44.570756 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.6038260459899902 - resetting
+2018-05-07 20:00:46.445485 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.6631648540496826 - resetting
+2018-05-07 20:00:49.209298 WARNING AppDaemon: Excessive time spent in utility loop: 14831.0ms
+2018-05-07 20:00:53.245277 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.884493112564087 - resetting
+2018-05-07 20:00:58.002147 WARNING AppDaemon: Scheduler clock skew detected - delta = 5.03289008140564 - resetting
+2018-05-07 20:00:59.799479 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.4694538116455078 - resetting
+2018-05-07 20:01:07.444053 WARNING AppDaemon: Excessive time spent in scheduler loop: 3878.0ms
+2018-05-07 20:01:10.978681 WARNING AppDaemon: Scheduler clock skew detected - delta = 8.884413003921509 - resetting
+2018-05-07 20:01:15.390964 WARNING AppDaemon: Excessive time spent in utility loop: 13130.0ms
+2018-05-07 20:01:18.876774 WARNING AppDaemon: Scheduler clock skew detected - delta = 6.109486103057861 - resetting
+2018-05-07 20:01:21.802341 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.389111042022705 - resetting
+2018-05-07 20:01:23.704281 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.124526023864746 - resetting
+2018-05-07 20:01:28.690537 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.552055835723877 - resetting
+2018-05-07 20:01:31.962699 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.043308973312378 - resetting
+2018-05-07 20:01:34.223494 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.1053950786590576 - resetting
+2018-05-07 20:01:38.881669 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.8719570636749268 - resetting
+2018-05-07 20:01:41.434652 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.5760300159454346 - resetting
+2018-05-07 20:01:44.792300 WARNING AppDaemon: Excessive time spent in utility loop: 19794.0ms
+2018-05-07 20:01:47.358187 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.9938039779663086 - resetting
+2018-05-07 20:01:51.098458 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.880086898803711 - resetting
+2018-05-07 20:01:55.012638 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.5021450519561768 - resetting
+2018-05-07 20:02:04.210721 WARNING AppDaemon: Scheduler clock skew detected - delta = 7.993304014205933 - resetting
+2018-05-07 20:02:08.627645 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.7829320430755615 - resetting
+2018-05-07 20:02:12.249068 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.1368789672851562 - resetting
+2018-05-07 20:02:13.090567 WARNING AppDaemon: Excessive time spent in utility loop: 16117.0ms
+2018-05-07 20:11:48.040409 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 20:11:50.543745 INFO Compiling dashboard 'bedroom'
+2018-05-07 20:11:51.837118 INFO function [get_dashboard] finished in 1303 ms
+2018-05-07 20:11:51.870159 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:11:52.707421 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 20:12:15.545232 INFO Compiling dashboard 'bedroom'
+2018-05-07 20:12:16.749319 INFO function [get_dashboard] finished in 1204 ms
+2018-05-07 20:12:16.804254 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:12:17.461642 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 20:12:44.875587 INFO Compiling dashboard 'bedroom'
+2018-05-07 20:12:46.048992 INFO function [get_dashboard] finished in 1173 ms
+2018-05-07 20:12:46.097624 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:12:46.778728 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 20:13:28.257073 INFO Compiling dashboard 'bedroom'
+2018-05-07 20:13:29.475169 INFO function [get_dashboard] finished in 1218 ms
+2018-05-07 20:13:29.525870 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:13:30.198787 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 20:13:32.023002 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 20:13:33.255088 INFO function [get_dashboard] finished in 1232 ms
+2018-05-07 20:13:33.309116 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:13:33.792570 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-07 20:13:35.298961 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 20:13:36.545600 INFO function [get_dashboard] finished in 1246 ms
+2018-05-07 20:13:36.693565 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:13:37.122304 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-07 20:13:38.457353 INFO Compiling dashboard 'bedroom'
+2018-05-07 20:13:39.727781 INFO function [get_dashboard] finished in 1270 ms
+2018-05-07 20:13:39.875191 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:13:40.311729 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 20:24:27.838011 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:30:17.204519 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.475080966949463 - resetting
+2018-05-07 20:30:20.745883 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.535649061203003 - resetting
+2018-05-07 20:30:25.104033 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.981276035308838 - resetting
+2018-05-07 20:30:27.966508 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.1356019973754883 - resetting
+2018-05-07 20:30:28.015539 WARNING AppDaemon: Excessive time spent in utility loop: 2824.0ms
+2018-05-07 20:30:30.663887 WARNING AppDaemon: Excessive time spent in scheduler loop: 1604.0ms
+2018-05-07 20:30:34.184629 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.9726269245147705 - resetting
+2018-05-07 20:30:36.658643 WARNING AppDaemon: Excessive time spent in scheduler loop: 2177.0ms
+2018-05-07 20:30:36.661277 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.8536090850830078 - resetting
+2018-05-07 20:30:44.990793 WARNING AppDaemon: Scheduler clock skew detected - delta = 4.055812835693359 - resetting
+2018-05-07 20:30:49.639904 WARNING AppDaemon: Scheduler clock skew detected - delta = 6.912574052810669 - resetting
+2018-05-07 20:30:53.778328 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.0862739086151123 - resetting
+2018-05-07 20:30:53.947046 WARNING AppDaemon: Excessive time spent in utility loop: 17286.0ms
+2018-05-07 20:30:56.061721 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.2586212158203125 - resetting
+2018-05-07 20:31:00.500232 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.506065845489502 - resetting
+2018-05-07 20:31:00.766602 WARNING AppDaemon: Excessive time spent in utility loop: 4624.0ms
+2018-05-07 20:34:56.046204 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 20:35:01.556589 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 20:35:02.876745 INFO function [get_dashboard] finished in 1329 ms
+2018-05-07 20:35:02.955006 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:35:03.635763 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-07 20:35:05.977674 INFO Compiling dashboard 'bedroom'
+2018-05-07 20:35:07.191799 INFO function [get_dashboard] finished in 1214 ms
+2018-05-07 20:35:07.468579 INFO HADashboard: Dashboard disconnected
+2018-05-07 20:35:08.000900 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 20:50:34.706426 INFO HADashboard: Dashboard disconnected
+2018-05-07 21:00:18.163530 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.6330089569091797 - resetting
+2018-05-07 21:00:19.296538 WARNING AppDaemon: Excessive time spent in utility loop: 955.0ms
+2018-05-07 21:00:21.447137 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.2427940368652344 - resetting
+2018-05-07 21:00:24.047271 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.150942087173462 - resetting
+2018-05-07 21:00:27.544791 WARNING AppDaemon: Excessive time spent in scheduler loop: 1800.0ms
+2018-05-07 21:00:31.036793 WARNING AppDaemon: Scheduler clock skew detected - delta = 5.529303073883057 - resetting
+2018-05-07 21:00:33.196004 WARNING AppDaemon: Excessive time spent in utility loop: 10243.0ms
+2018-05-07 21:00:33.279401 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.2425949573516846 - resetting
+2018-05-07 21:00:36.537324 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.1863889694213867 - resetting
+2018-05-07 21:00:37.528189 WARNING AppDaemon: Excessive time spent in utility loop: 2940.0ms
+2018-05-07 21:13:16.139580 INFO Compiling dashboard 'bedroom'
+2018-05-07 21:13:17.444929 INFO function [get_dashboard] finished in 1324 ms
+2018-05-07 21:13:23.534868 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 21:13:29.728522 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 21:13:31.013615 INFO function [get_dashboard] finished in 1285 ms
+2018-05-07 21:13:31.087044 INFO HADashboard: Dashboard disconnected
+2018-05-07 21:13:33.738424 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-07 21:14:04.614275 INFO Compiling dashboard 'bedroom'
+2018-05-07 21:14:05.902069 INFO function [get_dashboard] finished in 1288 ms
+2018-05-07 21:14:06.000214 INFO HADashboard: Dashboard disconnected
+2018-05-07 21:14:07.779738 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 21:22:03.524196 INFO Compiling dashboard 'bedroom'
+2018-05-07 21:22:04.700579 INFO function [get_dashboard] finished in 1176 ms
+2018-05-07 21:22:09.372525 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 21:24:48.076696 INFO Compiling dashboard 'bedroom_color'
+2018-05-07 21:24:49.320224 INFO function [get_dashboard] finished in 1243 ms
+2018-05-07 21:24:49.460630 INFO HADashboard: Dashboard disconnected
+2018-05-07 21:24:52.096699 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-07 21:24:56.970495 INFO Compiling dashboard 'bedroom'
+2018-05-07 21:24:58.195186 INFO function [get_dashboard] finished in 1224 ms
+2018-05-07 21:24:58.499603 INFO HADashboard: Dashboard disconnected
+2018-05-07 21:25:02.194444 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 21:30:47.339822 WARNING AppDaemon: Excessive time spent in scheduler loop: 30961.0ms
+2018-05-07 21:30:47.402428 WARNING AppDaemon: Scheduler clock skew detected - delta = 30.936755895614624 - resetting
+2018-05-07 21:30:47.404134 WARNING AppDaemon: Excessive time spent in utility loop: 32259.0ms
+2018-05-07 21:35:13.637680 INFO Compiling dashboard 'bedroom'
+2018-05-07 21:35:14.944309 INFO function [get_dashboard] finished in 1316 ms
+2018-05-07 21:35:16.537596 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 21:39:03.610267 INFO Compiling dashboard 'bedroom'
+2018-05-07 21:39:04.923763 INFO function [get_dashboard] finished in 1313 ms
+2018-05-07 21:39:21.782301 INFO Compiling dashboard 'bedroom'
+2018-05-07 21:39:22.958341 INFO function [get_dashboard] finished in 1176 ms
+2018-05-07 21:39:23.267594 INFO HADashboard: Dashboard disconnected
+2018-05-07 21:39:23.845794 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 21:39:25.463373 INFO Compiling dashboard 'bedroom'
+2018-05-07 21:39:26.688886 INFO function [get_dashboard] finished in 1225 ms
+2018-05-07 21:39:26.768976 INFO HADashboard: Dashboard disconnected
+2018-05-07 21:39:27.163246 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-07 22:12:37.396691 INFO HADashboard: Dashboard disconnected
+2018-05-07 22:13:11.301344 INFO HADashboard: Dashboard disconnected
+2018-05-08 05:48:55.138099 INFO Compiling dashboard 'bedroom'
+2018-05-08 05:48:57.469337 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.0669469833374023 - resetting
+2018-05-08 05:48:57.559109 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-08 05:48:58.390011 INFO function [get_dashboard] finished in 3262 ms
+2018-05-08 05:48:58.493820 INFO HADashboard: Dashboard disconnected
+2018-05-08 05:49:02.013894 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-08 05:52:20.008040 INFO HADashboard: Dashboard disconnected
+2018-05-08 06:36:52.103087 INFO HADashboard: Dashboard disconnected
+2018-05-08 07:00:15.788519 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.3190231323242188 - resetting
+2018-05-08 11:00:16.673648 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.8852758407592773 - resetting
+2018-05-08 14:00:32.215338 INFO Compiling dashboard 'bedroom'
+2018-05-08 14:00:35.243633 INFO function [get_dashboard] finished in 3039 ms
+2018-05-08 14:00:37.908754 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-08 14:39:03.164689 INFO HADashboard: Dashboard disconnected
+2018-05-08 20:22:01.028320 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-08 20:22:01.037114 INFO Compiling dashboard 'bedroom'
+2018-05-08 20:22:02.440789 INFO function [get_dashboard] finished in 1418 ms
+2018-05-08 20:22:02.456925 INFO HADashboard: Dashboard disconnected
+2018-05-08 20:22:06.729521 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-08 20:24:31.304656 INFO Compiling dashboard 'bedroom_color'
+2018-05-08 20:24:32.553258 INFO function [get_dashboard] finished in 1248 ms
+2018-05-08 20:24:32.577983 INFO HADashboard: Dashboard disconnected
+2018-05-08 20:24:35.576474 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-08 20:24:46.714588 INFO Compiling dashboard 'bedroom'
+2018-05-08 20:24:47.915754 INFO function [get_dashboard] finished in 1201 ms
+2018-05-08 20:24:48.116543 INFO HADashboard: Dashboard disconnected
+2018-05-08 20:24:50.422631 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-08 20:26:33.927088 INFO HADashboard: Dashboard disconnected
+2018-05-09 03:06:18.860817 INFO Compiling dashboard 'bedroom'
+2018-05-09 03:06:20.232137 INFO function [get_dashboard] finished in 1382 ms
+2018-05-09 03:06:25.789956 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-09 03:06:36.598341 INFO Compiling dashboard 'bedroom_color'
+2018-05-09 03:06:37.848123 INFO function [get_dashboard] finished in 1249 ms
+2018-05-09 03:06:38.123365 INFO HADashboard: Dashboard disconnected
+2018-05-09 03:06:42.868712 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-09 03:06:46.316774 INFO Compiling dashboard 'bedroom'
+2018-05-09 03:06:47.684175 INFO function [get_dashboard] finished in 1367 ms
+2018-05-09 03:06:47.717116 INFO HADashboard: Dashboard disconnected
+2018-05-09 03:06:50.718360 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-09 03:07:59.772555 INFO HADashboard: Dashboard disconnected
+2018-05-09 03:12:33.386381 INFO Compiling dashboard 'bedroom'
+2018-05-09 03:12:34.617020 INFO function [get_dashboard] finished in 1230 ms
+2018-05-09 03:13:24.343646 INFO Compiling dashboard 'bedroom'
+2018-05-09 03:13:25.583785 INFO function [get_dashboard] finished in 1240 ms
+2018-05-09 03:13:28.172718 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-09 03:18:24.394179 INFO Compiling dashboard 'bedroom'
+2018-05-09 03:18:25.687290 INFO function [get_dashboard] finished in 1293 ms
+2018-05-09 03:18:25.719699 INFO HADashboard: Dashboard disconnected
+2018-05-09 03:18:27.894580 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-09 03:23:24.443107 INFO Compiling dashboard 'bedroom'
+2018-05-09 03:23:25.687378 INFO function [get_dashboard] finished in 1244 ms
+2018-05-09 03:23:25.726712 INFO HADashboard: Dashboard disconnected
+2018-05-09 03:23:27.799448 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-09 09:04:04.744626 INFO HADashboard: Dashboard disconnected
+2018-05-09 20:02:48.056481 INFO Compiling dashboard 'bedroom'
+2018-05-09 20:02:49.342364 INFO function [get_dashboard] finished in 1296 ms
+2018-05-09 20:02:52.483159 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-09 20:23:53.871638 INFO HADashboard: Dashboard disconnected
+2018-05-09 20:31:18.653884 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-09 20:43:53.108342 INFO SIGTERM Recieved
+2018-05-09 20:43:53.237102 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-05-09 20:43:53.638626 INFO AppDaemon: Removing module /home/homeassistant/.homeassistant/appdaemon/hello.py
+2018-05-09 20:43:53.640612 INFO AppDeamon Exited
+2018-05-09 20:45:30.343554 INFO AppDaemon Version 3.0.1 starting
+2018-05-09 20:45:30.345550 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-05-09 20:45:30.348624 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-05-09 20:45:30.350821 INFO AppDaemon: Starting Apps
+2018-05-09 20:45:30.352247 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-05-09 20:45:30.359612 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-05-09 20:45:30.410202 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-05-09 20:45:30.411296 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-05-09 20:45:30.412114 INFO Starting Dashboards
+2018-05-09 20:45:30.415865 WARNING css: /home exists, but is not writeable, owner: root
+2018-05-09 20:45:30.418419 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-05-09 20:45:30.436891 INFO API is disabled
+2018-05-09 20:45:30.439841 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-09 20:45:35.444120 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-09 20:45:40.449916 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-09 20:45:46.057465 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-09 20:45:48.516316 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-09 20:45:51.062463 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-09 20:45:56.068041 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-09 20:46:32.323324 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-09 20:46:37.341722 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-09 20:46:37.414954 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-05-09 20:46:37.415780 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-05-09 20:46:37.416782 INFO AppDaemon: Processing restart for HASS
+2018-05-09 20:46:37.417306 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-05-09 20:46:39.650856 INFO AppDaemon: App initialization complete
+2018-05-09 20:51:30.966066 INFO Compiling dashboard 'bedroom'
+2018-05-09 20:51:32.372192 INFO function [get_dashboard] finished in 1409 ms
+2018-05-09 20:51:32.485269 INFO HADashboard: Dashboard disconnected
+2018-05-09 20:51:33.066887 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-10 07:24:55.512747 INFO HADashboard: Dashboard disconnected
+2018-05-10 07:33:03.010238 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-10 08:20:35.785262 INFO HADashboard: Dashboard disconnected
+2018-05-10 08:22:54.042004 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-10 08:40:23.866171 INFO HADashboard: Dashboard disconnected
+2018-05-10 23:24:14.378096 INFO Compiling dashboard 'bedroom'
+2018-05-10 23:24:15.567327 INFO function [get_dashboard] finished in 1189 ms
+2018-05-10 23:24:16.420536 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-11 01:36:33.315004 INFO HADashboard: Dashboard disconnected
+2018-05-12 12:55:02.647233 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-12 12:58:40.528385 INFO HADashboard: Dashboard disconnected

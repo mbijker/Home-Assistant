@@ -78,9 +78,21 @@ device_tracker:
     host: !secret ip_router
     username: !secret router_username
     password: !secret router_password
-  - platform: owntracks
-    mqtt_topic: owntracks/#
-    waypoints: True
+  - platform: google_maps
+    username: !secret google_loc_user
+    password: !secret google_loc_pass
+
+zone:
+  - name: home
+    latitude: !secret latitude
+    longitude: !secret longitude
+    radius: 40
+    icon: mdi:home
+  - name: work
+    latitude: !secret lat_work
+    longitude: !secret lon_work
+    icon: mdi:store
+    radius: 200
 
 ######################################################
 ## Boolean
@@ -99,12 +111,18 @@ group:
     entities:
       - device_tracker.miran000siphone
       - device_tracker.miran000siphone_2
+      - device_tracker.google_maps_102683890919398491687
+  mark:
+    entities:
+      - device_tracker.google_maps_113826688961459892833
+      - device_tracker.samsunggalaxys7edge
+      - device_tracker.samsunggalaxys7edge_2
   
   family:
     control: hidden
     entities:
       - group.miranda
-      - device_tracker.mbijker_s7mark
+      - group.mark
 #      - input_boolean.notify_everyone_away
 #      - input_boolean.guestmode
   
@@ -135,10 +153,10 @@ automation:
       platform: state
       entity_id:
         - group.miranda
-        - device_tracker.mbijker_s7mark
+        - group.mark
       to: 'home'
       for:
-        minutes: 2
+        minutes: 1
     condition:
       - condition: state
         entity_id: input_boolean.notify_coming_home

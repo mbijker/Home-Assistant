@@ -117,3 +117,35 @@ automation:
       service: light.turn_off
       entity_id: light.bedlamp
 #      transition: 30
+
+script:
+  color_bedroom_red:
+    sequence:
+      - service: light.turn_on
+        data:
+          color_name: red
+          entity_id: light.bedlamp
+  color_bedroom_orange:
+    sequence:
+      - service: light.turn_on
+        data:
+          color_name: orange
+          entity_id: light.bedlamp
+  color_bedroom_white:
+    sequence:
+      - service: light.turn_on
+        data:
+          color_name: white
+          entity_id: light.bedlamp
+  color_bedroom_blue:
+    sequence:
+      - service: light.turn_on
+        data:
+          color_name: blue
+          entity_id: light.bedlamp
+  color_bedroom_purple:
+    sequence:
+      - service: light.turn_on
+        data:
+          color_name: purple
+          entity_id: light.bedlamp
