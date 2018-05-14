@@ -1,7 +1,7 @@
 ######################################################
 # @author       :   Mark Bijker
-# @package      :   
-# @description  :   
+# @package      :   Solar
+# @description  :   Monitoring and interacting with my  solar panel system
 ######################################################
 
 
@@ -15,7 +15,11 @@ homeassistant:
 ######################################################
 ## Components
 ######################################################
-
+sensor:
+  - platform: pvoutput
+    system_id: !secret pvoutput_sysid
+    api_key: !secret pvoutput_api_key
+    scan_interval: 120
 ######################################################
 ## Boolean
 ######################################################

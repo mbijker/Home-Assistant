@@ -974,3 +974,5 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.ho
 2018-05-11 01:36:33.315004 INFO HADashboard: Dashboard disconnected
 2018-05-12 12:55:02.647233 INFO HADashboard: New dashboard connected: Slaapkamer
 2018-05-12 12:58:40.528385 INFO HADashboard: Dashboard disconnected
+2018-05-14 12:20:06.943306 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:20:11.948739 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
