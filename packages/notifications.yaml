@@ -45,19 +45,13 @@ homeassistant:
 ######################################################
 input_boolean:
   notify_diskuse:
-    initial: on
   notify_everyone_away:
-    initial: on
   notify_offline_device:
-    initial: on
   notify_motion:
-    initial: on
   notify_iss:
-    initial: on
   notify_me:
-    initial: on
   notify_coming_home:
-    initial: on
+  notify_solar:
 ######################################################
 ## Groups
 ######################################################
@@ -71,6 +65,7 @@ group:
       - input_boolean.notify_offline_device
       - input_boolean.notify_me
       - input_boolean.notify_coming_home
+      - input_boolean.notify_postnl
 
 ######################################################
 ## Automations

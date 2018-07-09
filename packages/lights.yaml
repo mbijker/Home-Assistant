@@ -29,6 +29,12 @@ homeassistant:
     input_boolean.lights_off_away:
       friendly_name: Verlichting uit als iedereen weg is
       icon: mdi:lightbulb
+    input_boolean.light_on_coming_home:
+      friendly_name: Verlichting aan bij thuiskomen
+      icon: mdi:lightbulb
+    input_boolean.light_off_night:
+      friendly_name: Verlichting uit bij nacht.
+      icon: mdi:lightbulb
 
 ######################################################
 ## Components
@@ -36,26 +42,26 @@ homeassistant:
 light:
   - platform: mqtt
     name: "lights shed"
-    state_topic:   "homeassistant/switch/stat/sonoff/POWER"
-    command_topic: "homeassistant/switch/cmnd/sonoff/POWER"
+    state_topic:   "homeassistant/switch/stat/sonoff/POWER1"
+    command_topic: "homeassistant/switch/cmnd/sonoff/POWER1"
     payload_on: "ON"
     payload_off: "OFF"
   - platform: mqtt
     name: "bedlight mark"
-    state_topic:   "homeassistant/switch/stat/bedlamp_mark/POWER"
-    command_topic: "homeassistant/switch/cmnd/bedlamp_mark/POWER"
+    state_topic:   "homeassistant/switch/stat/bedlamp_mark/POWER1"
+    command_topic: "homeassistant/switch/cmnd/bedlamp_mark/POWER1"
     payload_on: "ON"
     payload_off: "OFF"
   - platform: mqtt
     name: "bedlight miranda"
-    state_topic:   "homeassistant/switch/stat/bedlamp_miranda/POWER"
-    command_topic: "homeassistant/switch/cmnd/bedlamp_miranda/POWER"
+    state_topic:   "homeassistant/switch/stat/bedlamp_miranda/POWER1"
+    command_topic: "homeassistant/switch/cmnd/bedlamp_miranda/POWER1"
     payload_on: "ON"
     payload_off: "OFF"
   - platform: mqtt
     name: "ceilinglight_master_bedroom"
-    state_topic:   "homeassistant/switch/stat/plafondlamp_slaapkamer/POWER"
-    command_topic: "homeassistant/switch/cmnd/plafondlamp_slaapkamer/POWER"
+    state_topic:   "homeassistant/switch/stat/plafondlamp_slaapkamer/POWER1"
+    command_topic: "homeassistant/switch/cmnd/plafondlamp_slaapkamer/POWER1"
     payload_on: "ON"
     payload_off: "OFF"
 
@@ -63,6 +69,8 @@ light:
 ## Boolean
 ######################################################
 input_boolean:
+  light_on_coming_home:
+  light_off_night:
   
 ######################################################
 ## Groups
@@ -117,6 +125,76 @@ automation:
       service: light.turn_off
       entity_id: light.bedlamp
 #      transition: 30
+
+  - alias: turn on light on sunset when home
+    trigger:
+      platform: sun
+      event: sunset
+      offset: "-00:20:00"
+
+    condition:
+      - condition: state
+        entity_id: group.family
+        state: 'home'
+      - condition: state
+        entity_id: light.plafondlamp
+        state: 'off'
+
+    action: 
+      - service: light.turn_on
+        entity_id: light.plafondlamp
+        data:
+          transition: 900
+          color_name: orange
+          brightness: 190
+
+  - alias: turn on light on coming home
+    trigger:
+      platform: state
+      entity_id: group.family
+      from: 'not_home'
+      to: 'home'
+    
+    condition:
+      - condition: state
+        entity_id: input_boolean.light_on_coming_home
+        state: 'on'
+      - condition: state
+        entity_id: light.plafondlamp
+        state: 'off'
+      - condition: state
+        entity_id: sun.sun
+        state: 'below_horizon'
+
+    action:
+      - service: light.turn_on
+        entity_id: light.plafondlamp
+        data:
+          color_name: orange
+          brightness: 190
+
+  - alias: turn off light when at night
+    trigger:
+      platform: time
+      at: '23:59:00'
+
+    condition:
+      - condition: state
+        entity_id: input_boolean.light_off_night
+        state: 'on'
+      - condition: state
+        entity_id: group.family
+        state: 'not_home'
+      - condition: state
+        entity_id: input_boolean.guestmode
+        state: 'off'
+
+    action:
+      - service: light.turn_off
+        entity_id: group.all_lights
+######################################################
+## Scripts
+######################################################
 
 script:
   color_bedroom_red:

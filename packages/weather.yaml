@@ -20,7 +20,7 @@ homeassistant:
       friendly_name: Temperatuur
     sensor.dark_sky_apparent_temperature:
       friendly_name: Gevoelstemperatuur
-    sensor.dark_sky_daily_low_temperature:
+    sensor.dark_sky_temperature_low:
       friendly_name: Minimum temperatuur
     sensor.dark_sky_daily_high_temperature:
       friendly_name: Maximum temperatuur
@@ -56,6 +56,9 @@ sensor:
     - temperature
     - humidity
     - precip_probability
+    - precip_type
+    - precip_accumulation
+    - precip_intensity_max
     - precip_intensity
     - wind_speed
     - pressure
@@ -64,8 +67,8 @@ sensor:
     - cloud_cover
     - visibility
     - daily_summary
-    - temperature_max
-    - temperature_min
+    - temperature_high
+    - temperature_low
 
 ######################################################
 ## Boolean
@@ -91,8 +94,6 @@ group:
       - sensor.dark_sky_humidity
       - sensor.dark_sky_pressure
       - sensor.dark_sky_cloud_coverage
-#      - sensor.dark_sky_icon
-#      - sensor.dark_sky_nearest_storm_distance
       - sensor.dark_sky_visibility
       
 ######################################################

@@ -1,0 +1,20 @@
+title: MenM
+views:
+  - title: Home
+    icon: mdi:home-assistant
+    # The cards to show on this view.
+    cards:
+      - type: entities
+        title: Beweging
+        #show_header_toggle: false
+        entities:
+          - binary_sensor.alley_1
+          - binary_sensor.alley_2
+          - binary_sensor.garden
+          - binary_sensor.motion_sensor_158d0002270299
+          - binary_sensor.motion_shed
+          - input_boolean.notify_motion
+      - type: entities
+        title: Camera
+        entities:
+          - camera.steeg_1

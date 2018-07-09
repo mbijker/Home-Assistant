@@ -1,6 +1,6 @@
 layout:
     - weather(2x2), clock(2x1),  mark_presence(2x1), miranda_presence(2x1)
-    - temp_shed, humid_shed, cpu, mem, disk, speedtest_down
+    - temp_shed, humid_shed, disk, speedtest_down, solar_generation, solar_power
 
 clock:
     widget_type: clock
@@ -10,11 +10,12 @@ weather:
     widget_type: weather
     units: "&deg;C"
     shorten: one
+    prefer_icons: 1
 
 mark_presence:
     widget_type: device_tracker
     title: Mark
-    device: samsunggalaxys7edge
+    device: google_maps_113826688961459892833
     icon_on: fa-male
     icon_off: fa-male
 
@@ -23,7 +24,7 @@ miranda_presence:
     title: Miranda
     icon_on: fa-female
     icon_off: fa-female
-    device: miran000siphone
+    device: google_maps_102683890919398491687
 
 temp_shed:
     widget_type: sensor
@@ -37,22 +38,6 @@ humid_shed:
     entity: sensor.humidity_shed
     precision: 1
 
-cpu:
-    widget_type: gauge
-    title: Processor
-    entity: sensor.processor_use
-    min: 0
-    max: 0
-    units: "%"
-
-mem:
-    widget_type: gauge
-    title: Geheugen
-    entity: sensor.memory_use
-    min: 0
-    max: 1024
-    units: "MB"
-
 disk:
     widget_type: gauge
     title: Opslag
@@ -64,4 +49,18 @@ disk:
 speedtest_down:
     widget_type: sensor
     title: Speedtest
+    title2: download
     entity: sensor.speedtest_download
+
+solar_generation:
+    widget_type: sensor
+    title: Opbrengst
+    title2: zonnepanelen
+    entity: sensor.energy_generation
+    precision: 2
+
+solar_power:
+    widget_type: sensor
+    title: Vermogen
+    title2: zonnepanelen
+    entity: sensor.power_generation

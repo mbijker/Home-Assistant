@@ -82,7 +82,7 @@ switch:
 input_boolean:
   remote_off_away:
     name: 'media off nobody home'
-    initial: on
+
 ######################################################
 ## Groups
 ######################################################

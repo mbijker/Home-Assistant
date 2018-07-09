@@ -1,0 +1,28 @@
+{
+    "data": {
+        "entries": [
+            {
+                "data": {
+                    "bridge_id": "001788FFFE26F582",
+                    "host": "192.168.1.90",
+                    "username": "FK37rfhUXYOauA5TiBcg9d6wKV3WGwnGQ7JzIT0y"
+                },
+                "domain": "hue",
+                "entry_id": "5c72570b7ba145cc9da689f032d2a034",
+                "source": "discovery",
+                "title": "Thuis",
+                "version": 1
+            },
+            {
+                "data": {},
+                "domain": "cast",
+                "entry_id": "e5eb7f24429445168d1797d06d4e9ddc",
+                "source": "discovery",
+                "title": "Google Cast",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

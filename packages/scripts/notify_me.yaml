@@ -6,7 +6,6 @@
 script:
   notify_me:
     sequence:
-      # This is Home Assistant Script Syntax
       - service: notify.telegram
         data_template:
           message: "{{ message }}"

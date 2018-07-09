@@ -1,20 +1,25 @@
 ######################################################
 # @author       :   Mark Bijker
-# @package      :   Battery
-# @description  :   Track battery status
+# @package      :   
+# @description  :   
 ######################################################
+
 
 ######################################################
 ## Base and customisations
 ######################################################
 homeassistant:
-  
   customize:
+    group.printer:
+      friendly_name: Printer
+    sensor.samsung_m2020_series_192168169_toner_black:
+      friendly_name: Toner
+    sensor.samsung_m2020_series_192168169_tray_1:
+      friendly_name: Papier
 
 ######################################################
 ## Components
 ######################################################
-sensor:
 
 ######################################################
 ## Boolean
@@ -25,8 +30,17 @@ input_boolean:
 ## Groups
 ######################################################
 group:
-
+  printer:
+    entities:
+#      - sensor.samsung_m2020_series_192168169_output_tray_0
+      - sensor.samsung_m2020_series_192168169_toner_black
+      - sensor.samsung_m2020_series_192168169_tray_1
 ######################################################
 ## Automations
 ######################################################
 automation:
+
+######################################################
+## Scripts
+######################################################
+script:

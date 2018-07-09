@@ -10,6 +10,9 @@
 ######################################################
 homeassistant:
   customize:
+    group.mark:
+      friendly_name: Mark
+      entity_picture: /local/mark.png
     group.miranda:
       friendly_name: Miranda
       entity_picture: /local/miranda.jpg
@@ -20,8 +23,6 @@ homeassistant:
       order: 2
       friendly_name: Netwerk devices
 
-    device_tracker.mbijker_s7mark:
-      friendly_name: Mark
     device_tracker.miran000siphone:
       friendly_name: Miranda
     device_tracker.bedlamp_mark1507_2:
@@ -88,18 +89,16 @@ zone:
     longitude: !secret longitude
     radius: 40
     icon: mdi:home
-  - name: work
-    latitude: !secret lat_work
-    longitude: !secret lon_work
-    icon: mdi:store
-    radius: 200
 
 ######################################################
 ## Boolean
 ######################################################
 input_boolean:
   guestmode:
-    initial: off
+  daymode:
+  nightmode:
+  homemode:
+  awaymode:
 
 ######################################################
 ## Groups
@@ -113,6 +112,7 @@ group:
       - device_tracker.miran000siphone_2
       - device_tracker.google_maps_102683890919398491687
   mark:
+    control: hidden
     entities:
       - device_tracker.google_maps_113826688961459892833
       - device_tracker.samsunggalaxys7edge
@@ -176,18 +176,19 @@ automation:
             "Klop klop. Wie is daar? Het is " ~ person,
             person ~ "! Je bent thuis!",
             "Ik weet een geheimpje! "  ~ person +" is thuis!",
-            "Ja hoor daar is " ~ person +"weer. Welkom thuis"
+            "Ja hoor daar is " ~ person +" weer. Welkom thuis"
             ] | random }}
             {%- endmacro -%}
             {{greeting_sentence(person)}}
+
   ## Run away script when everybody is away and the boolean guestmode is off.
   - alias: "Everybody away"
     trigger:
       platform: state
       entity_id: group.family
       to: 'not_home'
-#      for:
-#        minutes: 2
+      for:
+        minutes: 2
     condition:
       - condition: state
         entity_id: 'input_boolean.guestmode'
@@ -197,3 +198,32 @@ automation:
         state: 'on'
     action:
       - service: script.everything_off_when_away
+
+  - alias: "Away mode"
+    trigger:
+      platform: state
+      entity_id: group.family
+      to: 'not_home'
+#      for:
+#        minutes: 2
+    action:
+      - service: input_boolean.turn_on
+        data:
+          entity_id: input_boolean.awaymode
+      - service: input_boolean.turn_off
+        data:
+          entity_id: input_boolean.homemode
+  - alias: "Home mode"
+    trigger:
+      platform: state
+      entity_id: group.family
+      to: 'home'
+#      for:
+#        minutes: 2
+    action:
+      - service: input_boolean.turn_on
+        data:
+          entity_id: input_boolean.homemode
+      - service: input_boolean.turn_off 
+        data:
+          entity_id: input_boolean.awaymode

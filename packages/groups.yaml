@@ -12,7 +12,6 @@ homeassistant:
   customize:
     group.default_view:
       icon: mdi:home
-    
 ######################################################
 ## Components
 ######################################################
@@ -26,7 +25,7 @@ input_boolean:
 ## Groups
 ######################################################
 group:
-  default_view:
+  default_view1:
     view: yes
     entities:
       - group.family
@@ -45,6 +44,31 @@ group:
       - group.notify
       - group.automations
       - group.media_players
+      - group.solar
+      - group.printer
+  lights:
+    view: yes
+    entities:
+      - group.lights_card
+  media:
+    view: yes
+    entities:
+      - group.media_players
+  statistics:
+    view: yes
+    entities:
+      - group.network_devices
+      - group.motion
+      - group.time
+      - group.humidity
+      - group.temperature
+      - group.battery
+      - group.performance
+      - group.weather
+      - group.notify
+      - group.automations
+      - group.solar
+      - group.printer
 ######################################################
 ## Automations
 ######################################################

@@ -1,25 +1,31 @@
 ######################################################
 # @author       :   Mark Bijker
-# @package      :   Battery
-# @description  :   Track battery status
+# @package      :   Mail
+# @description  :   Mail sensor
 ######################################################
+
 
 ######################################################
 ## Base and customisations
 ######################################################
 homeassistant:
-  
   customize:
+    friendly_name:
+      input_boolean.notify_postnl: Notificatie Postpakket
+    
 
 ######################################################
 ## Components
 ######################################################
 sensor:
-
+  - platform: postnl
+    username: !secret postnl_username
+    password: !secret postnl_password
 ######################################################
 ## Boolean
 ######################################################
 input_boolean:
+  notify_postnl:
 
 ######################################################
 ## Groups
@@ -30,3 +36,25 @@ group:
 ## Automations
 ######################################################
 automation:
+  - alias: "PostNL package"
+    
+    trigger:
+      platform: state
+      entity_id: sensor.postnl
+      from: "0"
+    
+    condition:
+      - condition: state
+        entity_id: input_boolean.notify_postnl
+        state: "on"
+
+    action:
+      - service: script.speech_main_logic
+        data:
+          message: "Er is een pakketje onderweg van PostNL"
+
+
+######################################################
+## Scripts
+######################################################
+script:

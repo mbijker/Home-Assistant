@@ -976,3 +976,1271 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.ho
 2018-05-12 12:58:40.528385 INFO HADashboard: Dashboard disconnected
 2018-05-14 12:20:06.943306 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
 2018-05-14 12:20:11.948739 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:20:16.955316 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:20:21.961880 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:20:26.966144 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:20:31.970310 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:20:37.194955 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-14 12:20:37.285260 INFO AppDaemon: Processing restart for HASS
+2018-05-14 12:21:07.258412 INFO Compiling dashboard 'bedroom'
+2018-05-14 12:21:08.520991 INFO function [get_dashboard] finished in 1262 ms
+2018-05-14 12:21:08.867155 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-14 12:21:45.668410 INFO HADashboard: Dashboard disconnected
+2018-05-14 12:22:39.114638 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:22:44.119601 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:22:49.124481 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:22:54.127803 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:22:59.131371 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:23:04.136964 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:23:09.184962 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-14 12:23:09.558424 INFO AppDaemon: Processing restart for HASS
+2018-05-14 12:24:30.478871 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:24:35.486034 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:24:40.491240 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:24:45.495480 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:24:50.500741 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:24:55.504157 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:25:00.537883 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-14 12:25:00.749036 INFO AppDaemon: Processing restart for HASS
+2018-05-14 12:28:21.747573 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:28:26.753489 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:28:31.759035 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:28:36.763092 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:28:41.768055 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:28:46.772199 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:28:51.835281 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-14 12:28:52.032007 INFO AppDaemon: Processing restart for HASS
+2018-05-14 12:32:04.867978 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:32:09.873573 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:32:14.878847 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:32:19.883073 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:32:24.886764 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:32:29.891536 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:32:34.911597 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-14 12:32:34.988639 INFO AppDaemon: Processing restart for HASS
+2018-05-14 12:34:24.224373 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:34:29.229787 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:34:34.235305 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:34:39.238799 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:34:44.241992 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:34:49.245133 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:34:54.299239 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-14 12:34:54.568543 INFO AppDaemon: Processing restart for HASS
+2018-05-14 12:39:36.697516 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:39:41.702035 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:39:46.707623 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:39:51.711607 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:39:56.715816 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:40:01.720616 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:40:06.790870 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-14 12:40:07.099425 INFO AppDaemon: Processing restart for HASS
+2018-05-14 12:45:34.848171 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:45:39.853549 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:45:44.858504 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:45:49.862135 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:45:54.865712 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:45:59.869049 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 12:46:04.928512 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-14 12:46:05.222665 INFO AppDaemon: Processing restart for HASS
+2018-05-14 13:15:41.557589 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 13:15:46.562729 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 13:15:51.578570 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 13:15:56.582494 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 13:16:01.586175 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 13:16:06.589623 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-14 13:16:11.622991 INFO AppDaemon: HASS: Connected to Home Assistant 0.67.1
+2018-05-14 13:16:11.778081 INFO AppDaemon: Processing restart for HASS
+2018-05-14 13:30:16.613339 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.6132290363311768 - resetting
+2018-05-14 13:30:16.679149 WARNING AppDaemon: Excessive time spent in utility loop: 1888.0ms
+2018-05-15 06:30:15.806622 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.1930980682373047 - resetting
+2018-05-15 09:57:11.814728 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:57:16.820089 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:57:21.825281 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:57:26.831072 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:57:31.834435 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:57:36.837283 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:57:41.840597 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:57:46.843765 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:57:59.277146 WARNING AppDaemon: Scheduler clock skew detected - delta = 11.470660924911499 - resetting
+2018-05-15 09:58:04.278589 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:58:09.283893 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:58:14.287916 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:58:19.291664 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:58:24.294968 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:58:29.297880 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:58:34.302151 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:58:36.987172 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.7100169658660889 - resetting
+2018-05-15 09:58:41.988100 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:58:46.993576 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:58:51.997010 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:58:57.000357 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:59:02.003996 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:59:07.007747 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:59:12.011742 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:59:17.014719 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 09:59:22.088006 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-15 09:59:22.331070 INFO AppDaemon: Processing restart for HASS
+2018-05-15 11:13:48.278777 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 11:13:53.286035 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 11:13:58.292788 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 11:14:03.296867 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 11:14:08.300566 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 11:14:13.303584 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-15 11:14:18.317916 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-15 11:14:18.621697 INFO AppDaemon: Processing restart for HASS
+2018-05-15 12:30:15.533214 WARNING AppDaemon: Excessive time spent in utility loop: 930.0ms
+2018-05-15 13:00:25.263845 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.2767341136932373 - resetting
+2018-05-15 13:00:26.287127 WARNING AppDaemon: Excessive time spent in utility loop: 2678.0ms
+2018-05-22 01:30:20.362409 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.0799059867858887 - resetting
+2018-05-22 01:30:24.853744 WARNING AppDaemon: Excessive time spent in scheduler loop: 1506.0ms
+2018-05-22 02:00:21.712530 WARNING AppDaemon: Excessive time spent in scheduler loop: 1334.0ms
+2018-05-22 02:00:47.464255 WARNING AppDaemon: Scheduler clock skew detected - delta = 28.81339693069458 - resetting
+2018-05-22 02:01:18.838079 WARNING AppDaemon: Scheduler clock skew detected - delta = 29.571532011032104 - resetting
+2018-05-22 02:02:50.867549 WARNING AppDaemon: Scheduler clock skew detected - delta = 94.08664202690125 - resetting
+2018-05-22 02:03:10.128900 WARNING AppDaemon: Scheduler clock skew detected - delta = 11.695130825042725 - resetting
+2018-05-22 02:03:16.986546 WARNING AppDaemon: Scheduler clock skew detected - delta = 12.475735187530518 - resetting
+2018-05-22 02:03:23.862292 WARNING AppDaemon: Scheduler clock skew detected - delta = 5.258111953735352 - resetting
+2018-05-22 02:03:24.007187 WARNING AppDaemon: Excessive time spent in utility loop: 96512.0ms
+2018-05-22 02:03:27.798070 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.8369970321655273 - resetting
+2018-05-22 02:03:33.020843 WARNING AppDaemon: Scheduler clock skew detected - delta = 4.571807861328125 - resetting
+2018-05-22 02:03:38.665879 WARNING AppDaemon: Scheduler clock skew detected - delta = 6.009603023529053 - resetting
+2018-05-22 02:03:39.594771 WARNING AppDaemon: Excessive time spent in utility loop: 3917.0ms
+2018-05-22 02:03:41.544374 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.823199987411499 - resetting
+2018-05-22 02:03:44.042692 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.5288400650024414 - resetting
+2018-05-22 02:03:44.143378 WARNING AppDaemon: Excessive time spent in utility loop: 1041.0ms
+2018-05-22 02:30:24.662981 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.6481330394744873 - resetting
+2018-05-23 05:42:12.121907 INFO Compiling dashboard 'bedroom'
+2018-05-23 05:42:13.490123 INFO function [get_dashboard] finished in 1377 ms
+2018-05-23 05:42:17.240274 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-23 06:05:38.499672 INFO HADashboard: Dashboard disconnected
+2018-05-23 06:10:35.189838 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-23 06:29:46.868942 INFO HADashboard: Dashboard disconnected
+2018-05-23 22:10:30.266684 INFO Compiling dashboard 'bedroom'
+2018-05-23 22:10:31.611965 INFO function [get_dashboard] finished in 1355 ms
+2018-05-23 22:10:32.906977 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-23 22:13:18.590613 INFO Compiling dashboard 'bedroom_color'
+2018-05-23 22:13:19.870834 INFO function [get_dashboard] finished in 1280 ms
+2018-05-23 22:13:19.984059 INFO HADashboard: Dashboard disconnected
+2018-05-23 22:13:20.584226 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-05-23 22:13:22.335364 INFO Compiling dashboard 'bedroom'
+2018-05-23 22:13:23.580349 INFO function [get_dashboard] finished in 1245 ms
+2018-05-23 22:13:23.641123 INFO HADashboard: Dashboard disconnected
+2018-05-23 22:13:24.164784 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-24 05:29:41.428956 INFO HADashboard: Dashboard disconnected
+2018-05-24 05:37:33.349614 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-24 05:54:48.116400 INFO HADashboard: Dashboard disconnected
+2018-05-24 05:56:36.108828 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-24 06:11:27.292353 INFO HADashboard: Dashboard disconnected
+2018-05-24 06:12:04.544278 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-24 06:29:26.352986 INFO HADashboard: Dashboard disconnected
+2018-05-25 08:04:54.865418 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:04:59.875070 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:05:04.881718 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:05:09.885474 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:05:14.889284 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:05:19.893379 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:05:24.896843 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:05:29.901011 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:05:34.916482 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-25 08:05:35.001566 INFO AppDaemon: Processing restart for HASS
+2018-05-25 08:06:31.700788 WARNING AppDaemon: Scheduler clock skew detected - delta = 5.037876844406128 - resetting
+2018-05-25 08:06:32.127354 WARNING AppDaemon: Excessive time spent in utility loop: 5748.0ms
+2018-05-25 08:06:54.830675 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:06:59.835856 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:07:04.841395 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:07:09.844831 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:07:14.849567 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:07:19.855806 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:07:24.859799 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:07:29.912666 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-25 08:07:30.191949 INFO AppDaemon: Processing restart for HASS
+2018-05-25 08:09:10.555243 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:09:15.561827 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:09:20.567741 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:09:25.571429 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:09:30.575117 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:09:34.631099 INFO Compiling dashboard 'home'
+2018-05-25 08:09:35.594135 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:09:37.511682 INFO function [get_dashboard] finished in 2880 ms
+2018-05-25 08:09:37.993648 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-05-25 08:09:40.659893 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-25 08:09:41.034100 INFO AppDaemon: Processing restart for HASS
+2018-05-25 08:09:45.289783 INFO HADashboard: Dashboard disconnected
+2018-05-25 08:13:47.009377 INFO Compiling dashboard 'home'
+2018-05-25 08:13:49.566609 INFO function [get_dashboard] finished in 2558 ms
+2018-05-25 08:13:50.049981 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-25 08:13:55.344995 INFO Compiling dashboard 'home'
+2018-05-25 08:13:57.837670 INFO function [get_dashboard] finished in 2492 ms
+2018-05-25 08:13:57.858885 INFO HADashboard: Dashboard disconnected
+2018-05-25 08:13:58.293957 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-25 08:14:15.141552 INFO Compiling dashboard 'home'
+2018-05-25 08:14:17.699258 INFO function [get_dashboard] finished in 2557 ms
+2018-05-25 08:14:17.717347 INFO HADashboard: Dashboard disconnected
+2018-05-25 08:14:18.181253 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-25 08:18:14.855808 INFO Compiling dashboard 'home'
+2018-05-25 08:18:17.266298 INFO function [get_dashboard] finished in 2410 ms
+2018-05-25 08:18:17.285226 INFO HADashboard: Dashboard disconnected
+2018-05-25 08:18:17.793670 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-25 08:20:54.615769 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:20:59.627363 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:21:04.634474 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:21:09.584330 INFO Compiling dashboard 'home'
+2018-05-25 08:21:09.646023 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:21:12.235860 INFO function [get_dashboard] finished in 2651 ms
+2018-05-25 08:21:12.252869 INFO HADashboard: Dashboard disconnected
+2018-05-25 08:21:12.766790 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-25 08:21:14.651058 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:21:19.656033 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:21:24.661077 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 08:21:28.434600 INFO Compiling dashboard 'home'
+2018-05-25 08:21:29.675780 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-25 08:21:29.744983 INFO AppDaemon: Processing restart for HASS
+2018-05-25 08:21:32.679689 INFO function [get_dashboard] finished in 4251 ms
+2018-05-25 08:21:32.695794 INFO HADashboard: Dashboard disconnected
+2018-05-25 08:21:33.495774 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-25 08:24:54.762234 INFO Compiling dashboard 'home'
+2018-05-25 08:24:55.611743 WARNING Unable to find widget definition for 'mem'
+2018-05-25 08:24:57.237561 INFO function [get_dashboard] finished in 2475 ms
+2018-05-25 08:24:57.251714 INFO HADashboard: Dashboard disconnected
+2018-05-25 08:24:57.700275 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-25 08:25:07.674383 INFO Compiling dashboard 'home'
+2018-05-25 08:25:09.993393 INFO function [get_dashboard] finished in 2319 ms
+2018-05-25 08:25:10.010097 INFO HADashboard: Dashboard disconnected
+2018-05-25 08:25:10.448536 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-25 08:30:15.116610 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.415581226348877 - resetting
+2018-05-25 08:30:21.790180 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.376487970352173 - resetting
+2018-05-25 08:30:22.601319 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.1018059253692627 - resetting
+2018-05-25 08:30:26.894307 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.299468994140625 - resetting
+2018-05-25 08:30:27.123577 WARNING AppDaemon: Excessive time spent in utility loop: 4520.0ms
+2018-05-25 08:30:55.679282 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.8374249935150146 - resetting
+2018-05-25 08:31:48.931950 WARNING AppDaemon: Scheduler clock skew detected - delta = 52.34173107147217 - resetting
+2018-05-25 08:31:51.895763 WARNING AppDaemon: Scheduler clock skew detected - delta = 4.708761930465698 - resetting
+2018-05-25 08:31:57.329522 WARNING AppDaemon: Scheduler clock skew detected - delta = 4.5471320152282715 - resetting
+2018-05-25 08:32:00.153534 WARNING AppDaemon: Excessive time spent in scheduler loop: 1196.0ms
+2018-05-25 08:32:00.865176 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.521122932434082 - resetting
+2018-05-25 08:32:05.642511 WARNING AppDaemon: Excessive time spent in utility loop: 15606.0ms
+2018-05-25 08:34:17.371374 INFO Compiling dashboard 'home'
+2018-05-25 08:34:19.850704 INFO function [get_dashboard] finished in 2489 ms
+2018-05-25 08:34:19.881158 INFO HADashboard: Dashboard disconnected
+2018-05-25 08:34:20.570304 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-25 08:51:15.792873 INFO HADashboard: Dashboard disconnected
+2018-05-25 09:00:16.934847 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.0844690799713135 - resetting
+2018-05-25 09:00:16.949847 WARNING AppDaemon: Excessive time spent in utility loop: 2594.0ms
+2018-05-25 10:17:07.485194 INFO AppDaemon Version 3.0.1 starting
+2018-05-25 10:17:07.487284 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-05-25 10:17:07.490411 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-05-25 10:17:07.492589 INFO AppDaemon: Starting Apps
+2018-05-25 10:17:07.494060 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-05-25 10:17:07.501631 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-05-25 10:17:07.553689 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-05-25 10:17:07.554856 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-05-25 10:17:07.555718 INFO Starting Dashboards
+2018-05-25 10:17:07.559765 WARNING css: /home exists, but is not writeable, owner: root
+2018-05-25 10:17:07.562355 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-05-25 10:17:07.577366 INFO API is disabled
+2018-05-25 10:17:07.580318 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:17:12.586431 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:17:20.726736 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:17:28.646948 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:17:36.806769 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:17:43.046716 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:17:51.206578 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:17:59.366579 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:18:07.526591 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:18:15.686568 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:18:23.846572 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:18:32.006576 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:18:40.166577 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:18:48.326718 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:18:56.486692 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:19:04.646598 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:19:12.816563 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:19:20.966654 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:19:29.126699 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 10:50:39.698923 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-25 10:50:39.827064 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-05-25 10:50:39.828259 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-05-25 10:50:39.838192 INFO AppDaemon: Processing restart for HASS
+2018-05-25 10:50:39.841053 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-05-25 10:50:43.438136 INFO AppDaemon: App initialization complete
+2018-05-25 20:59:22.090451 INFO SIGTERM Recieved
+2018-05-25 20:59:25.121960 INFO AppDaemon: Removing module /home/homeassistant/.homeassistant/appdaemon/hello.py
+2018-05-25 20:59:25.124597 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.124444007873535 - resetting
+2018-05-25 20:59:25.126736 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-05-25 20:59:25.128778 INFO AppDeamon Exited
+2018-05-25 21:00:59.349036 INFO AppDaemon Version 3.0.1 starting
+2018-05-25 21:00:59.351073 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-05-25 21:00:59.354168 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-05-25 21:00:59.356389 INFO AppDaemon: Starting Apps
+2018-05-25 21:00:59.357864 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-05-25 21:00:59.365311 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-05-25 21:00:59.420657 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-05-25 21:00:59.421830 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-05-25 21:00:59.422726 INFO Starting Dashboards
+2018-05-25 21:00:59.428512 WARNING css: /home exists, but is not writeable, owner: root
+2018-05-25 21:00:59.433600 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-05-25 21:00:59.461704 INFO API is disabled
+2018-05-25 21:00:59.467250 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 21:01:04.472192 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 21:01:09.477370 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 21:01:14.481662 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 21:01:19.485836 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 21:01:24.490228 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-25 21:01:36.568019 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-25 21:01:36.640359 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-05-25 21:01:36.641204 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-05-25 21:01:36.642213 INFO AppDaemon: Processing restart for HASS
+2018-05-25 21:01:36.642732 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-05-25 21:01:38.204324 INFO AppDaemon: App initialization complete
+2018-05-27 09:18:24.568077 INFO SIGTERM Recieved
+2018-05-27 09:18:24.793356 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-05-27 09:18:25.052985 INFO AppDaemon: Removing module /home/homeassistant/.homeassistant/appdaemon/hello.py
+2018-05-27 09:18:25.054713 INFO AppDeamon Exited
+2018-05-27 09:20:01.522637 INFO AppDaemon Version 3.0.1 starting
+2018-05-27 09:20:01.530664 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-05-27 09:20:01.533996 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-05-27 09:20:01.536182 INFO AppDaemon: Starting Apps
+2018-05-27 09:20:01.537959 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-05-27 09:20:01.546060 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-05-27 09:20:01.624423 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-05-27 09:20:01.625692 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-05-27 09:20:01.626766 INFO Starting Dashboards
+2018-05-27 09:20:01.631347 WARNING css: /home exists, but is not writeable, owner: root
+2018-05-27 09:20:01.634334 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-05-27 09:20:01.652322 INFO API is disabled
+2018-05-27 09:20:01.655845 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-27 09:20:06.660946 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-27 09:20:11.665653 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-27 09:20:16.669987 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-27 09:20:21.673682 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-27 09:20:26.677975 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-27 09:20:39.234399 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-27 09:20:44.290127 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-27 09:20:44.510741 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-05-27 09:20:44.511663 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-05-27 09:20:44.512863 INFO AppDaemon: Processing restart for HASS
+2018-05-27 09:20:44.513556 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-05-27 09:20:47.844370 INFO AppDaemon: App initialization complete
+2018-05-29 18:32:01.371321 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:32:28.659049 INFO Compiling dashboard 'home'
+2018-05-29 18:32:31.537726 INFO function [get_dashboard] finished in 2881 ms
+2018-05-29 18:32:31.547377 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:32:32.535523 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:33:18.846742 INFO Compiling dashboard 'home'
+2018-05-29 18:33:21.234642 INFO function [get_dashboard] finished in 2388 ms
+2018-05-29 18:33:21.941326 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:33:57.490322 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:34:01.143099 INFO Compiling dashboard 'home'
+2018-05-29 18:34:03.545846 INFO function [get_dashboard] finished in 2403 ms
+2018-05-29 18:34:04.057800 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:34:08.047195 INFO Compiling dashboard 'home'
+2018-05-29 18:34:10.399899 INFO function [get_dashboard] finished in 2352 ms
+2018-05-29 18:34:10.483522 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:34:12.486830 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:34:22.107323 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:34:56.775423 INFO Compiling dashboard 'home'
+2018-05-29 18:34:59.186392 INFO function [get_dashboard] finished in 2411 ms
+2018-05-29 18:34:59.226230 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:35:00.043226 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:36:49.177842 INFO Compiling dashboard 'home'
+2018-05-29 18:36:51.561963 INFO function [get_dashboard] finished in 2384 ms
+2018-05-29 18:36:51.661105 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:36:52.463490 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:39:10.128259 INFO Compiling dashboard 'home'
+2018-05-29 18:39:12.519954 INFO function [get_dashboard] finished in 2391 ms
+2018-05-29 18:39:14.198729 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:39:14.812302 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:39:25.728933 INFO Compiling dashboard 'home'
+2018-05-29 18:39:26.431972 WARNING Unable to find widget definition for 'miranda_presence'
+2018-05-29 18:39:28.064436 INFO function [get_dashboard] finished in 2335 ms
+2018-05-29 18:39:28.073886 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:39:28.683951 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:39:39.339042 INFO Compiling dashboard 'home'
+2018-05-29 18:39:41.741400 INFO function [get_dashboard] finished in 2402 ms
+2018-05-29 18:39:41.842002 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:39:42.487701 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:39:54.660186 INFO Compiling dashboard 'living'
+2018-05-29 18:39:57.264083 INFO function [get_dashboard] finished in 2604 ms
+2018-05-29 18:39:57.305995 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:39:57.923154 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:40:01.053294 INFO Compiling dashboard 'slaapkamer'
+2018-05-29 18:40:01.567035 WARNING Dashboard 'slaapkamer' not found
+2018-05-29 18:40:01.568233 WARNING ------------------------------------------------------------
+2018-05-29 18:40:01.568809 WARNING Unexpected error during DASH creation
+2018-05-29 18:40:01.569256 WARNING ------------------------------------------------------------
+2018-05-29 18:40:01.574436 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 834, in get_dashboard
+    with open(include_path, "r") as include_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.homeassistant/compiled/html/default/slaapkamer_head.html'
+
+2018-05-29 18:40:01.575075 WARNING ------------------------------------------------------------
+2018-05-29 18:40:01.575596 INFO function [get_dashboard] finished in 522 ms
+2018-05-29 18:40:01.598392 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:40:04.345090 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:40:08.914647 INFO Compiling dashboard 'home'
+2018-05-29 18:40:11.321845 INFO function [get_dashboard] finished in 2407 ms
+2018-05-29 18:40:11.331199 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:40:11.881218 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:40:13.421832 INFO Compiling dashboard 'controls'
+2018-05-29 18:40:13.890792 WARNING Dashboard 'controls' not found
+2018-05-29 18:40:13.891989 WARNING ------------------------------------------------------------
+2018-05-29 18:40:13.892521 WARNING Unexpected error during DASH creation
+2018-05-29 18:40:13.893044 WARNING ------------------------------------------------------------
+2018-05-29 18:40:13.893831 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 834, in get_dashboard
+    with open(include_path, "r") as include_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.homeassistant/compiled/html/default/controls_head.html'
+
+2018-05-29 18:40:13.894301 WARNING ------------------------------------------------------------
+2018-05-29 18:40:13.894748 INFO function [get_dashboard] finished in 473 ms
+2018-05-29 18:40:13.958118 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:40:16.070924 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:40:17.462885 INFO Compiling dashboard 'home'
+2018-05-29 18:40:19.858707 INFO function [get_dashboard] finished in 2396 ms
+2018-05-29 18:40:19.944411 INFO HADashboard: Dashboard disconnected
+2018-05-29 18:40:20.498451 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-29 18:52:52.812488 INFO HADashboard: Dashboard disconnected
+2018-05-30 08:53:26.763619 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 08:53:31.770069 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 08:53:36.775365 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 08:53:41.779558 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 08:53:46.783319 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 08:53:51.786979 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 08:53:56.865966 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-30 08:53:57.170814 INFO AppDaemon: Processing restart for HASS
+2018-05-30 08:57:26.163788 INFO Compiling dashboard 'home'
+2018-05-30 08:57:28.611821 INFO function [get_dashboard] finished in 2448 ms
+2018-05-30 08:57:29.017995 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 08:58:06.804909 INFO HADashboard: Dashboard disconnected
+2018-05-30 08:58:09.490765 INFO Compiling dashboard 'home'
+2018-05-30 08:58:11.062260 INFO Compiling dashboard 'home'
+2018-05-30 08:58:13.598589 INFO function [get_dashboard] finished in 4107 ms
+2018-05-30 08:58:14.341943 INFO function [get_dashboard] finished in 3285 ms
+2018-05-30 08:58:14.725070 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 08:58:23.147559 INFO HADashboard: Dashboard disconnected
+2018-05-30 08:58:25.773418 INFO Compiling dashboard 'home'
+2018-05-30 08:58:28.164760 INFO function [get_dashboard] finished in 2391 ms
+2018-05-30 08:58:28.654535 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 08:58:40.162978 INFO Compiling dashboard 'home'
+2018-05-30 08:58:42.609284 INFO function [get_dashboard] finished in 2446 ms
+2018-05-30 08:58:42.623262 INFO HADashboard: Dashboard disconnected
+2018-05-30 08:58:43.004937 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 08:59:05.829844 INFO Compiling dashboard 'home'
+2018-05-30 08:59:08.219359 INFO function [get_dashboard] finished in 2389 ms
+2018-05-30 08:59:08.238391 INFO HADashboard: Dashboard disconnected
+2018-05-30 08:59:08.716369 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:00:30.936039 INFO Compiling dashboard 'home'
+2018-05-30 09:00:33.432032 INFO function [get_dashboard] finished in 2496 ms
+2018-05-30 09:00:33.449771 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:00:33.963044 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:01:39.170419 INFO Compiling dashboard 'home'
+2018-05-30 09:01:41.587635 INFO function [get_dashboard] finished in 2417 ms
+2018-05-30 09:01:41.614216 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:01:42.088658 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:03:04.281035 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:03:09.287628 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:03:14.294725 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:03:15.341881 INFO Compiling dashboard 'home'
+2018-05-30 09:03:17.758892 INFO function [get_dashboard] finished in 2417 ms
+2018-05-30 09:03:17.776083 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:03:18.278872 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:03:19.299390 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:03:21.958855 INFO Compiling dashboard 'home'
+2018-05-30 09:03:24.318750 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:03:24.411386 INFO function [get_dashboard] finished in 2452 ms
+2018-05-30 09:03:24.428454 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:03:24.847287 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:03:28.194794 INFO Compiling dashboard 'home'
+2018-05-30 09:03:29.335823 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:03:30.777495 INFO function [get_dashboard] finished in 2582 ms
+2018-05-30 09:03:30.796311 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:03:31.269651 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:03:34.356440 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-30 09:03:34.441880 INFO AppDaemon: Processing restart for HASS
+2018-05-30 09:03:39.505231 INFO Compiling dashboard 'home'
+2018-05-30 09:03:41.998110 INFO function [get_dashboard] finished in 2493 ms
+2018-05-30 09:03:42.019690 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:03:42.499222 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:10:22.109486 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:10:27.115333 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:10:32.121399 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:10:37.126218 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:10:42.129947 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:10:47.135066 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:10:52.155155 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-30 09:10:52.253556 INFO AppDaemon: Processing restart for HASS
+2018-05-30 09:10:55.113978 INFO Compiling dashboard 'home'
+2018-05-30 09:10:57.959752 INFO function [get_dashboard] finished in 2845 ms
+2018-05-30 09:10:57.980321 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:10:58.584866 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:12:43.906112 INFO Compiling dashboard 'home'
+2018-05-30 09:12:46.305447 INFO function [get_dashboard] finished in 2399 ms
+2018-05-30 09:12:46.326239 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:12:46.936533 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:13:11.179201 INFO Compiling dashboard 'home'
+2018-05-30 09:13:13.562907 INFO function [get_dashboard] finished in 2383 ms
+2018-05-30 09:13:13.582173 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:13:14.081578 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:13:30.103241 INFO Compiling dashboard 'home'
+2018-05-30 09:13:32.495605 INFO function [get_dashboard] finished in 2392 ms
+2018-05-30 09:13:32.514553 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:13:33.019833 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:19:05.851459 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:19:10.857472 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:19:15.866794 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:19:20.871717 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:19:25.876358 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:19:30.880321 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:19:35.944199 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-30 09:19:36.226618 INFO AppDaemon: Processing restart for HASS
+2018-05-30 09:22:13.906789 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:22:18.913169 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:22:23.929406 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:22:28.935016 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:22:33.939219 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:22:38.944111 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:22:43.993054 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-30 09:22:44.419882 INFO AppDaemon: Processing restart for HASS
+2018-05-30 09:25:15.751062 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:25:20.756942 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:25:25.764040 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:25:30.769321 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:25:35.773348 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:25:40.778101 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:25:45.833403 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-30 09:25:46.000793 INFO AppDaemon: Processing restart for HASS
+2018-05-30 09:35:23.839800 INFO Compiling dashboard 'home'
+2018-05-30 09:35:26.219294 INFO function [get_dashboard] finished in 2379 ms
+2018-05-30 09:35:26.253575 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:35:26.909885 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:37:37.203378 INFO Compiling dashboard 'living'
+2018-05-30 09:37:39.777217 INFO function [get_dashboard] finished in 2573 ms
+2018-05-30 09:37:39.804155 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:37:40.544992 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:37:49.906066 INFO Compiling dashboard 'color_living'
+2018-05-30 09:37:51.145940 WARNING Unable to find widget definition for 'back'
+2018-05-30 09:37:52.037704 INFO function [get_dashboard] finished in 2131 ms
+2018-05-30 09:37:52.056218 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:37:52.599413 INFO HADashboard: New dashboard connected: Kleur woonkamer
+2018-05-30 09:38:06.203316 INFO Compiling dashboard 'living'
+2018-05-30 09:38:08.752547 INFO function [get_dashboard] finished in 2549 ms
+2018-05-30 09:38:08.771810 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:38:09.559074 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:38:10.536399 INFO Compiling dashboard 'slaapkamer'
+2018-05-30 09:38:11.007071 WARNING Dashboard 'slaapkamer' not found
+2018-05-30 09:38:11.008224 WARNING ------------------------------------------------------------
+2018-05-30 09:38:11.008729 WARNING Unexpected error during DASH creation
+2018-05-30 09:38:11.009144 WARNING ------------------------------------------------------------
+2018-05-30 09:38:11.009923 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 834, in get_dashboard
+    with open(include_path, "r") as include_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.homeassistant/compiled/html/default/slaapkamer_head.html'
+
+2018-05-30 09:38:11.010408 WARNING ------------------------------------------------------------
+2018-05-30 09:38:11.010856 INFO function [get_dashboard] finished in 474 ms
+2018-05-30 09:38:11.024568 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:38:13.533879 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:38:15.930244 INFO Compiling dashboard 'schuur'
+2018-05-30 09:38:16.403663 WARNING Dashboard 'schuur' not found
+2018-05-30 09:38:16.404847 WARNING ------------------------------------------------------------
+2018-05-30 09:38:16.405365 WARNING Unexpected error during DASH creation
+2018-05-30 09:38:16.405782 WARNING ------------------------------------------------------------
+2018-05-30 09:38:16.406526 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 834, in get_dashboard
+    with open(include_path, "r") as include_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.homeassistant/compiled/html/default/schuur_head.html'
+
+2018-05-30 09:38:16.406976 WARNING ------------------------------------------------------------
+2018-05-30 09:38:16.407418 INFO function [get_dashboard] finished in 477 ms
+2018-05-30 09:38:16.440432 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:38:18.519705 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:38:21.064745 INFO Compiling dashboard 'controls'
+2018-05-30 09:38:21.528477 WARNING Dashboard 'controls' not found
+2018-05-30 09:38:21.529644 WARNING ------------------------------------------------------------
+2018-05-30 09:38:21.530172 WARNING Unexpected error during DASH creation
+2018-05-30 09:38:21.530590 WARNING ------------------------------------------------------------
+2018-05-30 09:38:21.531329 WARNING Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/appdaemon/dashboard.py", line 834, in get_dashboard
+    with open(include_path, "r") as include_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/homeassistant/.homeassistant/compiled/html/default/controls_head.html'
+
+2018-05-30 09:38:21.531784 WARNING ------------------------------------------------------------
+2018-05-30 09:38:21.532217 INFO function [get_dashboard] finished in 467 ms
+2018-05-30 09:38:21.556544 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:38:23.654571 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:38:24.436160 INFO Compiling dashboard 'home'
+2018-05-30 09:38:26.817306 INFO function [get_dashboard] finished in 2381 ms
+2018-05-30 09:38:26.833005 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:38:27.422372 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:41:24.844599 INFO Compiling dashboard 'home'
+2018-05-30 09:41:27.306071 INFO function [get_dashboard] finished in 2461 ms
+2018-05-30 09:41:27.329191 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:41:27.851012 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 09:45:20.187105 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:45:25.193138 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:45:30.199522 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:45:35.204546 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:45:40.208255 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:45:45.213755 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-30 09:45:50.242604 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-30 09:45:50.484674 INFO AppDaemon: Processing restart for HASS
+2018-05-30 09:45:59.594229 INFO Compiling dashboard 'home'
+2018-05-30 09:46:02.283340 INFO function [get_dashboard] finished in 2689 ms
+2018-05-30 09:46:02.298589 INFO HADashboard: Dashboard disconnected
+2018-05-30 09:46:02.814615 INFO HADashboard: New dashboard connected: Woonkamer
+2018-05-30 10:03:29.055791 INFO HADashboard: Dashboard disconnected
+2018-05-31 17:48:37.455977 INFO SIGTERM Recieved
+2018-05-31 17:48:37.833380 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-05-31 17:48:37.924080 INFO AppDaemon: Removing module /home/homeassistant/.homeassistant/appdaemon/hello.py
+2018-05-31 17:48:37.926234 INFO AppDeamon Exited
+2018-05-31 17:50:14.429177 INFO AppDaemon Version 3.0.1 starting
+2018-05-31 17:50:14.431203 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-05-31 17:50:14.434330 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-05-31 17:50:14.436514 INFO AppDaemon: Starting Apps
+2018-05-31 17:50:14.437960 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-05-31 17:50:14.445424 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-05-31 17:50:14.500749 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-05-31 17:50:14.501851 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-05-31 17:50:14.502680 INFO Starting Dashboards
+2018-05-31 17:50:14.506715 WARNING css: /home exists, but is not writeable, owner: root
+2018-05-31 17:50:14.509308 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-05-31 17:50:14.524261 INFO API is disabled
+2018-05-31 17:50:14.527213 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-31 17:50:19.532066 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-31 17:50:24.537192 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-31 17:50:29.542016 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-31 17:50:34.546232 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-31 17:50:39.551436 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-05-31 17:50:52.010410 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-05-31 17:50:52.126135 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-05-31 17:50:52.127858 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-05-31 17:50:52.128997 INFO AppDaemon: Processing restart for HASS
+2018-05-31 17:50:52.129839 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-05-31 17:50:54.279519 INFO AppDaemon: App initialization complete
+2018-06-01 09:12:16.100865 INFO HADashboard: New dashboard connected: Woonkamer
+2018-06-01 09:12:48.540640 INFO HADashboard: Dashboard disconnected
+2018-06-02 16:46:54.789972 INFO Compiling dashboard 'bedroom'
+2018-06-02 16:46:56.126645 INFO function [get_dashboard] finished in 1338 ms
+2018-06-02 16:46:57.220159 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 16:55:22.795128 INFO HADashboard: Dashboard disconnected
+2018-06-02 16:56:19.662284 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 17:07:17.752112 INFO HADashboard: Dashboard disconnected
+2018-06-02 17:10:15.803766 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 17:42:21.150553 INFO HADashboard: Dashboard disconnected
+2018-06-02 17:42:26.712945 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 17:48:24.736344 INFO HADashboard: Dashboard disconnected
+2018-06-02 17:59:31.233791 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 18:07:23.697174 INFO HADashboard: Dashboard disconnected
+2018-06-02 18:08:30.657444 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 18:36:34.816916 INFO HADashboard: Dashboard disconnected
+2018-06-02 18:36:54.957292 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 18:38:27.955402 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 18:38:31.006012 INFO HADashboard: Dashboard disconnected
+2018-06-02 18:40:00.466878 INFO HADashboard: Dashboard disconnected
+2018-06-02 18:40:02.942090 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 18:44:06.656434 INFO HADashboard: Dashboard disconnected
+2018-06-02 18:44:28.967151 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 18:56:28.808384 INFO HADashboard: Dashboard disconnected
+2018-06-02 19:05:33.943734 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 19:12:14.375143 INFO HADashboard: Dashboard disconnected
+2018-06-02 19:17:22.923354 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 19:17:23.196159 INFO HADashboard: Dashboard disconnected
+2018-06-02 19:23:39.940199 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-02 19:42:26.654223 INFO HADashboard: Dashboard disconnected
+2018-06-03 18:22:08.853023 INFO SIGTERM Recieved
+2018-06-03 18:22:08.988202 INFO AppDaemon: Removing module /home/homeassistant/.homeassistant/appdaemon/hello.py
+2018-06-03 18:22:08.991726 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-06-03 18:22:08.997830 INFO AppDeamon Exited
+2018-06-03 18:23:45.256474 INFO AppDaemon Version 3.0.1 starting
+2018-06-03 18:23:45.258496 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-06-03 18:23:45.261687 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-06-03 18:23:45.263837 INFO AppDaemon: Starting Apps
+2018-06-03 18:23:45.265291 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-06-03 18:23:45.272833 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-06-03 18:23:45.325033 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-06-03 18:23:45.326126 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-06-03 18:23:45.326958 INFO Starting Dashboards
+2018-06-03 18:23:45.330843 WARNING css: /home exists, but is not writeable, owner: root
+2018-06-03 18:23:45.333475 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-06-03 18:23:45.352310 INFO API is disabled
+2018-06-03 18:23:45.355301 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-03 18:23:50.361690 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-03 18:23:55.366419 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-03 18:24:00.370215 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-03 18:24:05.374270 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-03 18:24:10.379089 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-03 18:24:47.497838 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-03 18:24:52.517149 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-03 18:24:52.591849 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-06-03 18:24:52.592792 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-06-03 18:24:52.593829 INFO AppDaemon: Processing restart for HASS
+2018-06-03 18:24:52.594361 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-06-03 18:24:55.176500 INFO AppDaemon: App initialization complete
+2018-06-10 10:07:16.381942 INFO Compiling dashboard 'home'
+2018-06-10 10:07:18.857963 INFO function [get_dashboard] finished in 2477 ms
+2018-06-10 10:07:30.254515 INFO HADashboard: New dashboard connected: Woonkamer
+2018-06-10 10:25:31.255285 INFO HADashboard: Dashboard disconnected
+2018-06-10 13:15:05.327742 INFO HADashboard: New dashboard connected: Woonkamer
+2018-06-10 13:15:15.364155 INFO HADashboard: Dashboard disconnected
+2018-06-13 05:36:49.550338 INFO Compiling dashboard 'bedroom'
+2018-06-13 05:36:50.802845 INFO function [get_dashboard] finished in 1253 ms
+2018-06-13 05:37:13.059865 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-13 05:41:28.793565 INFO HADashboard: Dashboard disconnected
+2018-06-13 20:02:11.561484 INFO Compiling dashboard 'bedroom'
+2018-06-13 20:02:12.786217 INFO function [get_dashboard] finished in 1225 ms
+2018-06-13 20:02:13.355329 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-13 20:02:23.341441 INFO Compiling dashboard 'bedroom_color'
+2018-06-13 20:02:24.568707 INFO function [get_dashboard] finished in 1228 ms
+2018-06-13 20:02:24.624118 INFO HADashboard: Dashboard disconnected
+2018-06-13 20:02:25.019563 INFO HADashboard: New dashboard connected: Slaapkamer lichtkleur
+2018-06-13 20:28:19.889632 INFO HADashboard: Dashboard disconnected
+2018-06-14 20:17:05.247002 INFO Compiling dashboard 'bedroom'
+2018-06-14 20:17:06.474112 INFO function [get_dashboard] finished in 1227 ms
+2018-06-14 20:17:07.445081 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-14 20:17:54.547433 INFO HADashboard: Dashboard disconnected
+2018-06-18 11:17:34.783445 INFO SIGTERM Recieved
+2018-06-18 11:17:35.069355 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-06-18 11:17:35.096507 INFO AppDaemon: Removing module /home/homeassistant/.homeassistant/appdaemon/hello.py
+2018-06-18 11:17:35.145667 INFO AppDeamon Exited
+2018-06-18 11:19:11.164470 INFO AppDaemon Version 3.0.1 starting
+2018-06-18 11:19:11.166461 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-06-18 11:19:11.169591 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-06-18 11:19:11.171758 INFO AppDaemon: Starting Apps
+2018-06-18 11:19:11.173171 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-06-18 11:19:11.180508 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-06-18 11:19:11.235047 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-06-18 11:19:11.236128 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-06-18 11:19:11.237066 INFO Starting Dashboards
+2018-06-18 11:19:11.241091 WARNING css: /home exists, but is not writeable, owner: root
+2018-06-18 11:19:11.243640 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-06-18 11:19:11.258368 INFO API is disabled
+2018-06-18 11:19:11.261289 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:19:16.266306 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:19:21.271096 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:19:26.275531 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:19:31.279004 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:19:36.283139 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:19:49.025282 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:19:54.029751 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:19:59.050919 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-18 11:19:59.179265 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-06-18 11:19:59.181385 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-06-18 11:19:59.183713 INFO AppDaemon: Processing restart for HASS
+2018-06-18 11:19:59.184670 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-06-18 11:20:00.411536 INFO AppDaemon: App initialization complete
+2018-06-18 11:36:29.435451 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:36:34.440905 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:36:39.457375 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:36:44.461862 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:36:49.465463 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:36:54.469000 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:36:59.502778 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-18 11:36:59.821243 INFO AppDaemon: Processing restart for HASS
+2018-06-18 11:43:16.010973 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:43:21.015778 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:43:26.020405 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:43:31.024084 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:43:36.026980 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:43:41.030511 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:43:46.061664 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-18 11:43:46.216321 INFO AppDaemon: Processing restart for HASS
+2018-06-18 11:49:43.227949 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:49:48.232551 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:49:53.237641 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:49:58.241106 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:50:03.246106 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:50:08.250996 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:50:13.307389 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-18 11:50:13.552809 INFO AppDaemon: Processing restart for HASS
+2018-06-18 11:55:41.291727 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:55:46.297426 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:55:51.302667 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:55:56.306496 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:56:01.309989 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:56:06.313902 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:56:11.317735 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 11:56:16.370306 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-18 11:56:16.601100 INFO AppDaemon: Processing restart for HASS
+2018-06-18 12:04:09.277951 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:04:14.282454 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:04:19.297471 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:04:24.301226 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:04:29.306229 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:04:34.309772 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:04:39.313196 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:04:44.573194 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-18 12:04:44.874785 INFO AppDaemon: Processing restart for HASS
+2018-06-18 12:07:40.550587 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:07:45.556012 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:07:50.561796 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:07:55.565727 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:08:00.568853 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:08:05.572416 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:08:10.595776 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-18 12:08:10.742187 INFO AppDaemon: Processing restart for HASS
+2018-06-18 12:10:42.485285 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:10:47.490348 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:10:52.495878 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:10:57.499343 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:11:02.502634 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:11:07.506591 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:11:12.530701 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-18 12:11:12.628090 INFO AppDaemon: Processing restart for HASS
+2018-06-18 12:12:47.280637 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:12:52.285392 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:12:57.290957 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:13:02.295278 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:13:07.298682 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:13:12.302715 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 12:13:17.323994 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-18 12:13:17.426669 INFO AppDaemon: Processing restart for HASS
+2018-06-18 13:06:08.669738 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 13:06:13.678638 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 13:06:18.683962 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 13:06:23.688113 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 13:06:28.692073 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 13:06:33.695769 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 13:06:38.699366 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-18 13:06:44.181700 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-18 13:06:44.364594 INFO AppDaemon: Processing restart for HASS
+2018-06-18 20:30:21.018139 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.018009901046753 - resetting
+2018-06-18 20:30:23.655845 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.6377391815185547 - resetting
+2018-06-22 07:21:46.291403 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-22 07:21:51.300990 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-22 07:21:56.307297 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-22 07:22:01.311715 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-22 07:22:06.315329 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-22 07:22:11.320304 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-22 07:22:16.323489 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-22 07:22:22.736463 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.080596923828125 - resetting
+2018-06-22 07:22:22.740543 INFO AppDaemon: HASS: Connected to Home Assistant 0.69.1
+2018-06-22 07:22:23.028825 INFO AppDaemon: Processing restart for HASS
+2018-06-24 07:13:50.375474 INFO SIGTERM Recieved
+2018-06-24 07:13:50.929523 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-06-24 07:13:51.026449 INFO AppDaemon: Removing module /home/homeassistant/.homeassistant/appdaemon/hello.py
+2018-06-24 07:13:51.112171 INFO AppDeamon Exited
+2018-06-24 07:15:27.434195 INFO AppDaemon Version 3.0.1 starting
+2018-06-24 07:15:27.436106 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-06-24 07:15:27.439219 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-06-24 07:15:27.441464 INFO AppDaemon: Starting Apps
+2018-06-24 07:15:27.442907 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-06-24 07:15:27.450376 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-06-24 07:15:27.505292 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-06-24 07:15:27.506391 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-06-24 07:15:27.507216 INFO Starting Dashboards
+2018-06-24 07:15:27.511002 WARNING css: /home exists, but is not writeable, owner: root
+2018-06-24 07:15:27.513596 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-06-24 07:15:27.528263 INFO API is disabled
+2018-06-24 07:15:27.531339 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:15:32.539650 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:15:37.544665 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:15:42.549316 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:15:47.554122 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:15:52.558512 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:16:11.044554 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:16:16.065492 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:16:21.070114 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:16:33.135869 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:16:38.141109 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:16:59.045562 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:17:04.051189 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:17:09.055829 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:17:14.060363 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:17:19.064284 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:17:24.068722 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:17:29.073117 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:17:34.077419 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:17:42.516633 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:17:47.522131 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:18:06.137625 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:18:11.141834 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:18:16.145973 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:18:21.150350 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:18:26.154962 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:18:31.159582 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:18:36.164168 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-24 07:18:41.230505 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.0
+2018-06-24 07:18:41.510434 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-06-24 07:18:41.511300 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-06-24 07:18:41.512313 INFO AppDaemon: Processing restart for HASS
+2018-06-24 07:18:41.512839 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-06-24 07:18:46.744849 INFO AppDaemon: App initialization complete
+2018-06-26 05:51:46.521833 INFO Compiling dashboard 'bedroom'
+2018-06-26 05:51:47.822819 INFO function [get_dashboard] finished in 1302 ms
+2018-06-26 05:51:49.801121 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-06-26 05:52:00.191778 INFO HADashboard: Dashboard disconnected
+2018-06-26 05:52:14.570282 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-26 05:52:14.584749 INFO SIGTERM Recieved
+2018-06-26 05:52:15.382212 INFO AppDaemon: Removing module /home/homeassistant/.homeassistant/appdaemon/hello.py
+2018-06-26 05:52:19.577639 INFO AppDaemon: HASS: Disconnecting from Home Assistant
+2018-06-26 05:52:19.579461 INFO AppDeamon Exited
+2018-06-26 05:53:51.311771 INFO AppDaemon Version 3.0.1 starting
+2018-06-26 05:53:51.313635 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-06-26 05:53:51.316791 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-06-26 05:53:51.318962 INFO AppDaemon: Starting Apps
+2018-06-26 05:53:51.320401 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-06-26 05:53:51.327837 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-06-26 05:53:51.379647 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-06-26 05:53:51.380732 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-06-26 05:53:51.381592 INFO Starting Dashboards
+2018-06-26 05:53:51.385246 WARNING css: /home exists, but is not writeable, owner: root
+2018-06-26 05:53:51.387849 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-06-26 05:53:51.406250 INFO API is disabled
+2018-06-26 05:53:51.409210 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-26 05:53:56.414148 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-26 05:54:01.418738 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-26 05:54:06.423558 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-26 05:54:11.427206 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-26 05:54:16.432359 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-26 05:54:28.982252 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-06-26 05:54:34.909914 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.0
+2018-06-26 05:54:34.985288 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-06-26 05:54:34.986168 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-06-26 05:54:34.987199 INFO AppDaemon: Processing restart for HASS
+2018-06-26 05:54:34.987728 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-06-26 05:54:37.205205 INFO AppDaemon: App initialization complete
+2018-07-04 18:18:57.395959 INFO Compiling dashboard 'bedroom'
+2018-07-04 18:19:00.245845 INFO function [get_dashboard] finished in 2858 ms
+2018-07-04 18:19:01.947698 INFO HADashboard: New dashboard connected: Slaapkamer
+2018-07-04 19:43:57.516669 INFO HADashboard: Dashboard disconnected
+2018-07-05 09:06:58.065123 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.065009117126465 - resetting
+2018-07-05 09:25:08.117227 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:25:13.123929 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:25:18.133903 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:25:23.139419 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:25:28.143546 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:25:33.146323 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:25:38.149807 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:25:43.154342 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:25:46.001777 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.936682939529419 - resetting
+2018-07-05 09:25:51.004597 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:25:56.008863 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:26:01.012785 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:26:06.015753 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:26:11.019288 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:26:16.022776 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:26:21.026118 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:26:26.097260 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-05 09:26:26.357270 INFO AppDaemon: Processing restart for HASS
+2018-07-05 09:29:01.533847 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:29:06.538900 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:29:11.544070 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:29:16.547775 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:29:21.551384 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:29:26.555025 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:29:31.559276 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:29:36.597085 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-05 09:29:36.849343 INFO AppDaemon: Processing restart for HASS
+2018-07-05 09:37:57.015706 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:38:02.020822 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:38:07.025357 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:38:12.029262 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:38:17.033697 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:38:22.036627 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:38:27.039385 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:38:32.490625 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-05 09:38:32.713803 INFO AppDaemon: Processing restart for HASS
+2018-07-05 09:58:46.068921 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:58:51.073517 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:58:56.077579 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:59:01.081432 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:59:06.084791 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:59:11.087831 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:59:16.091588 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 09:59:21.149622 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-05 09:59:21.363834 INFO AppDaemon: Processing restart for HASS
+2018-07-05 10:05:28.728306 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 10:05:33.733592 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 10:05:38.740306 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 10:05:43.744828 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 10:05:48.749235 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 10:05:53.752589 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-05 10:05:58.794349 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-05 10:05:58.923499 INFO AppDaemon: Processing restart for HASS
+2018-07-06 08:44:22.716411 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:44:27.722837 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:44:32.728087 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:44:37.732346 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:44:42.736554 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:44:47.740608 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:44:52.744880 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:44:58.008798 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-06 08:44:58.293086 INFO AppDaemon: Processing restart for HASS
+2018-07-06 08:45:33.123486 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:45:38.129591 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:45:43.135976 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:45:48.139757 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:45:53.142972 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:45:58.146947 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:46:03.191750 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-06 08:46:03.304337 INFO AppDaemon: Processing restart for HASS
+2018-07-06 08:49:57.848022 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:50:02.853443 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:50:07.858754 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:50:12.862569 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:50:17.866228 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:50:22.870000 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:50:27.873917 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-06 08:50:32.912672 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-06 08:50:33.104593 INFO AppDaemon: Processing restart for HASS
+2018-07-08 09:35:32.085682 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:35:37.090445 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:35:42.095987 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:35:47.099740 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:35:52.103456 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:35:57.106366 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:36:02.109343 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:36:07.165730 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-08 09:36:07.380100 INFO AppDaemon: Processing restart for HASS
+2018-07-08 09:44:04.693365 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:44:09.698948 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:44:14.705643 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:44:19.710499 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:44:24.714476 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:44:29.718236 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:44:34.722180 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:44:39.725864 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:44:44.730720 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:44:49.778428 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-08 09:44:49.969348 INFO AppDaemon: Processing restart for HASS
+2018-07-08 09:49:34.488597 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:49:39.493468 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:49:44.498943 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:49:49.503392 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:49:54.507244 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:49:59.511372 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:50:04.515362 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:50:09.519354 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:50:14.523252 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 09:50:19.544716 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-08 09:50:19.644159 INFO AppDaemon: Processing restart for HASS
+2018-07-08 10:04:46.019305 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:04:51.024825 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:04:56.030144 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:05:01.034706 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:05:06.038075 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:05:11.041949 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:05:16.045643 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:05:21.048859 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:05:26.052277 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:05:31.073885 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-08 10:05:31.185345 INFO AppDaemon: Processing restart for HASS
+2018-07-08 10:07:35.562233 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:07:40.567362 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:07:45.573070 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:07:50.577207 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:07:55.581271 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:08:00.585485 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:08:05.590195 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:08:10.593524 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:08:15.596927 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:08:20.615865 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-08 10:08:20.716990 INFO AppDaemon: Processing restart for HASS
+2018-07-08 10:21:41.653738 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:21:46.659458 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:21:51.664905 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:21:56.669199 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:22:01.676751 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:22:06.680606 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:22:11.685516 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:22:16.689022 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:22:21.692483 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:22:26.711192 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-08 10:22:26.813388 INFO AppDaemon: Processing restart for HASS
+2018-07-08 10:27:54.008592 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:27:59.013432 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:28:04.018795 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:28:09.022137 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:28:14.024973 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:28:19.028281 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:28:24.031283 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:28:29.034600 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:28:34.037580 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 10:28:39.095423 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-08 10:28:39.311027 INFO AppDaemon: Processing restart for HASS
+2018-07-08 11:25:24.262573 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 11:25:29.273904 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 11:25:34.283984 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 11:25:39.288125 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 11:25:44.295795 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 11:25:49.300063 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 11:25:54.304594 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 11:25:59.307675 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 11:26:04.314075 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 11:26:09.316976 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 11:26:14.381578 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-08 11:26:14.708625 INFO AppDaemon: Processing restart for HASS
+2018-07-08 12:50:33.162041 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 12:50:38.167763 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 12:50:43.174108 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 12:50:48.180187 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 12:50:53.183516 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 12:50:58.186996 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 12:51:03.190308 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 12:51:08.194054 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 12:51:13.198970 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 12:51:18.221876 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-08 12:51:18.359529 INFO AppDaemon: Processing restart for HASS
+2018-07-08 19:13:25.643990 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 19:13:30.649160 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 19:13:35.655698 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 19:13:40.660363 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 19:13:45.668397 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 19:13:50.672242 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 19:13:55.676267 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 19:14:00.679549 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 19:14:05.683697 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-08 19:14:10.703137 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-08 19:14:10.801583 INFO AppDaemon: Processing restart for HASS
+2018-07-08 19:30:26.436271 WARNING AppDaemon: Excessive time spent in utility loop: 1060.0ms
+2018-07-09 06:17:07.282911 INFO AppDaemon Version 3.0.1 starting
+2018-07-09 06:17:07.284954 INFO Configuration read from: /home/homeassistant/.homeassistant/appdaemon.yaml
+2018-07-09 06:17:07.288080 WARNING config_file: /home/homeassistant/.homeassistant/appdaemon.yaml is owned by root but appdaemon is running as homeassistant
+2018-07-09 06:17:07.290246 INFO AppDaemon: Starting Apps
+2018-07-09 06:17:07.291782 WARNING config_dir: /home exists, but is not writeable, owner: root
+2018-07-09 06:17:07.299367 INFO AppDaemon: Loading Plugin HASS using class HassPlugin from module hassplugin
+2018-07-09 06:17:07.354482 INFO AppDaemon: HASS: HASS Plugin Initializing
+2018-07-09 06:17:07.355600 INFO AppDaemon: HASS: HASS Plugin initialization complete
+2018-07-09 06:17:07.356437 INFO Starting Dashboards
+2018-07-09 06:17:07.360282 WARNING css: /home exists, but is not writeable, owner: root
+2018-07-09 06:17:07.363081 WARNING javascript: /home exists, but is not writeable, owner: root
+2018-07-09 06:17:07.377954 INFO API is disabled
+2018-07-09 06:17:07.380963 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:17:12.387030 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:17:20.502069 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:17:28.662198 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:17:36.832198 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:17:43.062010 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:17:51.222072 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:17:59.381964 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:18:07.551931 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:18:15.711969 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:18:23.861985 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:18:32.021971 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:18:40.181992 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:18:48.342016 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:18:56.502103 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:19:04.661978 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:19:12.821962 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:50:36.799466 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 06:50:41.835675 INFO AppDaemon: HASS: Connected to Home Assistant 0.72.1
+2018-07-09 06:50:41.929870 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/ to module import path
+2018-07-09 06:50:41.930740 INFO AppDaemon: Adding /home/homeassistant/.homeassistant/appdaemon/logs to module import path
+2018-07-09 06:50:41.932417 INFO AppDaemon: Processing restart for HASS
+2018-07-09 06:50:41.933102 WARNING AppDaemon: No app description found for: /home/homeassistant/.homeassistant/appdaemon/hello.py - ignoring
+2018-07-09 06:50:44.045714 INFO AppDaemon: App initialization complete
+2018-07-09 07:54:19.557670 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:54:24.562805 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:54:29.568623 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:54:34.572697 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:54:39.577127 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:54:44.582253 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:54:49.586236 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:54:54.591484 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:55:08.489326 WARNING AppDaemon: Scheduler clock skew detected - delta = 13.48914909362793 - resetting
+2018-07-09 07:55:13.491983 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:55:18.498428 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:55:21.356152 WARNING AppDaemon: Scheduler clock skew detected - delta = 1.8668417930603027 - resetting
+2018-07-09 07:55:26.358491 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:55:29.374509 WARNING AppDaemon: Scheduler clock skew detected - delta = 3.0183629989624023 - resetting
+2018-07-09 07:55:34.378747 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:55:50.978803 WARNING AppDaemon: Scheduler clock skew detected - delta = 16.604255199432373 - resetting
+2018-07-09 07:55:55.983433 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:55:58.446737 WARNING AppDaemon: Scheduler clock skew detected - delta = 2.467957019805908 - resetting
+2018-07-09 07:56:03.449414 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:56:08.453713 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:56:13.456904 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:56:18.459922 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:56:23.464079 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:56:37.886862 WARNING AppDaemon: Scheduler clock skew detected - delta = 13.440141916275024 - resetting
+2018-07-09 07:56:42.890483 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:56:47.895763 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:56:54.851824 WARNING AppDaemon: Scheduler clock skew detected - delta = 5.964659929275513 - resetting
+2018-07-09 07:56:59.852773 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:57:04.861033 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:57:21.831341 WARNING AppDaemon: Scheduler clock skew detected - delta = 15.979798078536987 - resetting
+2018-07-09 07:57:26.832947 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:57:31.838482 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:57:36.842050 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:57:41.845271 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 07:57:46.861592 INFO AppDaemon: HASS: Connected to Home Assistant 0.73.1
+2018-07-09 07:57:46.941520 INFO AppDaemon: Processing restart for HASS
+2018-07-09 16:15:13.579610 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 16:15:18.585682 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 16:15:23.590874 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 16:15:28.594852 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 16:15:33.598060 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 16:15:38.602787 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 16:15:43.606884 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 16:15:48.610740 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 16:15:53.649872 INFO AppDaemon: HASS: Connected to Home Assistant 0.73.1
+2018-07-09 16:15:53.992909 INFO AppDaemon: Processing restart for HASS
+2018-07-09 18:11:40.821010 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:11:45.827494 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:11:50.833453 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:11:55.837053 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:12:00.840373 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:12:05.843406 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:12:10.846291 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:12:15.849764 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:12:20.872933 INFO AppDaemon: HASS: Connected to Home Assistant 0.73.1
+2018-07-09 18:12:20.975271 INFO AppDaemon: Processing restart for HASS
+2018-07-09 18:14:07.961883 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:14:12.966861 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:14:17.982208 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:14:22.986307 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:14:27.989406 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:14:32.993319 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:14:38.047925 INFO AppDaemon: HASS: Connected to Home Assistant 0.73.1
+2018-07-09 18:14:38.256204 INFO AppDaemon: Processing restart for HASS
+2018-07-09 18:18:20.141460 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:18:25.146556 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:18:30.151720 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:18:35.155408 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:18:40.159358 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:18:45.164700 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:18:50.169171 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:18:55.349212 INFO AppDaemon: HASS: Connected to Home Assistant 0.73.1
+2018-07-09 18:18:55.757312 INFO AppDaemon: Processing restart for HASS
+2018-07-09 18:53:01.941801 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:53:06.956413 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:53:11.961773 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:53:16.965271 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:53:21.969146 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:53:26.974260 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:53:31.977554 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:53:37.032805 INFO AppDaemon: HASS: Connected to Home Assistant 0.73.1
+2018-07-09 18:53:37.423846 INFO AppDaemon: Processing restart for HASS
+2018-07-09 18:59:53.448936 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 18:59:58.454293 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:00:03.459585 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:00:08.463551 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:00:13.466891 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:00:18.470579 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:00:23.474071 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:00:28.493529 INFO AppDaemon: HASS: Connected to Home Assistant 0.73.1
+2018-07-09 19:00:28.785842 INFO AppDaemon: Processing restart for HASS
+2018-07-09 19:11:28.982619 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:11:33.988430 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:11:38.995194 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:11:44.000528 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:11:49.003370 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:11:54.007358 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:11:59.097997 INFO AppDaemon: HASS: Connected to Home Assistant 0.73.1
+2018-07-09 19:11:59.329760 INFO AppDaemon: Processing restart for HASS
+2018-07-09 19:21:29.747249 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:21:34.759784 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:21:39.765560 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:21:44.769904 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:21:49.773876 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:21:54.778161 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:21:59.866994 INFO AppDaemon: HASS: Connected to Home Assistant 0.73.1
+2018-07-09 19:22:00.065542 INFO AppDaemon: Processing restart for HASS
+2018-07-09 19:23:03.897692 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:23:08.902820 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:23:13.914371 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:23:18.917996 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:23:23.921073 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:23:28.924117 WARNING AppDaemon: HASS: Disconnected from Home Assistant, retrying in 5 seconds
+2018-07-09 19:23:33.948349 INFO AppDaemon: HASS: Connected to Home Assistant 0.73.1
+2018-07-09 19:23:34.149660 INFO AppDaemon: Processing restart for HASS

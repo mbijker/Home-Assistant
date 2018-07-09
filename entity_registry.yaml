@@ -1,16 +1,70 @@
 light.plafondlamp:
+  config_entry_id:
   name: Plafondlamp woonkamer
   platform: hue
   unique_id: 00:17:88:01:10:42:18:db-0b
 light.bedlamp:
+  config_entry_id:
   name: Bedlamp
   platform: hue
   unique_id: 00:17:88:01:10:42:19:39-0b
 media_player.huiskamer:
+  config_entry_id:
   name:
   platform: cast
   unique_id: 141e25c6-a58c-0e24-e676-668d43f9a9d1
 media_player.slaapkamer:
+  config_entry_id:
   name:
   platform: cast
   unique_id: eec477b6-192f-4a51-cdb5-bfdb7ef5e82f
+media_player.snapcast_client_b827eb90a94e:
+  config_entry_id:
+  name:
+  platform: snapcast
+  unique_id: snapcast_client_192.168.1.2:1705_b8:27:eb:90:a9:4e
+media_player.snapcast_client_2c0e3d0d06b8:
+  config_entry_id:
+  name:
+  platform: snapcast
+  unique_id: snapcast_client_192.168.1.2:1705_2c:0e:3d:0d:06:b8
+media_player.snapcast_client_ad07160328621e9268:
+  config_entry_id:
+  name:
+  platform: snapcast
+  unique_id: snapcast_client_192.168.1.2:1705_ad07160328621e9268
+media_player.snapcast_group_88c73f75a3ff19f15b36087cfa4e55e9:
+  config_entry_id:
+  name:
+  platform: snapcast
+  unique_id: snapcast_group_192.168.1.2:1705_88c73f75-a3ff-19f1-5b36-087cfa4e55e9
+media_player.snapcast_client_7n2sra156g034680:
+  config_entry_id:
+  name:
+  platform: snapcast
+  unique_id: snapcast_client_192.168.1.2:1705_7N2SRA156G034680
+media_player.snapcast_group_49464893773a127ec189b04f8ad446f1:
+  config_entry_id:
+  name:
+  platform: snapcast
+  unique_id: snapcast_group_192.168.1.2:1705_49464893-773a-127e-c189-b04f8ad446f1
+media_player.snapcast_group_796f8683cf8efe236b0e8e4a650ca2ed:
+  config_entry_id:
+  name:
+  platform: snapcast
+  unique_id: snapcast_group_192.168.1.2:1705_796f8683-cf8e-fe23-6b0e-8e4a650ca2ed
+sensor.illumination_7811dce13522:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: illumination7811dce13522
+light.gateway_light_7811dce13522:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: rgb7811dce13522
+binary_sensor.motion_sensor_158d0002270299:
+  config_entry_id:
+  name: motion_hallway
+  platform: xiaomi_aqara
+  unique_id: status158d0002270299

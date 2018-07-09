@@ -16,9 +16,15 @@ homeassistant:
       friendly_name: Beweging
       order: 6
     binary_sensor.motion_shed:
-      friendly_name: Bewegingsmelder schuur
-    
-
+      friendly_name: Schuur
+    binary_sensor.alley_1:
+      friendly_name: Steeg Links
+    binary_sensor.alley_2:
+      friendly_name: Steeg Rechts
+    binary_sensor.garden:
+      friendly_name: Tuin
+    binary_sensor.motion_sensor_158d0002270299:
+      friendly_name: Hal
 ######################################################
 ## Components
 ######################################################
@@ -28,7 +34,18 @@ binary_sensor:
     state_topic: "homeassistant/sensor/schuur/motion"
     name: motion shed
     device_class: motion
-
+  - platform: ffmpeg_motion
+    input: !secret camera1
+    changes: 30
+    name: alley_1
+  - platform: ffmpeg_motion
+    input: !secret camera2
+    changes: 30
+    name: alley_2
+  - platform: ffmpeg_motion
+    input: !secret camera3
+    changes: 30
+    name: garden
 ######################################################
 ## Boolean
 ######################################################

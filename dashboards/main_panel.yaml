@@ -1,5 +1,5 @@
 layout:
-    - light_living(2x1), light_mark(2x1), light_miranda(2x1), light_shed(2x1)
+    - light_living(2x1), light_mark(2x1), light_miranda(2x1), light_bedroom(2x1)
     - mode_day(1x1), mode_night(1x1), mode_home(2x1), mode_away(2x1), mode_guest(2x1)
     
 light_living:
@@ -15,7 +15,12 @@ light_mark:
 light_miranda:
     widget_type: light
     title: Bedlamp Miranda
-    entity: light.bedlamp_miranda
+    entity: light.bedlight_miranda
+
+light_bedroom:
+    widget_type: light
+    title: Plafonlamp slaapkamer
+    entity: light.ceilinglight_master_bedroom
     
 light_shed:
     widget_type: light
@@ -25,26 +30,26 @@ light_shed:
 mode_day:
     widget_type: input_boolean
     title: Dag
-    icon_on: fa-toggle-on
-    icon_off: fa-toggle-off
+    icon_on: fa-sliders
+    icon_off: fa-sliders
     entity: input_boolean.daymode
 
 mode_night:
     widget_type: input_boolean
     title: Nacht
-    icon_on: fa-toggle-on
-    icon_off: fa-toggle-off
+    icon_on: fa-sliders
+    icon_off: fa-sliders
     entity: input_boolean.nightmode
 
 mode_home:
-    widget_type: switch
+    widget_type: input_boolean
     title: Thuis
     icon_on: fa-sliders
     icon_off: fa-sliders
     entity: input_boolean.homemode
     
 mode_away:
-    widget_type: switch
+    widget_type: input_boolean
     title: Afwezig
     icon_on: fa-sliders
     icon_off: fa-sliders

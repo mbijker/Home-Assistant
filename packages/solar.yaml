@@ -10,8 +10,14 @@
 ######################################################
 homeassistant:
   customize:
-    
-
+    group.solar:
+      friendly_name: Zonnepannelen
+    sensor.power_generation:
+      friendly_name: Vermogen
+      icon: mdi:power-plug
+    sensor.energy_generation:
+      friendly_name: Opbrengst    
+      icon: mdi:flash
 ######################################################
 ## Components
 ######################################################
@@ -19,7 +25,15 @@ sensor:
   - platform: pvoutput
     system_id: !secret pvoutput_sysid
     api_key: !secret pvoutput_api_key
-    scan_interval: 120
+    scan_interval: 300
+  - platform: template
+    sensors:
+      power_generation:
+        value_template: '{% if is_state_attr("sensor.pvoutput", "power_generation", "NaN") %}0{% else %}{{ states.sensor.pvoutput.attributes.power_generation }}{% endif %}'
+        unit_of_measurement: 'Watt'
+      energy_generation:
+        value_template: '{% if is_state_attr("sensor.pvoutput", "energy_generation", "NaN") %}0{% else %}{{ "%0.2f"|format(states.sensor.pvoutput.attributes.energy_generation|float/1000) }}{% endif %}'
+        unit_of_measurement: 'kWh'
 ######################################################
 ## Boolean
 ######################################################
@@ -29,7 +43,10 @@ input_boolean:
 ## Groups
 ######################################################
 group:
-
+  solar:
+    entities:
+      - sensor.power_generation
+      - sensor.energy_generation
 ######################################################
 ## Automations
 ######################################################

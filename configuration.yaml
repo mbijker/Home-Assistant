@@ -81,11 +81,6 @@ notify:
     api_key: !secret telegram_api_key
     chat_id: !secret telegram_chatid 
 
-sensor: 
-  - platform: waze_travel_time 
-    origin: Bunnemaheerd 132 Groningen 
-    destination: Griendtsveenweg 18 Hoogeveen
-    region: 'EU'    
 ####################################
 ##                                ##
 ## Includes                       ##

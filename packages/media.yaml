@@ -18,6 +18,11 @@ homeassistant:
 ######################################################
 ## Components
 ######################################################
+remote:
+  - platform: harmony
+    name: Living
+    host: 192.168.1.25
+
 tts:
   - platform: amazon_polly
     aws_access_key_id: !secret polly_access_key_id
@@ -36,11 +41,32 @@ media_player:
     pipeline: "audioresample ! audioconvert ! audio/x-raw,rate=48000,channels=2,format=S16LE ! wavenc ! filesink location=/tmp/snapfifo"
   - platform: mpd
     host: 192.168.1.2
+
+cast:
+  media_player:
+    - host: 192.168.1.21
+    - host: 192.168.1.22
 ######################################################
 ## Boolean
 ######################################################
 input_boolean:
+  play_living:
+  play_phone:
 
+######################################################
+## Input Select
+######################################################
+input_select:
+  remote:
+    name: Harmony remote
+    options:
+      - Uit
+      - TV kijken
+      - Chromecast kijken
+      - Radio luisteren
+      - Playstation spelen
+      - Wii spelen
+    icon: mdi:remote
 ######################################################
 ## Groups
 ######################################################
@@ -51,6 +77,53 @@ group:
       - media_player.gstreamer
 
 ######################################################
+## Scripts
+######################################################
+script:
+  input_select_harmony:
+    alias: "Start Remote activity from input select"
+    sequence:
+        service: remote.turn_on
+        data_template:
+          entity_id: remote.living
+          activity: >
+            {% if is_state("input_select.remote", "Uit") %}
+                -1
+            {% elif is_state("input_select.remote", "TV kijken") %}
+                31061044
+            {% elif is_state("input_select.remote", "Chromecast kijken") %}
+                31061822
+            {% elif is_state("input_select.remote", "Radio luisteren") %}
+                31061673
+            {% elif is_state("input_select.remote", "Playstation spelen") %}
+                31061535
+            {% elif is_state("input_select.remote", "Wii spelen") %}
+                32004882
+            {% endif %}
+######################################################
 ## Automations
 ######################################################
 automation:
+  - alias: Media - Remote external update Media Center
+
+    trigger:
+      - platform: state
+        entity_id: remote.living
+
+    action:
+      - delay: '00:00:20'
+      - service: input_select.select_option
+        data_template:
+          entity_id: input_select.remote
+          option: >
+            {{ states.remote.living.attributes.current_activity }}
+
+  - alias: Media - Remote start activity from input select media center
+  
+    trigger:
+      - platform: state
+        entity_id: input_select.remote
+  
+    action:
+      - service: script.turn_on
+        entity_id: script.input_select_harmony
