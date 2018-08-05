@@ -12,10 +12,10 @@ homeassistant:
   customize:
     group.mark:
       friendly_name: Mark
-      entity_picture: /local/mark.png
+      entity_picture: /local/mark_home.jpg
     group.miranda:
       friendly_name: Miranda
-      entity_picture: /local/miranda.jpg
+      entity_picture: /local/miranda_home.jpg
     group.family:
       order: 1
       friendly_name: Gezin
@@ -199,6 +199,7 @@ automation:
     action:
       - service: script.everything_off_when_away
 
+
   - alias: "Away mode"
     trigger:
       platform: state
@@ -213,6 +214,8 @@ automation:
       - service: input_boolean.turn_off
         data:
           entity_id: input_boolean.homemode
+
+
   - alias: "Home mode"
     trigger:
       platform: state

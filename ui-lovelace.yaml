@@ -1,20 +1,129 @@
 title: MenM
 views:
   - title: Home
-    icon: mdi:home-assistant
+    icon: mdi:home
     # The cards to show on this view.
     cards:
+#      - type: picture-entity
+#        entity: group.mark
+#        state_image:
+#          "home": /local/mark_home.jpg
+#          "not_home": /local/mark_not_home.jpg
+#        style:
+#          width: 10%
+#
+#      - type: picture-entity
+#        entity: group.miranda
+#        state_image:
+#          "home": /local/miranda_home.jpg
+#          "not_home": /local/miranda_not_home.jpg
+#        style:
+#          width: 10%
+
+      #  card:
+      #    type: glance
+      #    title: Wie is er thuis?
+      #    show_state: false
+      #    show_name: false
+      - type: entity-filter
+        title: Wie is er thuis?
+        entities:
+          - group.mark
+          - group.miranda
+        state_filter: 
+          - home
+        card:
+          type: glance
+          title: Wie is er thuis?
+          show_state: false
+          show_name: false
       - type: entities
+        title: Radio luisteren
+        entities:
+          - input_select.radio_station
+      - type: entities
+        title: TV
+        show_header_toggle: false
+        entities:
+          - switch.off
+          - switch.watch_tv
+          - switch.watch_chromecast
+          - switch.play_playstation
+          - switch.play_wii
+          - script.volume_up
+          - script.volume_down
+
+
+  - title: Beneden
+    cards:
+      - type: entities
+        title: Verlichting
+        entities:
+          - light.gateway_light_7811dce13522
+          - light.hue_color_lamp_1
+          - light.plafondlamp
+      - type: glance
         title: Beweging
-        #show_header_toggle: false
         entities:
-          - binary_sensor.alley_1
-          - binary_sensor.alley_2
-          - binary_sensor.garden
           - binary_sensor.motion_sensor_158d0002270299
-          - binary_sensor.motion_shed
-          - input_boolean.notify_motion
-      - type: entities
-        title: Camera
-        entities:
-          - camera.steeg_1
+          - sensor.battery_motion_hallway
+  - title: Floorplan
+    panel: true
+    cards:
+      - type: picture-elements
+        image: /local/groundfloor.jpg
+        elements:
+          - type: state-icon
+            tap_action: toggle
+            entity: light.hue_color_lamp_1
+            style:
+              top: 7%
+              left: 65%
+          - type: state-icon
+            tap_action: toggle
+            entity: light.plafondlamp
+            style:
+              top: 65%
+              left: 75%
+          - type: state-icon
+            tap_action: toggle
+            entity: light.gateway_light_7811dce13522
+            style:
+              top: 7%
+              left: 29%
+          - type: state-icon
+            entity: binary_sensor.motion_shed
+            style:
+              top: 19%
+              left: 12%
+          - type: state-icon
+            tap_action: toggle
+            entity: switch.lights_shed_2
+            style:
+              top: 19%
+              left: 15%
+          - type: state-icon
+            entity: binary_sensor.motion_sensor_158d0002270299
+            style:
+              top: 65%
+              left: 55%
+          - type: state-label
+            entity: sensor.battery_motion_hallway
+            style:
+              top: 65%
+              left: 58%
+          - type: state-label
+            entity: sensor.temperature_shed
+            style:
+              top: 19%
+              left: 8%
+          - type: state-label
+            entity: sensor.dark_sky_temperature
+            style:
+              top: 60%
+              left: 12%
+          - type: state-label
+            entity: sensor.battery_switch_living
+            style:
+              top: 50%
+              left: 56%

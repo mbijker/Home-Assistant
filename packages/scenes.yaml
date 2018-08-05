@@ -1,0 +1,86 @@
+scene:
+  - name: living_blue
+    entities:
+      light.plafondlamp:
+        state: on
+        rgb_color: [25,25,112]
+        brightness: 190
+      light.hue_color_lamp_1:
+        state: on
+        rgb_color: [25,25,112]
+        brightness: 190
+      light.gateway_light_7811dce13522:
+        state: on
+        rgb_color: [25,25,112]
+        brightness: 190
+
+  - name: living_red
+    entities:
+      light.plafondlamp:
+        state: on
+        rgb_color: [220,20,60]
+        brightness: 190
+      light.hue_color_lamp_1:
+        state: on
+        rgb_color: [220,20,60]
+        brightness: 190
+      light.gateway_light_7811dce13522:
+        state: on
+        rgb_color: [220,20,60]
+        brightness: 190
+
+  - name: living_green
+    entities:
+      light.plafondlamp:
+        state: on
+        rgb_color: [124,252,0]
+        brightness: 190
+      light.hue_color_lamp_1:
+        state: on
+        rgb_color: [124,252,0]
+        brightness: 190
+      light.gateway_light_7811dce13522:
+        state: on
+        rgb_color: [124,252,0]
+        brightness: 190
+
+  - name: living_orange
+    entities:
+      light.plafondlamp:
+        state: on
+        rgb_color: [255,140,0]
+        brightness: 190
+      light.hue_color_lamp_1:
+        state: on
+        rgb_color: [255,140,0]
+        brightness: 190
+      light.gateway_light_7811dce13522:
+        state: on
+        rgb_color: [255,140,0]
+        brightness: 190
+
+  - name: living_random
+    entities:
+      light.plafondlamp:
+        state: on
+        effect: random
+        brightness: 190
+      light.hue_color_lamp_1:
+        state: on
+        effect: random
+        brightness: 190
+      light.gateway_light_7811dce13522:
+        state: on
+        effect: random
+        brightness: 190
+
+  - name: living_loop
+    entities:
+      light.plafondlamp:
+        state: on
+        effect: colorloop
+        brightness: 190
+      light.hue_color_lamp_1:
+        state: on
+        effect: colorloop
+        brightness: 190

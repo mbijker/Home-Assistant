@@ -1,0 +1,38 @@
+#####################################################
+# @author       :   Mark Bijker
+# @package      :   to_bed
+# @description  :   Script of actions when we go to bed
+######################################################
+script:
+  to_bed:
+    sequence:
+      - service: script.speech_main_logic
+        data_template:
+          message: "Welterusten. Ik zal alle apparaten uitschakelen en de verlichting in de slaapkamer aanzetten. Tot morgen."
+      - service: switch.turn_on
+        entity_id: switch.off
+      - service: light.turn_on
+        entity_id: light.woonkamer
+        data:
+          brightness: 150
+      - wait_template: "{{ is_state('binary_sensor.motion_sensor_158d0002270299', 'on') }}"
+      - service: light.turn_on
+        entity_id: light.slaapkamer
+        data: 
+          color_name: orange
+          brightness: 150
+      - delay: "00:10"
+      - service: light.turn_off
+        entity_id: light.woonkamer
+      - service: script.notify_me
+        data_template:
+          message: "Verlichting woonkamer uitgeschakeld. Welterusten."
+  
+  dinner_time:
+    sequence:
+      - service: script.speech_main_logic
+        data_template:
+          message: "Het is etenstijd! Aan tafel allemaal en lekker eten."
+      - delay: 00:01
+      - service: switch.turn_on
+        entity_id: switch.off

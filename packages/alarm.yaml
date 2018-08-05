@@ -38,3 +38,23 @@ group:
 ## Automations
 ######################################################
 automation:
+  - alias: Alarm when away
+    trigger:
+      platform: state
+      entity_id: binary_sensor.motion_sensor_158d0002270299
+      to: 'on'
+    condition:
+      - condition: state
+        entity_id: input_boolean.awaymode
+        state: 'on'
+      - condition: state
+        entity_id: input_boolean.guestmode
+        state: 'off'
+    action:
+      - service: script.turn_on
+        entity_id: script.alarm
+
+
+######################################################
+## Script
+######################################################

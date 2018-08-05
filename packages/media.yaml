@@ -67,6 +67,20 @@ input_select:
       - Playstation spelen
       - Wii spelen
     icon: mdi:remote
+  radio_station:
+    name: Radio station
+    options:
+      - NPO 3FM
+      - NPO Radio 2
+      - Radio538
+      - QMusic
+      - JoyRadio
+      - Uit
+######################################################
+## Shell commands
+######################################################
+shell_command:
+
 ######################################################
 ## Groups
 ######################################################
@@ -100,12 +114,42 @@ script:
             {% elif is_state("input_select.remote", "Wii spelen") %}
                 32004882
             {% endif %}
+
+  play_radio_station:
+    alias: "Radio luisteren"
+    sequence:
+      - service: media_player.turn_on
+        entity_id: media_player.mpd
+      - service: media_player.play_media
+        entity_id: media_player.mpd
+        data_template:
+          media_content_id: >
+            {% if is_state("input_select.radio_station", "NPO 3FM") %}
+              http://icecast.omroep.nl/3fm-bb-mp3
+            {% elif is_state("input_select.radio_station", "NPO Radio 2") %}
+              http://icecast.omroep.nl/radio2-bb-mp3
+            {% elif is_state("input_select.radio_station", "Radio538") %}
+              http://18973.live.streamtheworld.com/RADIO538.mp3
+            {% elif is_state("input_select.radio_station", "QMusic") %}
+              http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3
+            {% elif is_state("input_select.radio_station", "JoyRadio") %}
+              http://player.joyradio.nl/?pl=winamp&c=Joy%20Radio%20Groningen
+            {% elif is_state("input_select.radio_station", "Uit") %}
+              none
+            {% endif %}
+          media_content_type: 'audio/mp4'
 ######################################################
 ## Automations
 ######################################################
 automation:
-  - alias: Media - Remote external update Media Center
+  - alias: Radio luisteren adv selectie
+    trigger:
+      - platform: state
+        entity_id: input_select.radio_station
+    action:
+      - service: script.play_radio_station
 
+  - alias: Media - Remote external update Media Center
     trigger:
       - platform: state
         entity_id: remote.living

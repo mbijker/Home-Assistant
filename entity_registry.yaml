@@ -68,3 +68,23 @@ binary_sensor.motion_sensor_158d0002270299:
   name: motion_hallway
   platform: xiaomi_aqara
   unique_id: status158d0002270299
+light.hue_color_lamp_1:
+  config_entry_id: 5c72570b7ba145cc9da689f032d2a034
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:10:55:64:38-0b
+binary_sensor.switch_158d000128b24a:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d000128b24a
+switch.lights_shed:
+  config_entry_id:
+  name:
+  platform: xiaomi_miio
+  unique_id: chuangmi.plug.m1-7C:49:EB:22:A4:36
+media_player.huiskamer_2:
+  config_entry_id: e5eb7f24429445168d1797d06d4e9ddc
+  name:
+  platform: cast
+  unique_id: 26467174-4f67-acb8-5ac4-75b1d703aeb4

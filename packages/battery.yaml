@@ -15,6 +15,18 @@ homeassistant:
 ## Components
 ######################################################
 sensor:
+  - platform: template
+    sensors:
+      battery_motion_hallway:
+        value_template: "{{ states.binary_sensor.motion_sensor_158d0002270299.attributes.battery_level }}"
+        device_class: battery
+        friendly_name: "Beweging hal"
+        unit_of_measurement: '%'
+      battery_switch_living:
+        value_template: "{{ states.binary_sensor.switch_158d000128b24a.attributes.battery_level }}"
+        device_class: battery
+        unit_of_measurement: '%'
+        friendly_name: "Schakelaar woonkamer"
 
 ######################################################
 ## Boolean
@@ -30,3 +42,14 @@ group:
 ## Automations
 ######################################################
 automation:
+  - alias: Low battery motion sensor
+    trigger:
+      platform: numeric_state
+      entity_id: 
+        - sensor.battery_motion_hallway
+        - sensor.battery_switch_living
+      below: 11
+    action:
+      service: script.notify_me
+      data_template: 
+        message: "Batterij van {{ trigger.entity_id }} is bijna leeg. Ik adviseer je om de batterij binnenkort te vervangen."

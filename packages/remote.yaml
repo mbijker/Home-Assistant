@@ -97,6 +97,21 @@ group:
       - switch.play_playstation
       - switch.play_wii
 
+script:
+  volume_up:
+    alias: Volume harder
+    sequence: 
+      - service: mqtt.publish
+        data:
+          topic: 'harmony-api/hubs/woonkamer/devices/pioneer-av-ontvanger/commands'
+          payload: 'volume_up'
+  volume_down:
+    alias: Volume harder
+    sequence:
+      - service: mqtt.publish
+        data:
+          topic: 'harmony-api/hubs/woonkamer/devices/pioneer-av-ontvanger/commands'
+          payload: 'volume_down'
 ######################################################
 ## Automations
 ######################################################

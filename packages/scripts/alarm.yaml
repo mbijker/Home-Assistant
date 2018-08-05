@@ -1,0 +1,61 @@
+script:
+  alarm:
+    sequence:
+      - alias: aqara alarm sound
+        service: xiaomi_aqara.play_ringtone
+        data:
+          gw_mac: 7811dce13522
+          ringtone_id: '2'
+          ringtone_vol: '3'
+      - alias: Lampen rood
+        service: light.turn_on
+        entity_id: group.all_lights
+        data:
+          color_name: red
+          brightness: 255
+      - delay: '00:00:03'
+      - alias: Lampen uit
+        service: light.turn_off
+        entity_id: group.all_lights
+#      - delay:
+#        seconds: 10
+      - delay: '00:00:03'
+      - alias: Lampen rood
+        service: light.turn_on
+        entity_id: group.all_lights
+        data:
+          color_name: red
+          brightness: 255
+#      - delay:
+#        seconds: 10
+      - delay: '00:00:03'
+      - alias: Lampen uit
+        service: light.turn_off
+        entity_id: group.all_lights
+      - delay: '00:00:03'
+      - alias: Lampen rood
+        service: light.turn_on
+        entity_id: group.all_lights
+        data:
+          color_name: red
+          brightness: 255
+#      - delay:
+#        seconds: 10
+      - delay: '00:00:03'
+      - alias: Lampen uit
+        service: light.turn_off
+        entity_id: group.all_lights
+      - delay: '00:00:03'
+      - alias: Lampen rood
+        service: light.turn_on
+        entity_id: group.all_lights
+        data:
+          color_name: red
+          brightness: 255
+#      - delay:
+#        seconds: 10
+      - delay: '00:00:03'
+      - alias: Lampen uit
+        service: light.turn_off
+        entity_id: group.all_lights
+      - delay: '00:00:03'

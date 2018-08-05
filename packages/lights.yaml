@@ -65,6 +65,13 @@ light:
     payload_on: "ON"
     payload_off: "OFF"
 
+#switch:
+#  - platform: xiaomi_miio
+#    name: lights_shed
+#    host: 192.168.1.134
+#    token: c4db09877c380c475e71b7ed1fcb6538
+#    model: chuangmi.plug.m1
+
 ######################################################
 ## Boolean
 ######################################################
@@ -78,7 +85,7 @@ input_boolean:
 group:
   lights_card:
     name: Verlichting
-    control: hidden
+#    control: hidden
     entities:
       - light.bedlamp
       - light.bedlight_mark
@@ -86,6 +93,8 @@ group:
       - light.ceilinglight_master_bedroom
       - light.lights_shed
       - light.plafondlamp
+      - light.gateway_light_7811dce13522
+      - light.hue_color_lamp_1
 
 ######################################################
 ## Automations
@@ -116,6 +125,7 @@ automation:
           {% else %}
             255
           {% endif %}
+
   - alias: bedlight off
     trigger:
       platform: state
@@ -124,7 +134,9 @@ automation:
     action:
       service: light.turn_off
       entity_id: light.bedlamp
-#      transition: 30
+      data:
+        transition: 30
+
 
   - alias: turn on light on sunset when home
     trigger:
@@ -136,17 +148,16 @@ automation:
       - condition: state
         entity_id: group.family
         state: 'home'
-      - condition: state
-        entity_id: light.plafondlamp
-        state: 'off'
+#      - condition: state
+#        entity_id: light.plafondlamp
+#        state: 'off'
 
     action: 
-      - service: light.turn_on
-        entity_id: light.plafondlamp
-        data:
-          transition: 900
-          color_name: orange
-          brightness: 190
+      - service: scene.turn_on
+        entity_id: scene.living_random
+      - service: script.speech_main_logic
+        data_template:
+          message: "Het wordt al bijna donker. Ik zal de verlichting inschakelen."
 
   - alias: turn on light on coming home
     trigger:
@@ -159,19 +170,22 @@ automation:
       - condition: state
         entity_id: input_boolean.light_on_coming_home
         state: 'on'
-      - condition: state
-        entity_id: light.plafondlamp
-        state: 'off'
+ #     - condition: state
+ #       entity_id: light.plafondlamp
+ #       state: 'off'
       - condition: state
         entity_id: sun.sun
         state: 'below_horizon'
 
     action:
-      - service: light.turn_on
-        entity_id: light.plafondlamp
+      - service: scene.turn_on
+        entity_id: scene.living_red
         data:
           color_name: orange
           brightness: 190
+      - service: script.speech_main_logic
+        data_template:
+          message: "Welkom thuis. Ik zet de verlichting aan."
 
   - alias: turn off light when at night
     trigger:
@@ -192,6 +206,10 @@ automation:
     action:
       - service: light.turn_off
         entity_id: group.all_lights
+      - service: script.notify_me
+        data_template:
+          message: "Ik schakel de verlihting uit. Er is niemand thuis."
+
 ######################################################
 ## Scripts
 ######################################################
